@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Rubik:wght@300;400;600&display=swap');
 *{
   margin: 0; padding:0;
 }
@@ -6,10 +6,28 @@ body{
   font-family: 'Rubik', sans-serif;
 }
 p{
-  font-size: 1em;
+  font-size: 1.1em; line-height: 1.6em; font-weight: 300;
+}
+h1,h3{
+  font-family: 'Montserrat', sans-serif;
+}
+a{
+  text-decoration: none;
+}
+ul{
+  list-style: none; font-size: 1.1em; line-height: 1.6em; font-weight: 300;
 }
 .container{
-  width: 100%; max-width: 1040px; padding: 0 15px; margin: auto;
+  width: 100%; max-width: 1200px; padding: 0 15px; margin: auto;
+}
+.row{
+  margin-left: -15px; margin-right: -15px; display: flex; flex-wrap: wrap;
+}
+.col{
+  margin: 0 15px;
+}
+.section{
+  padding-top: 80px; padding-bottom: 80px;
 }
 .d-flex{
   display: flex;
@@ -17,26 +35,95 @@ p{
 .justify-space-between{
   justify-content: space-between;
 }
-/* navbar */
-.navbar{
-  position: fixed; top: 5px; left:0; right:0; padding: 5px 0; background-color: rgba(255,255,255,0.8);
+.color-primary{
+  color: #4cbb17;
 }
-.navbar .logo{
-  height: 40px;
+.color-secondary{
+  color: #343d30;
 }
-.navbar .menu a{
-  color: white; text-decoration: none;
+.color-third{
+  color: #f4f4f4;
 }
-/* index page */
-.index--background{
-  background-image: url('/assets/images/index-background.jpg'); background-repeat: no-repeat; background-size: cover; padding: 50px 0; color: white;
+.background-secondary{
+  background-color: #ededed;
 }
-.index--background h1{
-  font-size: 2em; margin-bottom: 15px;
+.position-relative{
+  position: relative;
 }
-.index--background p{
+.text-uppercase{
+  text-transform: uppercase;
+}
+.text-center{
+  text-align: center;
+}
+.text-right{
+  text-align: right;
+}
+.mb-1{
+  margin-bottom: 8px;
+}
+.mb-2{
   margin-bottom: 15px;
 }
-.index--background h3{
+.mb-5{
+  margin-bottom: 45px;
+}
+.header-primary{
+  background-color: #343d30; color: #f4f4f4; display: inline-block; padding: 5px 30px; position: relative; font-weight: 300; font-size: 2em;
+}
+.header-primary:before{
+  content: ""; height: 1px; background-color: #343d30; left: -10000px; right:0; bottom:0; position: absolute;
+}
+/* navbar */
+.navbar{
+  position: fixed; top: 10px; left:0; right:0; padding: 5px 0; background-color: rgba(255,255,255,0.8); box-shadow: 0 0 0.5rem rgba(129,95,95,.08); z-index:100;
+}
+.navbar .logo{
+  height: 35px; display: block; margin-top: 3px;
+}
+.navbar .menu a{
+  color: #343d30; padding: 10px; margin: 1px 5px; font-weight: 300px;
+}
+.navbar .menu a:hover{
+  color: black;
+}
+/* index page */
+.index--header{
+  background-image: url('/assets/images/index-background.jpg'); background-repeat: no-repeat; background-size: cover; padding: 220px 0 170px; color: #f4f4f4; position: relative;
+}
+.index--header:before{
+  content: ""; position: absolute; top:0; left:0; right:0; bottom: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.5);
+}
+.index--header h1{
+  font-size: 4em;
+}
+.index--header p{
   font-size: 1.5em;
+}
+.index--header hr{
+  border: none; border-top: 1px solid #f4f4f4; width: 100px;
+}
+.index--header h3{
+  font-size: 1.5em; max-width: 600px;
+}
+.index--offer{
+  width: calc(33.33% - 70px); margin-top: 10px; margin-bottom: 10px; text-align: center; font-size: 0.85em; padding: 30px 20px; border-top: solid 4px transparent; transition: all 0.2s;
+}
+.index--offer h3{
+  font-size: 1.3em; margin-bottom: 15px; font-weight: 600;
+}
+.index--offer:hover{
+  box-shadow: 0 0 0.5rem rgba(129,95,95,.2); border-color: #4cbb17;
+}
+.index--pricing{
+  width: calc(33.33% - 32px); margin-top: 10px; margin-bottom: 10px; text-align: center; padding: 20px 0; background-color: white; border: solid 1px #4cbb17;
+}
+.index--pricing h4{
+  margin: 0 10px 15px; font-size: 1em; min-height: 38px; display: flex;  align-items: center; justify-content: center;
+}
+.index--pricing .price{
+  background-color: #4cbb17; color: white; padding: 10px; font-size: 1.6em; font-weight: 600; margin-bottom: 30px;
+}
+.index--pricing ul li{
+  margin: 8px 20px; 
 }
