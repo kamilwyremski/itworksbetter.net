@@ -20,7 +20,10 @@ module.exports = function(environment) {
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
-    }
+    },
+    
+    title: 'IT Works Better',
+    email: 'kontakt@itworksbetter.net'
   };
 
   if (environment === 'development') {
