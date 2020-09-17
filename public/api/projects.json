@@ -1,0 +1,11 @@
+{
+  "data": [
+    {
+      "logo": "polishexpress.jpg",
+      "name": "PolishExpress",
+      "description": "Współpracowaliśmy przy tworzeniu jednego z najpopularniejszych portali informacyjnych dla Polaków w Wielkiej Brytanii. Portal dociera do tysięcy użytkowników każdego dnia z wiadomościami z UK. Ze względu na duży ruch niezbędne były specjalne mechanizmy cachowania - dzięki temu strona naprawdę szybko się wczytuje.",
+      "stack": "Symfony3, AngularJS",
+      "url": "polishexpress.co.uk"
+    }
+  ]
+}

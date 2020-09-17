@@ -1,38 +1,20 @@
 <div class="container section page-top">
   <h1 class="display-3 mb-5 header-primary">Skrypty <span class="color-primary">stron www</span></h1>
-  <p>Oferujemy gotowe skrypty stron internetowych. Dzięki nim w szybki i tani sposób stworzysz własny portal. Nasz topowy produkt to uniwersalny skrypt ogłoszeniowy Notice3. Oferujemy także skrypt dedykowany pod ogłoszenia motoryzacyjne MotoNotice, pod ogłoszenia nieruchomości Holmes2, pod bazę noclegową Festa2 i pod oferty pracy JobNotice. Mamy także skrypt dla strony typu demotywatory Demoty2 oraz dla portalu z obrazkami i filmami Cuadro. Dla strony służącej skracaniu linków mamy skrypt Corta. Skrypty możesz zakupić w konkurencyjnych cenach w naszym <a href="https://sklep.itworksbetter.net" title="Sklep" target="_blank">sklepie online</a>. Starsze projekty możesz znaleźć za darmo do pobrania na <a href="https://github.com/kamilwyremski" title="GitHub Kamil Wyremski" target="_blank" rel="nofollow noopener">koncie GitHub</a></p>
+  <p>Oferujemy gotowe skrypty stron internetowych. Dzięki nim w szybki i tani sposób stworzysz własny portal. Nasz topowy produkt to uniwersalny skrypt ogłoszeniowy Notice3. Oferujemy także skrypt dedykowany pod ogłoszenia motoryzacyjne MotoNotice, pod ogłoszenia nieruchomości Holmes2, pod bazę noclegową Festa2 i pod oferty pracy JobNotice. Mamy także skrypt dla strony typu demotywatory Demoty2 oraz dla portalu z obrazkami i filmami Cuadro. Dla strony służącej skracaniu linków mamy skrypt Corta. Skrypty możesz zakupić w konkurencyjnych cenach w naszym <a href="https://sklep.itworksbetter.net" title="Sklep" target="_blank">sklepie online</a>. Starsze projekty możesz znaleźć za darmo do pobrania na <a href="https://github.com/kamilwyremski" title="GitHub Kamil Wyremski" target="_blank" rel="nofollow noopener noreferrer">koncie GitHub</a></p>
 </div>
 <div class="background-secondary">
   <div class="container section">
-    <div class="script row">
-      <div class="col">
-        <img src="/assets/images/scripts/notice3.png" alt="Notice 3 - logo" class="logo">
+    {{#each @model as |script|}}
+      <div class="script row">
+        <div class="col">
+          <img src="/assets/images/scripts/{{script.logo}}" alt="{{script.name}} - logo" class="logo">
+        </div>
+        <div class="col">
+          <h2 class="mb-1">{{script.name}}</h2>
+          <p class="mb-2">{{script.description}}</p>
+          <p><a href="{{script.url}}" title="Skrypt {{script.name}}" class="btn">Zobacz szczegóły</a></p>
+        </div>
       </div>
-      <div class="col">
-        <h2 class="mb-1">Notice3</h2>
-        <p class="mb-2">Uniwersalny skrypt dla strony z ogłoszeniami online. Po stronie Back-endu wykorzystany Symfony 5. Po stronie klienta skrypt używa VUE oraz style z Twitter Bootstrap 4. Idealny dla dużego portalu ogłoszeniowego. Skrypt przeznaczony dla profesjonalnego użytku.</p>
-        <p><a href="https://skrypty.sattel.pl/skrypty-stron-www/191-skrypt-ogloszeniowy-notice3.html" title="Skrypt Notice3" class="btn">Zobacz szczegóły</a></p>
-      </div>
-    </div>
-    <div class="script row">
-      <div class="col">
-        <img src="/assets/images/scripts/notice3.png" alt="Notice 3 - logo" class="logo">
-      </div>
-      <div class="col">
-        <h2 class="mb-1">Notice3</h2>
-        <p class="mb-2">Uniwersalny skrypt dla strony z ogłoszeniami online. Po stronie Back-endu wykorzystany Symfony 5. Po stronie klienta skrypt używa VUE oraz style z Twitter Bootstrap 4. Idealny dla dużego portalu ogłoszeniowego. Skrypt przeznaczony dla profesjonalnego użytku.</p>
-        <p><a href="https://skrypty.sattel.pl/skrypty-stron-www/191-skrypt-ogloszeniowy-notice3.html" title="Skrypt Notice3" class="btn">Zobacz szczegóły</a></p>
-      </div>
-    </div>
-    <div class="script row">
-      <div class="col">
-        <img src="/assets/images/scripts/notice3.png" alt="Notice 3 - logo" class="logo">
-      </div>
-      <div class="col">
-        <h2 class="mb-1">Notice3</h2>
-        <p class="mb-2">Uniwersalny skrypt dla strony z ogłoszeniami online. Po stronie Back-endu wykorzystany Symfony 5. Po stronie klienta skrypt używa VUE oraz style z Twitter Bootstrap 4. Idealny dla dużego portalu ogłoszeniowego. Skrypt przeznaczony dla profesjonalnego użytku.</p>
-        <p><a href="https://skrypty.sattel.pl/skrypty-stron-www/191-skrypt-ogloszeniowy-notice3.html" title="Skrypt Notice3" class="btn">Zobacz szczegóły</a></p>
-      </div>
-    </div>
+    {{/each}}
   </div>
 </div>

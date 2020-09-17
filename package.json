@@ -2,7 +2,7 @@
   "name": "itworksbetter",
   "version": "0.0.0",
   "private": true,
-  "description": "Small description for itworksbetter goes here",
+  "description": "Team of full stack web developers, graphics and seo specialist",
   "repository": "",
   "license": "MIT",
   "author": "",
@@ -30,6 +30,7 @@
     "ember-cli-app-version": "^3.2.0",
     "ember-cli-babel": "^7.22.1",
     "ember-cli-dependency-checker": "^3.2.0",
+    "ember-cli-fastboot": "^2.2.3",
     "ember-cli-head": "^1.0.0",
     "ember-cli-htmlbars": "^5.3.1",
     "ember-cli-inject-live-reload": "^2.0.2",
@@ -50,6 +51,7 @@
     "eslint-plugin-node": "^11.1.0",
     "loader.js": "^4.7.0",
     "npm-run-all": "^4.1.5",
+    "prember": "^1.0.5",
     "qunit-dom": "^1.4.0"
   },
   "engines": {

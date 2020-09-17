@@ -11,8 +11,8 @@ export default class Router extends EmberRouter {
 Route.reopen({
   render: function() {
     this._super();
-    window.scrollTo(0, 0);
-    if ("activeElement" in document){
+    window.scrollTo?.(0, 0);
+    if(typeof document !== 'undefined' && "activeElement" in document){
       document.activeElement.blur();
     }
   }
