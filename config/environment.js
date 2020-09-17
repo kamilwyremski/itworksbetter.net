@@ -25,9 +25,16 @@ module.exports = function(environment) {
     fastboot: {
       hostWhitelist: [/^localhost:\d+$/]
     },
-    
-    title: 'IT Works Better',
-    email: 'kontakt@itworksbetter.net'
+
+    site: {
+      base_url: 'https://itworksbetter.net',
+      title: 'IT Works Better',
+      description: 'Projektowanie stron internetowych i aplikacji webowych. Zespół Full Stack Web Developerów, grafików oraz specjalistów SEO',
+      keywords: 'strony www, projektowanie stron, full stack web developer, it works better, tworzenie portali',
+      image: 'assets/icons/',
+      email: 'kontakt@itworksbetter.net'
+    },
+   
   };
 
   if (environment === 'development') {

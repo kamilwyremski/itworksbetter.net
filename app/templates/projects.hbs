@@ -4,16 +4,18 @@
 </div>
 <div class="background-secondary">
   <div class="container section">
-    <div class="project d-flex">
-      <div class="project--left">
-        <a href="https://polishexpress.co.uk" title="PolishExpress" target="_blank" rel="nofollow noopener noreferrer"><img src="/assets/images/projects/polishexpress.jpg" alt="PolishExpress" class="thumb"></a>
+    {{#each @model as |project|}}
+      <div class="project d-flex">
+        <div class="project--left">
+          <a href="http://{{project.url}}" title="{{project.name}}" target="_blank" rel="nofollow noopener noreferrer"><img src="/assets/images/projects/{{project.logo}}" alt="{{project.name}}" class="thumb"></a>
+        </div>
+        <div class="project--right">
+          <h2 class="mb-2">{{project.name}}</h2>
+          <p class="mb-2">{{project.description}}</p>
+          <p class="mb-2"><strong>Użyte technologie</strong>: {{project.stack}}</p>
+          <p><a href="http://{{project.url}}" title="{{project.name}}" target="_blank" rel="nofollow noopener noreferrer">{{project.url}}</a></p>
+        </div>
       </div>
-      <div class="project--right">
-        <h2 class="mb-2">PolishExpress</h2>
-        <p class="mb-2"></p>
-        <p class="mb-2"><strong>Użyte technologie</strong>: </p>
-        <p><a href="https://polishexpress.co.uk" title="PolishExpress" target="_blank" rel="nofollow noopener noreferrer">polishexpress.co.uk</a></p>
-      </div>
-    </div>
+     {{/each}}
   </div>
 </div>

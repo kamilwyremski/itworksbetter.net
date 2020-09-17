@@ -7,7 +7,7 @@ export default class ScriptsRoute extends Route {
   @service headData;
 
   afterModel() {
-    this.headData.title = 'Skrypty stron www - '+ENV.title;
+    this.headData.title = 'Skrypty stron www - '+ENV.site.title;
   }
 
   async model() {

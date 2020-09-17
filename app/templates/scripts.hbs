@@ -6,13 +6,16 @@
   <div class="container section">
     {{#each @model as |script|}}
       <div class="script row">
-        <div class="col">
-          <img src="/assets/images/scripts/{{script.logo}}" alt="{{script.name}} - logo" class="logo">
+        <div class="col text-center">
+          <a href="{{script.demo}}" title="Demo skryptu {{script.name}}">
+            <img src="/assets/images/scripts/{{script.logo}}" alt="{{script.name}} - logo" class="logo">
+          </a>
         </div>
         <div class="col">
           <h2 class="mb-1">{{script.name}}</h2>
           <p class="mb-2">{{script.description}}</p>
-          <p><a href="{{script.url}}" title="Skrypt {{script.name}}" class="btn">Zobacz szczegóły</a></p>
+          <p><a href="{{script.demo}}" title="Demo skryptu {{script.name}}" class="btn">Zobacz demo</a>
+          <a href="{{script.url}}" title="Skrypt {{script.name}}" class="btn">Kup skrypt</a></p>
         </div>
       </div>
     {{/each}}

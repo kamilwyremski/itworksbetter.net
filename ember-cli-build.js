@@ -11,6 +11,12 @@ module.exports = function(defaults) {
         '/projekty',
         '/polityka-prywatnosci'
       ]
+    },
+    'asset-cache': {
+      include: [
+        'assets/**/*',
+        'api/**/*',
+      ]
     }
   });
 

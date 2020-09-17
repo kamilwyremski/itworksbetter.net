@@ -6,6 +6,55 @@
       "description": "Współpracowaliśmy przy tworzeniu jednego z najpopularniejszych portali informacyjnych dla Polaków w Wielkiej Brytanii. Portal dociera do tysięcy użytkowników każdego dnia z wiadomościami z UK. Ze względu na duży ruch niezbędne były specjalne mechanizmy cachowania - dzięki temu strona naprawdę szybko się wczytuje.",
       "stack": "Symfony3, AngularJS",
       "url": "polishexpress.co.uk"
+    },
+    {
+      "logo": "allemoto.jpg",
+      "name": "AlleMoto",
+      "description": "Bardzo rozbudowany serwis z ogłoszeniami motoryzacyjnymi. Umożliwia płatności za promowanie ogłoszenia oraz logowanie przez Facebook i Google. Nowoczesny wygląd stworzony na podstawie dostarczonego projektu graficznego.",
+      "stack": "AngularJS, API z Przelewy24, Facebook i Google",
+      "url": "allemoto.com"
+    },
+    {
+      "logo": "greencleanbean.jpg",
+      "name": "Green Clean Been",
+      "description": "Responsywna strona One Page firmy sprzątającej z Chicago (USA). Charakteryzuje się bardzo ładną szatą graficzną i nowoczesnym wyglądem. Stworzona łącznie z panelem administracyjnym na podstawie dostarczonego projektu graficznego",
+      "stack": "Twitter Bootstrap 4",
+      "url": "greencleanbean.com"
+    },
+    {
+      "logo": "gieldamam.jpg",
+      "name": "Giełda Mam",
+      "description": "Serwis aukcyjny, umożliwia sprzedaż w formie Kup Teraz oraz w formie licytacji przez klientów serwisu a także dodawanie zwykłych ogłoszeń. Tzw MultiSklep. Bardzo rozbudowana funkcjonalność serwisu",
+      "stack": "AngularJS, API z Przelewy24, Facebook i Google",
+      "url": "gieldamam.pl"
+    },
+    {
+      "logo": "krgproperty.jpg",
+      "name": "King Realty Group",
+      "description": "Strona internetowa biura obrotu nieruchomości z Chicago (USA). Do strony dołączony jest dedykowany panel administracyjny. Stworzona na podstawie dostarczonego projektu graficznego.",
+      "stack": "Bootstrap 4",
+      "url": "krgproperty.com"
+    },
+    {
+      "logo": "coupondojo.jpg",
+      "name": "Coupon Dojo",
+      "description": "Wielojęzyczna strona z kuponami (voucherami) oraz kodami rabatowymi dla sklepów. Strona obsługuje 26 krajów a w bazie danych znajdują się dziesiątki tysięcy kuponów. Ze stroną jest także zintegrowany blog.",
+      "stack": "PHP 7, Twig 2, VUE, Ajax",
+      "url": "coupondojo.com"
+    },
+    {
+      "logo": "jandacleaninginc.jpg",
+      "name": "J&A Cleaning Inc",
+      "description": "Strona firmy z Chicago (USA) zajmującej się czyszczeniem mebli i dywanów. Posiada panel administracyjny umożliwiający zarządzanie treścią. Stworzona na podstawie dostarczonego projektu graficznego.",
+      "stack": "Foundation",
+      "url": "jandacleaninginc.com"
+    },
+    {
+      "logo": "maxplus.jpg",
+      "name": "MaxPlus Kalisz",
+      "description": "Strona wielobranżowej firmy z Kalisza świadczącej usługi rachunkowe oraz poligraficzne (agencja reklamowa). Stworzyliśmy projekt graficzny jak i samą stronę wraz z panelem adminsitracyjnym",
+      "stack": "Twitter Bootstrap 3",
+      "url": "maxplus.kalisz.pl"
     }
   ]
 }

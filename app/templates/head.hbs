@@ -1,2 +1,37 @@
 <title>{{this.model.title}}</title>
+<meta name="description" content="{{this.model.description}}" >
+<meta name="keywords" content="{{this.model.keywords}}" >
+
+<link rel="manifest" href="/manifest.webmanifest">
+
 <meta property="og:title" content={{this.model.title}} />
+<meta property="og:image" content={{concat this.model.base_url '/' this.model.image }} />
+<meta property="og:image:secure_url" content={{this.model.image}} />
+<meta property="og:image:width" content="900" />
+<meta property="og:image:height" content="900" />
+<meta property="og:description" content={{this.model.description}} />
+<meta property="og:type" content="website">
+<meta property="og:site_name" content={{this.model.title}} />
+<meta property="og:locale" content="pl_PL">
+<meta property="og:url" content="https://wyremski.pl">
+<meta property="fb:app_id" content="531870546992716">
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content={{this.model.title}} />
+<meta name="twitter:description" content={{this.model.description}} />
+<meta name="twitter:image" content={{this.model.image}} />
+
+<meta name="msapplication-TileColor" content="#3f5a6f" />
+<meta name="msapplication-TileImage" content={{this.model.image}}>
+<meta name="msapplication-config" content="/browserconfig.xml">
+
+<link rel="apple-touch-icon" href="/images/icons/android-chrome-192x192-883114367f2d72fc9a509409454a1e73.png" sizes="192x192">
+<link rel="apple-touch-icon" href="/images/icons/android-chrome-512x512-af3d768ff652dc2be589a3c22c6dc827.png" sizes="512x512">
+<link rel="apple-touch-icon" href="/images/icons/apple-touch-icon-36cba25bc155e8ba414265f9d85861ca.png" sizes="180x180">
+
+<meta name="theme-color" content="#ffa105">
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Let's Cook">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
