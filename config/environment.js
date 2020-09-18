@@ -28,13 +28,14 @@ module.exports = function(environment) {
 
     site: {
       base_url: 'https://itworksbetter.net',
-      title: 'IT Works Better',
+      title: 'IT Works Better - aplikacje webowe',
       description: 'Projektowanie stron internetowych i aplikacji webowych. Zespół Full Stack Web Developerów, grafików oraz specjalistów SEO',
       keywords: 'strony www, projektowanie stron, full stack web developer, it works better, tworzenie portali',
       image: 'assets/icons/icon-512x512.png',
       image_width: 512,
       image_height: 512,
       email: 'kontakt@itworksbetter.net',
+      phone: '+51 990600447',
       shop_url: 'https://skrypty.sattel.pl'
     },
    

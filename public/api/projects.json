@@ -15,6 +15,48 @@
       "url": "allemoto.com"
     },
     {
+      "logo": "coupondojo.jpg",
+      "name": "Coupon Dojo",
+      "description": "Wielojęzyczna strona z kuponami (voucherami) oraz kodami rabatowymi dla sklepów. Strona obsługuje 26 krajów a w bazie danych znajdują się dziesiątki tysięcy kuponów. Ze stroną jest także zintegrowany blog.",
+      "stack": "PHP 7, Twig 2, VUE, Ajax",
+      "url": "coupondojo.com"
+    },
+    {
+      "logo": "multino.jpg",
+      "name": "Multino",
+      "description": "Nowoczesny serwis z ogłoszeniami oparty o gotowy skrypt ogłoszeniowy. Charakteryzuje się nowoczesnym wyglądem oraz rozbudowaną funkcjonalnością. Została także dodana aplikacja PWA, która działa podobnie do natywnej aplikacji mobilnej.",
+      "stack": "AngularJS, PWA",
+      "url": "multino.pl"
+    },
+    {
+      "logo": "wyremski.jpg",
+      "name": "Kamil Wyremski - portfolio",
+      "description": "Porfolio jednego z naszych programistów. Stworzone w React. Na jego koncie Github można podejrzeć kod źródłowy projektu. Strona wraz z aplikacją PWA - działa podobnie do natywnej aplikacji na urządzeniach mobilnych.",
+      "stack": "React, PWA",
+      "url": "wyremski.pl"
+    },
+    {
+      "logo": "fundacjaprzystan.jpg",
+      "name": "Fundacja Przystań",
+      "description": "Współpracowaliśmy przy stworzeniu strony Fundacji Przystań. Strona jest oparta o Symfony 3, posiada własny panel administracyjny. Stworzyliśmy projekt graficzny jak i samą stronę - zarówno Back-End jak i Front-End.",
+      "stack": "Symfony 3",
+      "url": "fundacjaprzystan.com"
+    },
+    {
+      "logo": "motobryki.jpg",
+      "name": "MotoBryki",
+      "description": "Serwis z ogłoszeniami motoryzacyjnymi. Oparty o nasz autorski skrypt ogłoszeniowy. Stworzony na podstawie projektu dostarczonego przez grafika.",
+      "stack": "PHP 7, MySQL, jQuery, AngularJS",
+      "url": "motobryki.pl"
+    },
+    {
+      "logo": "blog.jpg",
+      "name": "Kamil Wyremski - blog",
+      "description": "Blog programisty prowadzony na Wordpressie. Znajdziesz w nim wpisy dotyczące różnych dziedzin programowania, skryptów z naszej oferty oraz gotowe moduły do wstawienia na strony www.",
+      "stack": "Wordpress",
+      "url": "blog.wyremski.pl"
+    },
+    {
       "logo": "greencleanbean.jpg",
       "name": "Green Clean Been",
       "description": "Responsywna strona One Page firmy sprzątającej z Chicago (USA). Charakteryzuje się bardzo ładną szatą graficzną i nowoczesnym wyglądem. Stworzona łącznie z panelem administracyjnym na podstawie dostarczonego projektu graficznego",
@@ -29,53 +71,11 @@
       "url": "gieldamam.pl"
     },
     {
-      "logo": "krgproperty.jpg",
-      "name": "King Realty Group",
-      "description": "Strona internetowa biura obrotu nieruchomości z Chicago (USA). Do strony dołączony jest dedykowany panel administracyjny. Stworzona na podstawie dostarczonego projektu graficznego.",
-      "stack": "Bootstrap 4",
-      "url": "krgproperty.com"
-    },
-    {
-      "logo": "coupondojo.jpg",
-      "name": "Coupon Dojo",
-      "description": "Wielojęzyczna strona z kuponami (voucherami) oraz kodami rabatowymi dla sklepów. Strona obsługuje 26 krajów a w bazie danych znajdują się dziesiątki tysięcy kuponów. Ze stroną jest także zintegrowany blog.",
-      "stack": "PHP 7, Twig 2, VUE, Ajax",
-      "url": "coupondojo.com"
-    },
-    {
-      "logo": "jandacleaninginc.jpg",
-      "name": "J&A Cleaning Inc",
-      "description": "Strona firmy z Chicago (USA) zajmującej się czyszczeniem mebli i dywanów. Posiada panel administracyjny umożliwiający zarządzanie treścią. Stworzona na podstawie dostarczonego projektu graficznego.",
-      "stack": "Foundation",
-      "url": "jandacleaninginc.com"
-    },
-    {
-      "logo": "maxplus.jpg",
-      "name": "MaxPlus Kalisz",
-      "description": "Strona wielobranżowej firmy z Kalisza świadczącej usługi rachunkowe oraz poligraficzne (agencja reklamowa). Stworzyliśmy projekt graficzny jak i samą stronę wraz z panelem adminsitracyjnym",
-      "stack": "Twitter Bootstrap 3",
-      "url": "maxplus.kalisz.pl"
-    },
-    {
       "logo": "mrzetecki.jpg",
       "name": "Mateusz Rzetecki - porfolio",
       "description": "Portfolio eksperta SEO. Oparte o autorski panel administracyjny. Do strony został dołączony blog. Stworzona na podstawie dostarczonego projektu graficznego.",
       "stack": "PHP + Twig3, Twitter Bootstrap 4",
       "url": "mrzetecki.com"
-    },
-    {
-      "logo": "fundacjaprzystan.jpg",
-      "name": "Fundacja Przystań",
-      "description": "Współpracowaliśmy przy stworzeniu strony Fundacji Przystań. Strona jest oparta o Symfony 3, posiada własny panel administracyjny. Stworzyliśmy projekt graficzny jak i samą stronę - zarówno Back-End jak i Front-End.",
-      "stack": "Symfony 3",
-      "url": "fundacjaprzystan.com"
-    },
-    {
-      "logo": "multino.jpg",
-      "name": "Multino",
-      "description": "Nowoczesny serwis z ogłoszeniami oparty o gotowy skrypt ogłoszeniowy. Charakteryzuje się nowoczesnym wyglądem oraz rozbudowaną funkcjonalnością. Została także dodana aplikacja PWA, która działa podobnie do natywnej aplikacji mobilnej.",
-      "stack": "AngularJS, PWA",
-      "url": "multino.pl"
     },
     {
       "logo": "pricemonit.jpg",
@@ -92,6 +92,48 @@
       "url": "strefa.co.uk"
     },
     {
+      "logo": "maxplus.jpg",
+      "name": "MaxPlus Kalisz",
+      "description": "Strona wielobranżowej firmy z Kalisza świadczącej usługi rachunkowe oraz poligraficzne (agencja reklamowa). Stworzyliśmy projekt graficzny jak i samą stronę wraz z panelem adminsitracyjnym",
+      "stack": "Twitter Bootstrap 3",
+      "url": "maxplus.kalisz.pl"
+    },
+    {
+      "logo": "bioskin.jpg",
+      "name": "Bioskin Kalisz",
+      "description": "Strona internetowa profesjonalnego gabinetu kosmetycznego i fryzjerskiego. Cechuje się bardzo szybkim wczytywaniem i dołączoną aplikacją PWA. Back-End oparty o framework Symfony 3.",
+      "stack": "Symfony 3, PWA",
+      "url": "bioskin-kalisz.pl"
+    },
+    {
+      "logo": "upati.jpg",
+      "name": "Patrycja Wyremska - portfolio",
+      "description": "Porfolio jednej z naszych programistek. Specjalizuje się w tworzeniu stron na Wordpressie oraz na Prestashop a także na pozycjonowaniu portali i pisaniu tekstów synonimizowanych.",
+      "stack": "Wordpress",
+      "url": "upati.pl"
+    },
+    {
+      "logo": "katarzynakucharska.jpg",
+      "name": "Katarzyna Kucharska",
+      "description": "Blog oraz sklep internetowy oparty o Wordpress. Zajmuje się sprzedażą sukienek ślubnych i nie tylko",
+      "stack": "Wordpress",
+      "url": "katarzynakucharska.com.pl"
+    },
+    {
+      "logo": "krgproperty.jpg",
+      "name": "King Realty Group",
+      "description": "Strona internetowa biura obrotu nieruchomości z Chicago (USA). Do strony dołączony jest dedykowany panel administracyjny. Stworzona na podstawie dostarczonego projektu graficznego.",
+      "stack": "Bootstrap 4",
+      "url": "krgproperty.com"
+    },
+    {
+      "logo": "jandacleaninginc.jpg",
+      "name": "J&A Cleaning Inc",
+      "description": "Strona firmy z Chicago (USA) zajmującej się czyszczeniem mebli i dywanów. Posiada panel administracyjny umożliwiający zarządzanie treścią. Stworzona na podstawie dostarczonego projektu graficznego.",
+      "stack": "Foundation",
+      "url": "jandacleaninginc.com"
+    },
+    {
       "logo": "pressfoto.jpg",
       "name": "PressFoto",
       "description": "Bank zdjęć prasowych dla fotoreporterów i wydawców. Oparty o gotowy skrypt Cuadro. Posiada dwa typy kont różniące się funkcjonalnością. Stworzyliśmy projekt graficzny jak i samą stronę.",
@@ -106,11 +148,25 @@
       "url": "ogoloshennya.pl"
     },
     {
-      "logo": "bioskin.jpg",
-      "name": "Bioskin Kalisz",
-      "description": "Strona internetowa profesjonalnego gabinetu kosmetycznego i fryzjerskiego. Cechuje się bardzo szybkim wczytywaniem i dołączoną aplikacją PWA. Back-End oparty o framework Symfony 3.",
-      "stack": "Symfony 3, PWA",
-      "url": "bioskin-kalisz.pl"
-    }
+      "logo": "skamienia.jpg",
+      "name": "Świat Kamienia",
+      "description": "Prosta strona firmowa składu kamienia naturalnego. Zaprojektowaliśmy wygląd oraz stworzyliśmy Back-End wraz z panelem administracyjnym oraz Front-End strony.",
+      "stack": "Bootstrap 3, JQuery",
+      "url": "skamienia.pl"
+    },
+    {
+      "logo": "chicagoogloszenia.jpg",
+      "name": "Chicago Ogłoszenia",
+      "description": "Jeden z większych portali ogłoszeniowych dla polaków mieszkających w Chicago (USA). Portal oparty na naszym autorskim skrypcie ogłoszeniowym Notice. Codziennie dodawane jest kilkanaście do kilkudziesięciu nowych ogłoszeń.",
+      "stack": "PHP 5.6, MySQL, jQuery",
+      "url": "chicagoogloszenia.com"
+    },
+    {
+      "logo": "oglaszamy24h.jpg",
+      "name": "Ogłaszamy 24h",
+      "description": "Serwis darmowych ogłoszeń z różnych kategorii. Oparty o autorski skrypt ogłoszeniowy Notice. Zaprojektowaliśmy wygląd serwisu jak i jego funkcjonalność.",
+      "stack": "PHP 5.6, MySQL, jQuery",
+      "url": "oglaszamy24h.pl"
+    }   
   ]
 }

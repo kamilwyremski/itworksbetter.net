@@ -4,7 +4,7 @@
 
     <LinkTo @route="index" title="Home"><img src="/assets/images/logo.png" alt="Logo It Works Better" class="logo"></LinkTo>
 
-    <p>IT Works Better<br><a href="mailto:{{env "email"}}" title="Napisz do nas">{{env "email"}}</a><br><a href="tel:+51990600447" title="Zadzwoń do nas">+51 990600447</a></p>
+    <p>IT Works Better<br><a href="mailto:{{env "email"}}" title="Napisz do nas">{{env "email"}}</a><br><a href="tel:{{env "phone"}}" title="Zadzwoń do nas">{{env "phone"}}</a></p>
     <p class="mb-5"><LinkTo @route="privacy-policy" title="Polityka prywatności">Polityka prywatności</LinkTo></p>
     <p class="small">Project 2020 by <a href="https://wyremski.pl" title="Full Stack Web Developer">Kamil Wyremski</a>. All rights reserved</p>
   </div>

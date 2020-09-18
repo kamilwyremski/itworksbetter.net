@@ -1,43 +1,78 @@
-module.exports = function() {
-  return {
-    name: "Let's Cook",
-    short_name: "Let's Cook",
-    description: "An app for organizing your weekly menu and groceries list.",
-    start_url: "/",
-    display: "standalone",
-    background_color: "#ffa105",
-    theme_color: "#ffa105",
+'use strict';
 
+module.exports = function(/* environment, appConfig */) {
+  // See https://zonkyio.github.io/ember-web-app for a list of
+  // supported properties
+
+  return {
+    lang: "pl-PL",
+    name: "IT Works Better - bo nie wystarczy żeby działało",
+    short_name: "IT Works Better",
+    description: "Projektowanie stron internetowych i aplikacji webowych. Zespół Full Stack Web Developerów, grafików oraz specjalistów SEO",
+    start_url: "/",
+    scope: "/",
+    display: "fullscreen",
+    background_color: "#343d30",
+    theme_color: "#343d30",
+    orientation: "any",
     icons: [
       {
-        src: "/images/icons/android-chrome-192x192.png",
-        sizes: "192x192",
-        type: "image/png"
+        "src": "assets/icons/icon-72x72.png",
+        "sizes": "72x72",
+        "type": "image/png",
       },
       {
-        src: "/images/icons/android-chrome-512x512.png",
-        sizes: "512x512",
-        type: "image/png"
+        "src": "assets/icons/icon-96x96.png",
+        "sizes": "96x96",
+        "type": "image/png",
       },
       {
-        src: "/images/icons/apple-touch-icon.png",
-        sizes: "180x180",
-        type: "image/png",
-        targets: ['apple']
+        "src": "assets/icons/icon-128x128.png",
+        "sizes": "128x128",
+        "type": "image/png",
       },
       {
-        src: "/images/icons/mstile-150x150.png",
-        element: "square150x150logo",
-        targets: ['ms']
+        "src": "assets/icons/icon-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png",
+      },
+      {
+        "src": "assets/icons/icon-152x152.png",
+        "sizes": "152x152",
+        "type": "image/png",
+      },
+      {
+        "src": "assets/icons/icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+      },
+      {
+        "src": "assets/icons/icon-384x384.png",
+        "sizes": "384x384",
+        "type": "image/png",
+      },
+      {
+        "src": "assets/icons/icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+      },
+      {
+        "src": "/images/icons/icon-180x180.png",
+        "sizes": "180x180",
+        "type": "image/png",
+        "targets": ['apple']
+      },
+      {
+        "src": "/images/icons/icon-150x150.png",
+        "element": "square150x150logo",
+        "targets": ['ms']
       }
     ],
-
     apple: {
       statusBarStyle: 'black-translucent'
     },
-
     ms: {
-      tileColor: '#ffffff'
+      tileColor: '#343d30'
     }
-  }
+  };
 }

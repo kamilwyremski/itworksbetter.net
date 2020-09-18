@@ -7,7 +7,9 @@
     {{#each @model as |project|}}
       <div class="project d-flex">
         <div class="project--left">
-          <a href="http://{{project.url}}" title="{{project.name}}" target="_blank" rel="nofollow noopener noreferrer"><img src="/assets/images/projects/{{project.logo}}" alt="{{project.name}}" class="thumb"></a>
+          <a href="http://{{project.url}}" title="{{project.name}}" target="_blank" rel="nofollow noopener noreferrer">
+            <img src="/assets/images/projects/{{project.logo}}" alt="{{project.name}}" class="thumb">
+          </a>
         </div>
         <div class="project--right">
           <h2 class="mb-2">{{project.name}}</h2>

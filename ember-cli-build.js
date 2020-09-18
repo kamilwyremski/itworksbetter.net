@@ -16,7 +16,10 @@ module.exports = function(defaults) {
       include: [
         'assets/**/*',
         'api/**/*',
-      ]
+      ],
+      exclude: [
+        '**/*.jpg'
+      ],
     }
   });
 
