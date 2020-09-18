@@ -31,8 +31,11 @@ module.exports = function(environment) {
       title: 'IT Works Better',
       description: 'Projektowanie stron internetowych i aplikacji webowych. Zespół Full Stack Web Developerów, grafików oraz specjalistów SEO',
       keywords: 'strony www, projektowanie stron, full stack web developer, it works better, tworzenie portali',
-      image: 'assets/icons/',
-      email: 'kontakt@itworksbetter.net'
+      image: 'assets/icons/icon-512x512.png',
+      image_width: 512,
+      image_height: 512,
+      email: 'kontakt@itworksbetter.net',
+      shop_url: 'https://skrypty.sattel.pl'
     },
    
   };

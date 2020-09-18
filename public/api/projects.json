@@ -55,6 +55,62 @@
       "description": "Strona wielobranżowej firmy z Kalisza świadczącej usługi rachunkowe oraz poligraficzne (agencja reklamowa). Stworzyliśmy projekt graficzny jak i samą stronę wraz z panelem adminsitracyjnym",
       "stack": "Twitter Bootstrap 3",
       "url": "maxplus.kalisz.pl"
+    },
+    {
+      "logo": "mrzetecki.jpg",
+      "name": "Mateusz Rzetecki - porfolio",
+      "description": "Portfolio eksperta SEO. Oparte o autorski panel administracyjny. Do strony został dołączony blog. Stworzona na podstawie dostarczonego projektu graficznego.",
+      "stack": "PHP + Twig3, Twitter Bootstrap 4",
+      "url": "mrzetecki.com"
+    },
+    {
+      "logo": "fundacjaprzystan.jpg",
+      "name": "Fundacja Przystań",
+      "description": "Współpracowaliśmy przy stworzeniu strony Fundacji Przystań. Strona jest oparta o Symfony 3, posiada własny panel administracyjny. Stworzyliśmy projekt graficzny jak i samą stronę - zarówno Back-End jak i Front-End.",
+      "stack": "Symfony 3",
+      "url": "fundacjaprzystan.com"
+    },
+    {
+      "logo": "multino.jpg",
+      "name": "Multino",
+      "description": "Nowoczesny serwis z ogłoszeniami oparty o gotowy skrypt ogłoszeniowy. Charakteryzuje się nowoczesnym wyglądem oraz rozbudowaną funkcjonalnością. Została także dodana aplikacja PWA, która działa podobnie do natywnej aplikacji mobilnej.",
+      "stack": "AngularJS, PWA",
+      "url": "multino.pl"
+    },
+    {
+      "logo": "pricemonit.jpg",
+      "name": "PriceMonit",
+      "description": "Oprogramowanie przeznaczone do monitorowania i analizy cen produktów w Allegro. Używa API portalu Allegro.pl do pobierania listy Twoich aukcji, aukcji konkurencji oraz aktualizowania cen Twoich produktów.",
+      "stack": "API Allegro.pl",
+      "url": "pricemonit.pl"
+    },
+    {
+      "logo": "strefa.jpg",
+      "name": "Strefa.co.uk",
+      "description": "Jeden z pierwszych portali ogłoszeniowych dla Polaków mieszkających w Wielkiej Brytanii. Oparty o skrypt ogłoszeniowy Notice. Obsługuej dziennie setki użytkowników a w bazie posiada dziesiątki tysięcy ogłoszeń.",
+      "stack": "PHP 5.6, MySQL, jQuery",
+      "url": "strefa.co.uk"
+    },
+    {
+      "logo": "pressfoto.jpg",
+      "name": "PressFoto",
+      "description": "Bank zdjęć prasowych dla fotoreporterów i wydawców. Oparty o gotowy skrypt Cuadro. Posiada dwa typy kont różniące się funkcjonalnością. Stworzyliśmy projekt graficzny jak i samą stronę.",
+      "stack": "Materialize",
+      "url": "pressfoto.pl"
+    },
+    {
+      "logo": "ogoloshennya.jpg",
+      "name": "Ogoloshennya",
+      "description": "Trzyjęzyczny serwis z ogłoszeniami online (po polsku, rosyjsku i ukraińsku). Oparty o nasz autorski skrypt ogłoszeniowy Notice. Ogłoszenia można dodawać w jednym z trzech języków lub we wszystkich naraz.",
+      "stack": "PHP 5.6, MySQL, jQuery",
+      "url": "ogoloshennya.pl"
+    },
+    {
+      "logo": "bioskin.jpg",
+      "name": "Bioskin Kalisz",
+      "description": "Strona internetowa profesjonalnego gabinetu kosmetycznego i fryzjerskiego. Cechuje się bardzo szybkim wczytywaniem i dołączoną aplikacją PWA. Back-End oparty o framework Symfony 3.",
+      "stack": "Symfony 3, PWA",
+      "url": "bioskin-kalisz.pl"
     }
   ]
 }

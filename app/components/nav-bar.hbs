@@ -1,10 +1,19 @@
 <nav class="navbar">
   <div class="container d-flex justify-space-between">
     <LinkTo @route="index" title="Home"><img src="/assets/images/logo.png" alt="Logo It Works Better" class="logo"></LinkTo>
-    <nav class="menu d-flex">
-      <LinkTo @route="index" title="Strona główna">Home</LinkTo>
-      <LinkTo @route="scripts" title="Skrypty stron www">Skrypty</LinkTo>
-      <LinkTo @route="projects" title="Projekty aplikacji webowych">Projekty</LinkTo>
+     <button class="navbar--burger" class={{if this.isOpenMenu 'open'}}
+      {{on "click" this.toggleMenu}}
+      aria-controls=".menu" 
+      aria-expanded={{if this.isOpenMenu "true" "false"}}
+      aria-label="Otwórz menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <nav class={{if this.isOpenMenu 'open menu' 'menu d-flex'}}>
+      <LinkTo @route="index" title="Strona główna"><span {{on "click" this.closeMenu}}>Home</span></LinkTo>
+      <LinkTo @route="scripts" title="Skrypty stron www"><span {{on "click" this.closeMenu}}>Skrypty</span></LinkTo>
+      <LinkTo @route="projects" title="Projekty aplikacji webowych"><span {{on "click" this.closeMenu}}>Projekty</span></LinkTo>
     </nav>
   </div>
 </nav>
