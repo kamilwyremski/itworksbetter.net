@@ -1,5 +1,6 @@
 import { module, test } from 'qunit';
 import { setupTest } from 'ember-qunit';
+import { click, visit, currentURL } from '@ember/test-helpers'
 
 module('Unit | Route | index', function(hooks) {
   setupTest(hooks);
@@ -8,4 +9,17 @@ module('Unit | Route | index', function(hooks) {
     let route = this.owner.lookup('route:index');
     assert.ok(route);
   });
+
+  test('visiting /', async function(assert) {
+    await visit('/');
+
+    assert.equal(currentURL(), '/');
+    assert.dom('h1').hasText('IT Works Better');
+
+    assert.dom('h3').hasText('Projektowanie stron internetowych i aplikacji webowych');
+    await click('.menu a:last-child');
+
+    assert.equal(currentURL(), '/projekty');
+  });
+  
 });

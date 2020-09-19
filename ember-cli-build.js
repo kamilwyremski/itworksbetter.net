@@ -9,7 +9,8 @@ module.exports = function(defaults) {
         '/',
         '/skrypty',
         '/projekty',
-        '/polityka-prywatnosci'
+        '/polityka-prywatnosci',
+        '/error404'
       ]
     },
     'asset-cache': {

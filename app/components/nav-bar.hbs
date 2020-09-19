@@ -1,7 +1,13 @@
 <nav class="navbar">
   <div class="container d-flex justify-space-between">
-    <LinkTo @route="index" title="Home"><img src="/assets/images/logo.png" alt="Logo It Works Better" class="logo"></LinkTo>
-     <button class="navbar--burger" class={{if this.isOpenMenu 'open'}}
+    <LinkTo @route="index" title="Home">
+      <picture>
+        <source srcset="/assets/images/logo.webp" type="image/webp">
+        <source srcset="/assets/images/logo.png" type="image/png"> 
+        <img src="/assets/images/logo.png" alt="Logo It Works Better" class="logo">
+      </picture>
+    </LinkTo>
+    <button class="navbar--burger" class={{if this.isOpenMenu 'open'}}
       {{on "click" this.toggleMenu}}
       aria-controls=".menu" 
       aria-expanded={{if this.isOpenMenu "true" "false"}}
