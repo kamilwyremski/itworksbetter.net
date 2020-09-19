@@ -144,7 +144,7 @@ ol{
     display: block;
   }
   .navbar .menu{
-    display: block; width: 100%;  flex-basis: 100%; max-height:0;  overflow-y: hidden;  transition: all .4s;
+    display: block; width: 100%;  flex-basis: 100%; max-height:0;  overflow-y: hidden;  transition: all .4s; margin-top: 10px;
   }
   .navbar .menu.open{
     max-height: 350px;
@@ -280,14 +280,31 @@ ol{
   }
 }
 @media(max-width: 750px) {
-  .projects{
+  .project--left{
+    flex: 0 0 150px;
+  }
+  .project--left .thumb{
+    width: 150px; height: 150px;
+  }
+}
+@media(max-width: 600px) {
+  .projects, .project{
     display: block;
   }
   .project--left{
-    display: none;
+    float: right;
+  }
+  .project--left .thumb{
+    width: 120px; height: 120px; margin-left: 10px; margin-bottom: 10px;
+  }
+  .project--right a{
+    word-wrap: break-word;  word-break: break-all;
   }
 }
 /* privacy policy */
+.privacy-policy a{
+  word-wrap: break-word;  word-break: break-all;
+}
 .privacy-policy ul{
   list-style: square; margin-left: 20px;
 }
