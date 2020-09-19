@@ -16,10 +16,10 @@ module.exports = function(defaults) {
       include: [
         'assets/**/*',
         'api/**/*',
-      ],
-      exclude: [
-        '**/*.jpg'
-      ],
+      ]
+    },
+    fingerprint: {
+      extensions: ['js', 'css']
     }
   });
 

@@ -8,7 +8,7 @@
       <div class="project d-flex">
         <div class="project--left">
           <a href="http://{{project.url}}" title="{{project.name}}" target="_blank" rel="nofollow noopener noreferrer">
-            <img src="/assets/images/projects/{{project.logo}}" alt="{{project.name}}" class="thumb">
+            {{img-lazy src=(concat "/assets/images/projects/" project.logo) width=300 height=300 alt=project.name class="thumb"}}
           </a>
         </div>
         <div class="project--right">

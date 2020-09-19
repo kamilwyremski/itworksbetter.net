@@ -8,7 +8,7 @@
       <div class="script row">
         <div class="col text-center">
           <a href="{{script.demo}}" title="Demo skryptu {{script.name}}">
-            <img src="/assets/images/scripts/{{script.logo}}" alt="{{script.name}} - logo" class="logo">
+            {{img-lazy src=(concat "/assets/images/scripts/" script.logo)  alt=(concat project.name " - logo") class="logo"}}
           </a>
         </div>
         <div class="col">
