@@ -3,7 +3,7 @@
     {
       "logo": "polishexpress.jpg",
       "name": "PolishExpress",
-      "description": "Współpracowaliśmy przy tworzeniu jednego z najpopularniejszych portali informacyjnych dla Polaków w Wielkiej Brytanii. Portal dociera do tysięcy użytkowników każdego dnia z wiadomościami z UK. Ze względu na duży ruch niezbędne były specjalne mechanizmy cachowania - dzięki temu strona naprawdę szybko się wczytuje.",
+      "description": "Współpracowaliśmy przy tworzeniu jednego z najpopularniejszych portali informacyjnych dla Polaków w Wielkiej Brytanii. Portal dociera z wiadomościami z UK do tysięcy użytkowników dziennie. Ze względu na duży ruch niezbędne były specjalne mechanizmy cachowania - dzięki temu strona naprawdę szybko się wczytuje.",
       "stack": "Symfony3, AngularJS",
       "url": "polishexpress.co.uk"
     },
@@ -17,14 +17,14 @@
     {
       "logo": "coupondojo.jpg",
       "name": "Coupon Dojo",
-      "description": "Wielojęzyczna strona z kuponami (voucherami) oraz kodami rabatowymi dla sklepów. Strona obsługuje 26 krajów a w bazie danych znajdują się dziesiątki tysięcy kuponów. Ze stroną jest także zintegrowany blog.",
+      "description": "Wielojęzyczna strona z kuponami (voucherami) oraz kodami rabatowymi dla sklepów. Strona obsługuje 26 krajów, a w bazie danych znajdują się dziesiątki tysięcy kuponów. Portal posiada wbudowany blog.",
       "stack": "PHP 7, Twig 2, VUE, Ajax",
       "url": "coupondojo.com"
     },
     {
       "logo": "multino.jpg",
       "name": "Multino",
-      "description": "Nowoczesny serwis z ogłoszeniami oparty o gotowy skrypt ogłoszeniowy. Charakteryzuje się nowoczesnym wyglądem oraz rozbudowaną funkcjonalnością. Została także dodana aplikacja PWA, która działa podobnie do natywnej aplikacji mobilnej.",
+      "description": "Nowoczesny serwis z ogłoszeniami oparty o gotowy skrypt ogłoszeniowy. Charakteryzuje się przejrzystym wyglądem oraz rozbudowaną funkcjonalnością. Została do niego dodana aplikacja PWA, która działa podobnie do natywnej aplikacji mobilnej.",
       "stack": "AngularJS, PWA",
       "url": "multino.pl"
     },
@@ -38,14 +38,14 @@
     {
       "logo": "fundacjaprzystan.jpg",
       "name": "Fundacja Przystań",
-      "description": "Współpracowaliśmy przy stworzeniu strony Fundacji Przystań. Strona jest oparta o Symfony 3, posiada własny panel administracyjny. Stworzyliśmy projekt graficzny jak i samą stronę - zarówno Back-End jak i Front-End.",
+      "description": "Współpracowaliśmy przy stworzeniu strony Fundacji Przystań. Strona jest oparta o Symfony 3, posiada własny panel administracyjny. Opracowaliśmy projekt graficzny jak i samą stronę - zarówno Backend jak i Frontend.",
       "stack": "Symfony 3",
       "url": "fundacjaprzystan.com"
     },
     {
       "logo": "motobryki.jpg",
       "name": "MotoBryki",
-      "description": "Serwis z ogłoszeniami motoryzacyjnymi. Oparty o nasz autorski skrypt ogłoszeniowy. Stworzony na podstawie projektu dostarczonego przez grafika.",
+      "description": "Serwis z ogłoszeniami motoryzacyjnymi i artykułami o tematyce branżowej. Oparty o nasz autorski skrypt ogłoszeniowy. Stworzony na podstawie projektu dostarczonego przez grafika.",
       "stack": "PHP 7, MySQL, jQuery, AngularJS",
       "url": "motobryki.pl"
     },
@@ -66,7 +66,7 @@
     {
       "logo": "gieldamam.jpg",
       "name": "Giełda Mam",
-      "description": "Serwis aukcyjny, umożliwia sprzedaż w formie Kup Teraz oraz w formie licytacji przez klientów serwisu a także dodawanie zwykłych ogłoszeń. Tzw MultiSklep. Bardzo rozbudowana funkcjonalność serwisu",
+      "description": "Serwis aukcyjny, umożliwiający sprzedaż w formie Kup Teraz oraz w formie licytacji przez klientów serwisu (tzw. multisklep). Obsługuje także zwykłe ogłoszenia. Portal posiada bardzo rozbudowaną funkcjonalność",
       "stack": "AngularJS, API z Przelewy24, Facebook i Google",
       "url": "gieldamam.pl"
     },
@@ -87,35 +87,35 @@
     {
       "logo": "strefa.jpg",
       "name": "Strefa.co.uk",
-      "description": "Jeden z pierwszych portali ogłoszeniowych dla Polaków mieszkających w Wielkiej Brytanii. Oparty o skrypt ogłoszeniowy Notice. Obsługuej dziennie setki użytkowników a w bazie posiada dziesiątki tysięcy ogłoszeń.",
+      "description": "Jeden z pierwszych portali ogłoszeniowych dla Polaków mieszkających w Wielkiej Brytanii. Oparty o skrypt ogłoszeniowy Notice. Obsługuje dziennie setki użytkowników, a w bazie posiada dziesiątki tysięcy ogłoszeń.",
       "stack": "PHP 5.6, MySQL, jQuery",
       "url": "strefa.co.uk"
     },
     {
       "logo": "maxplus.jpg",
       "name": "MaxPlus Kalisz",
-      "description": "Strona wielobranżowej firmy z Kalisza świadczącej usługi rachunkowe oraz poligraficzne (agencja reklamowa). Stworzyliśmy projekt graficzny jak i samą stronę wraz z panelem adminsitracyjnym",
+      "description": "Strona wielobranżowej firmy z Kalisza świadczącej usługi rachunkowe oraz poligraficzne (agencja reklamowa). Stworzyliśmy projekt graficzny, jak i samą stronę wraz z panelem administracyjnym",
       "stack": "Twitter Bootstrap 3",
       "url": "maxplus.kalisz.pl"
     },
     {
       "logo": "bioskin.jpg",
       "name": "Bioskin Kalisz",
-      "description": "Strona internetowa profesjonalnego gabinetu kosmetycznego i fryzjerskiego. Cechuje się bardzo szybkim wczytywaniem i dołączoną aplikacją PWA. Back-End oparty o framework Symfony 3.",
+      "description": "Strona internetowa profesjonalnego gabinetu kosmetycznego i fryzjerskiego. Cechuje się bardzo szybkim wczytywaniem i dołączoną aplikacją PWA. Backend oparty o framework Symfony 3.",
       "stack": "Symfony 3, PWA",
       "url": "bioskin-kalisz.pl"
     },
     {
       "logo": "upati.jpg",
       "name": "Patrycja Wyremska - portfolio",
-      "description": "Porfolio jednej z naszych programistek. Specjalizuje się w tworzeniu stron na Wordpressie oraz na Prestashop a także na pozycjonowaniu portali i pisaniu tekstów synonimizowanych.",
+      "description": "Porfolio jednej z naszych programistek. Specjalizuje się w tworzeniu stron na Wordpressie oraz na Prestashop, a także na pozycjonowaniu portali i pisaniu tekstów na strony i artykułów.",
       "stack": "Wordpress",
       "url": "upati.pl"
     },
     {
       "logo": "katarzynakucharska.jpg",
       "name": "Katarzyna Kucharska",
-      "description": "Blog oraz sklep internetowy oparty o Wordpress. Zajmuje się sprzedażą sukienek ślubnych i nie tylko",
+      "description": "Blog internetowy oparty na Wordpressie o tematyce sukien ślubnych oraz sukienek na inne okazje.",
       "stack": "Wordpress",
       "url": "katarzynakucharska.com.pl"
     },
@@ -150,14 +150,14 @@
     {
       "logo": "skamienia.jpg",
       "name": "Świat Kamienia",
-      "description": "Prosta strona firmowa składu kamienia naturalnego. Zaprojektowaliśmy wygląd oraz stworzyliśmy Back-End wraz z panelem administracyjnym oraz Front-End strony.",
+      "description": "Prosta strona firmowa składu kamienia naturalnego. Zaprojektowaliśmy wygląd oraz stworzyliśmy Backend wraz z panelem administracyjnym oraz Frontend strony.",
       "stack": "Bootstrap 3, JQuery",
       "url": "skamienia.pl"
     },
     {
       "logo": "chicagoogloszenia.jpg",
       "name": "Chicago Ogłoszenia",
-      "description": "Jeden z większych portali ogłoszeniowych dla polaków mieszkających w Chicago (USA). Portal oparty na naszym autorskim skrypcie ogłoszeniowym Notice. Codziennie dodawane jest kilkanaście do kilkudziesięciu nowych ogłoszeń.",
+      "description": "Jeden z większych portali ogłoszeniowych dla Polaków mieszkających w Chicago (USA). Portal oparty na naszym autorskim skrypcie ogłoszeniowym Notice. Codziennie dodawane jest kilkanaście do kilkudziesięciu nowych ogłoszeń.",
       "stack": "PHP 5.6, MySQL, jQuery",
       "url": "chicagoogloszenia.com"
     },

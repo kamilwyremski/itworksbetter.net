@@ -23,5 +23,5 @@ Router.map(function() {
   this.route('scripts', { path: '/skrypty' });
   this.route('projects', { path: '/projekty' });
   this.route('privacy-policy', { path: '/polityka-prywatnosci' });
-  this.route('404', { path: '/*path' });
+  this.route('error404', { path: '/*path' });
 });

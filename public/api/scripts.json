@@ -3,21 +3,21 @@
     {
       "logo": "notice3.png",
       "name": "Notice3",
-      "description": "Uniwersalny skrypt dla strony z ogłoszeniami online. Po stronie Back-endu wykorzystany Symfony 5. Po stronie klienta skrypt używa VUE oraz style z Twitter Bootstrap 4. Idealny dla dużego portalu ogłoszeniowego. Skrypt przeznaczony dla profesjonalnego użytku.",
+      "description": "Uniwersalny skrypt dla strony z ogłoszeniami online. Po stronie Backendu wykorzystany Symfony 5. Po stronie klienta skrypt używa VUE oraz style z Twitter Bootstrap 4. Idealny dla dużego portalu ogłoszeniowego. Skrypt przeznaczony dla profesjonalnego użytku.",
       "url": "https://skrypty.sattel.pl/skrypty-stron-www/191-skrypt-ogloszeniowy-notice3.html",
       "demo": "https://notice3.itworksbetter.net"
     },
     {
       "logo": "motonotice.png",
       "name": "MotoNotice",
-      "description": "Skrypt ogłoszeniowy dedykowany dla branży motoryzacyjnej. Umożliwia stworzenie strony lokalnej, ogólnopolskiej lub międzynarodowej. Cechuje się bardzo rozbudowaną funkcjonalnością i łatwą obsługę dla administratora i użytkowników",
+      "description": "Skrypt ogłoszeniowy dedykowany dla branży motoryzacyjnej. Umożliwia stworzenie strony lokalnej, ogólnopolskiej lub międzynarodowej. Cechuje się bardzo rozbudowaną funkcjonalnością i łatwą obsługą dla administratora i użytkowników",
       "url": "https://skrypty.sattel.pl/skrypty-stron-www/122-skrypt-ogloszen-motoryzacyjnych-motonotice.html",
       "demo": "https://motonotice.wyremski.pl"
     },
     {
       "logo": "demoty2.png",
       "name": "Demoty2",
-      "description": "Skrypt typu Demoty2 umożliwia stworzenie własnej strony internetowej z demotywatorami, demotami oraz memami. Jest to nowoczesny skrypt napisany zgodnie ze współczesnymi standardami oparty o system szablonów Twig2 oraz framework CSS Bulma.",
+      "description": "Skrypt typu Demoty2 umożliwia stworzenie własnej strony internetowej z demotywatorami oraz memami. Jest to nowoczesny skrypt napisany zgodnie ze współczesnymi standardami oparty o system szablonów Twig2 oraz framework CSS Bulma.",
       "url": "https://skrypty.sattel.pl/skrypty-stron-www/57-skrypt-typu-demotywatory-demoty2.html",
       "demo": "https://demoty2.wyremski.pl"
     },
@@ -38,14 +38,14 @@
     {
       "logo": "festa2.png",
       "name": "Festa2",
-      "description": "Skrypt Festa2 umożliwia stworzenie strony internetowej z bazą noclegów (bazą miejsc noclegowych). Obsługuje automatyczne płatności w Dotpay, Przeley24 i PayPal oraz jest zintegrowany z Google Maps (po API) i reCAPTCHA",
+      "description": "Skrypt Festa2 umożliwia stworzenie strony internetowej z bazą noclegów (bazą miejsc noclegowych). Obsługuje automatyczne płatności w Dotpay, Przelewy24 i PayPal. Jest zintegrowany z Google Maps (po API) i reCAPTCHA.",
       "url": "https://skrypty.sattel.pl/skrypty-stron-www/132-skrypt-bazy-noclegow-festa2.html",
       "demo": "https://festa2.wyremski.pl"
     },
     {
       "logo": "jobnotice.png",
       "name": "JobNotice",
-      "description": "JobNotice to nowoczesny skrypt dla strony internetowej z ofertami i ogłoszeniami dotyczącymi pracy. Umożliwia stworzenie lokalnej, krajowej lub międzynarodowej i zarabiać pasywnie na reklamach oraz na dodawaniu i promowaniu ogłoszeń.",
+      "description": "JobNotice to nowoczesny skrypt dla strony internetowej z ofertami i ogłoszeniami dotyczącymi pracy. Umożliwia stworzenie strony lokalnej, krajowej lub międzynarodowej i zarabiać pasywnie na reklamach oraz na dodawaniu i promowaniu ogłoszeń.",
       "url": "https://skrypty.sattel.pl/skrypty-stron-www/186-skrypt-ofert-pracy-jobnotice.html",
       "demo": "https://jobnotice.wyremski.pl"
     },
