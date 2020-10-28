@@ -11,7 +11,7 @@ export default class ScriptsRoute extends Route {
     this.headData.description = 'Skrypty stron internetowych. '+config.site.description;
   }
 
-  async model() {
+  model() {
     return fetch('/api/scripts.json').then(res => res.json()).then(json => json.data);
   }
 }

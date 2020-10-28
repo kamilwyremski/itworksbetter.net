@@ -11,7 +11,7 @@ export default class ProjectsRoute extends Route {
     this.headData.description = 'Projekty aplikacji webowych. '+config.site.description;
   }
 
-  async model() {
+  model() {
     return fetch('/api/projects.json').then(res => res.json()).then(json => json.data);
   }
 }
