@@ -6,7 +6,7 @@
 
 <meta property="og:title" content="{{this.model.title}}" />
 <meta property="og:image" content="{{concat this.model.base_url '/' this.model.image }}" />
-<meta property="og:image:secure_url" content="{{this.model.image}}" />
+<meta property="og:image:secure_url" content="{{concat this.model.base_url '/' this.model.image }}" />
 <meta property="og:image:width" content="{{this.model.image_width}}" />
 <meta property="og:image:height" content="{{this.model.image_height}}" />
 <meta property="og:description" content="{{this.model.description}}" />
@@ -14,7 +14,6 @@
 <meta property="og:site_name" content="{{this.model.title}}" />
 <meta property="og:locale" content="pl_PL">
 <meta property="og:url" content="{{this.model.base_url}}">
-<meta property="fb:app_id" content="">
 
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:title" content="{{this.model.title}}" />
