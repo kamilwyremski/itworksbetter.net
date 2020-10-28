@@ -14,4 +14,4 @@ export default class NavBarComponent extends Component {
   closeMenu(){
     this.isOpenMenu = false;
   }
-};
+}
