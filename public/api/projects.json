@@ -78,13 +78,6 @@
       "url": "mrzetecki.com"
     },
     {
-      "logo": "pricemonit.jpg",
-      "name": "PriceMonit",
-      "description": "Oprogramowanie przeznaczone do monitorowania i analizy cen produktów w Allegro. Używa API portalu Allegro.pl do pobierania listy Twoich aukcji, aukcji konkurencji oraz aktualizowania cen Twoich produktów.",
-      "stack": "API Allegro.pl",
-      "url": "pricemonit.pl"
-    },
-    {
       "logo": "strefa.jpg",
       "name": "Strefa.co.uk",
       "description": "Jeden z pierwszych portali ogłoszeniowych dla Polaków mieszkających w Wielkiej Brytanii. Oparty o skrypt ogłoszeniowy Notice. Obsługuje dziennie setki użytkowników, a w bazie posiada dziesiątki tysięcy ogłoszeń.",
