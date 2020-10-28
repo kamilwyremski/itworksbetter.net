@@ -16,7 +16,7 @@ module('Unit | Route | index', function(hooks) {
     assert.equal(currentURL(), '/');
     assert.dom('h1').hasText('IT Works Better');
 
-    assert.dom('h3').hasText('Projektowanie stron internetowych i aplikacji webowych');
+    assert.dom('h2').hasText('Projektowanie stron internetowych i aplikacji webowych');
     await click('.menu a:last-child');
 
     assert.equal(currentURL(), '/projekty');
