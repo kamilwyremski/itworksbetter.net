@@ -8,7 +8,7 @@ body{
 p, ol, ul{
   font-size: 19px; line-height: 30px; font-weight: 300;
 }
-h1,h3{
+h1,h2,h3{
   font-family: 'Montserrat', sans-serif;
 }
 a{
@@ -90,7 +90,7 @@ ol{
   padding-top: 120px;
 }
 .btn{
-  background-color:#4cbb17; color: white; padding: 8px 15px; font-size: 1em; border: none; display: inline-block;
+  background-color:#4cbb17; color: white; padding: 8px 15px; font-size: 1em; border: none; display: inline-block; 
 }
 .btn:hover{
   background-color:#368710; color: white;
@@ -158,7 +158,7 @@ ol{
 }
 @media(max-width: 400px) {
   .navbar .logo{
-    width: 160px; margin-top: 10px;
+    width: 160px; height: auto; margin-top: 10px;
   }
 }
 /* index page */
@@ -177,8 +177,8 @@ ol{
 .index--header hr{
   border: none; border-top: 1px solid #f4f4f4; width: 100px;
 }
-.index--header h3{
-  font-size: 1.5em; max-width: 600px;
+.index--header h2{
+  font-size: 1.5em; max-width: 600px; font-weight: 400;
 }
 .index--offer{
   width: calc(33.33% - 70px); margin-top: 20px; margin-bottom: 20px; text-align: center; font-size: 0.85em; padding: 30px 20px; border-top: solid 4px transparent; transition: all 0.2s;
@@ -192,7 +192,7 @@ ol{
 .index--pricing{
   width: calc(33.33% - 32px); margin-top: 10px; margin-bottom: 10px; text-align: center; padding: 20px 0; background-color: white; border: solid 1px #4cbb17;
 }
-.index--pricing h4{
+.index--pricing .header{
   margin: 0 10px 15px; font-size: 1em; min-height: 38px; display: flex;  align-items: center; justify-content: center;
 }
 .index--pricing .price{
@@ -325,11 +325,11 @@ ol{
 .footer{
   border-top: solid 3px #343d30; padding: 50px 0 20px;
 }
-.footer h4{
+.footer h2{
   font-size: 1.6em; font-weight: 400;
 }
 .footer .logo{
-  max-width: 400px; width: 100%; margin-bottom: 20px;
+  max-width: 400px; width: 100%; height: auto; margin-bottom: 20px; 
 }
 /* scrollbar */
 body::-webkit-scrollbar {
