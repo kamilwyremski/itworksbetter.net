@@ -35,7 +35,6 @@ module.exports = function(environment) {
       image_width: 512,
       image_height: 512,
       email: 'kontakt@itworksbetter.net',
-      phone: '+51 990600447',
       shop_url: 'https://skrypty.sattel.pl'
     },
    
