@@ -1,4 +1,4 @@
-# itworksbetter
+# IT Works Better
 
 Strona zespołu programistów (Front-End i Back-End Web Developers), grafików oraz specjalistów SEO
 IT Works Better - bo nie wystarczy żeby po prostu działało.
