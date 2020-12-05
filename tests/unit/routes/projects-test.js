@@ -20,6 +20,6 @@ module('Unit | Route | projects', function(hooks) {
     assert.dom('h1').hasText('Projekty aplikacji webowych');
 
     assert.dom('.project').exists();
-    assert.dom('.project--right h2').includesText('PolishExpress');
+    assert.dom('.project--right h2').includesText('Polish Express');
   });
 });
