@@ -21,7 +21,7 @@ You will need the following things properly installed on your computer.
 ## Installation
 
 * `git clone https://github.com/kamilwyremski/itworksbetter.net.git` this repository
-* `cd itworksbetter`
+* `cd itworksbetter.net`
 * `npm install`
 
 ## Running / Development
