@@ -64,13 +64,6 @@
       "url": "greencleanbean.com"
     },
     {
-      "logo": "gieldamam.jpg",
-      "name": "Giełda Mam",
-      "description": "Serwis aukcyjny, umożliwiający sprzedaż w formie Kup Teraz oraz w formie licytacji przez klientów serwisu (tzw. multisklep). Obsługuje także zwykłe ogłoszenia. Portal posiada bardzo rozbudowaną funkcjonalność",
-      "stack": "AngularJS, API z Przelewy24, Facebook i Google",
-      "url": "gieldamam.pl"
-    },
-    {
       "logo": "mrzetecki.jpg",
       "name": "Mateusz Rzetecki - porfolio",
       "description": "Portfolio eksperta SEO. Oparte o autorski panel administracyjny. Do strony został dołączony blog. Stworzona na podstawie dostarczonego projektu graficznego.",
@@ -157,9 +150,30 @@
     {
       "logo": "oglaszamy24h.jpg",
       "name": "Ogłaszamy 24h",
-      "description": "Serwis darmowych ogłoszeń z różnych kategorii. Oparty o autorski skrypt ogłoszeniowy Notice. Zaprojektowaliśmy wygląd serwisu jak i jego funkcjonalność.",
+      "description": "Serwis darmowych ogłoszeń z różnych kategorii. Oparty o autorski skrypt ogłoszeniowy Notice. Stworzony na podstawie projektu graficznego",
       "stack": "PHP 5.6, MySQL, jQuery",
       "url": "oglaszamy24h.pl"
-    }   
+    },
+    {
+      "logo": "mieszkaniawstylu.jpg",
+      "name": "Mieszkania w stylu",
+      "description": "Strona z ogłszeniami w branży nieruchomości. Oparty o dedykowany skrypt autorski z ogłoszeniami. Stworzony na podstawie projektu graficznego. ",
+      "stack": "PHP 7, AngularJS, Bootstrap, jQuery",
+      "url": "mieszkaniawstylu.pl"
+    },
+    {
+      "logo": "shopngo.jpg",
+      "name": "Shop & Go",
+      "description": "Platforma modowa z ofertami sklepów i z zintegrowanym blogiem. Oparta o framework Laravel 2 wraz z Voyager.",
+      "stack": "PHP 7, Laravel 2, Voyager",
+      "url": "shopngo.pl"
+    },
+    {
+      "logo": "piknik-event.jpg",
+      "name": "Piknik Event",
+      "description": "Strona firmy której specjalizacją są eventy, pikniki firmowe, konferencje, szkolenia, promocje oraz rzeczy niemożliwe. Oparta o Wordpress",
+      "stack": "Wordpress",
+      "url": "piknik-event.pl"
+    }
   ]
 }
