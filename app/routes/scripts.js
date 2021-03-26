@@ -7,7 +7,7 @@ export default class ScriptsRoute extends Route {
   @service headData;
 
   afterModel() {
-    this.headData.title = 'Skrypty stron www - '+config.site.title;
+    this.headData.title = 'Skrypty stron www - IT Works Better';
     this.headData.description = 'Skrypty stron internetowych. '+config.site.description;
   }
 

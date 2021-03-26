@@ -7,7 +7,7 @@ export default class ProjectsRoute extends Route {
   @service headData;
 
   afterModel() {
-    this.headData.title = 'Projekty aplikacji webowych - '+config.site.title;
+    this.headData.title = 'Projekty aplikacji webowych - IT Works Better';
     this.headData.description = 'Projekty aplikacji webowych. '+config.site.description;
   }
 

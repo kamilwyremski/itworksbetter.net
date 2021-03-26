@@ -6,7 +6,7 @@ export default class Error404Route extends Route {
   @service headData;
 
   afterModel() {
-    this.headData.title = 'Błąd 404 - '+config.site.title;
+    this.headData.title = 'Błąd 404 - IT Works Better';
     this.headData.description = 'Błąd 404. '+config.site.description;
   }
 }

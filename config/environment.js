@@ -27,7 +27,7 @@ module.exports = function(environment) {
     },
 
     site: {
-      base_url: 'https://itworksbetter.net',
+      base_url: '/',
       title: 'IT Works Better - aplikacje webowe',
       description: 'Projektowanie stron internetowych i aplikacji webowych. Zespół Full Stack Web Developerów, grafików oraz specjalistów SEO',
       keywords: 'strony www, projektowanie stron, full stack web developer, it works better, tworzenie portali',
@@ -62,6 +62,7 @@ module.exports = function(environment) {
 
   if (environment === 'production') {
     // here you can enable a production-specific feature
+    ENV.site.base_url = 'https://itworksbetter.net';
   }
 
   return ENV;
