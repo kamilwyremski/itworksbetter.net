@@ -29,20 +29,8 @@ module.exports = function(/* environment, appConfig */) {
         "purpose": "any maskable"
       },
       {
-        "src": "assets/icons/icon-128x128.png",
-        "sizes": "128x128",
-        "type": "image/png",
-        "purpose": "any maskable"
-      },
-      {
         "src": "assets/icons/icon-144x144.png",
         "sizes": "144x144",
-        "type": "image/png",
-        "purpose": "any maskable"
-      },
-      {
-        "src": "assets/icons/icon-152x152.png",
-        "sizes": "152x152",
         "type": "image/png",
         "purpose": "any maskable"
       },
@@ -65,13 +53,13 @@ module.exports = function(/* environment, appConfig */) {
         "purpose": "any maskable"
       },
       {
-        "src": "/images/icons/icon-180x180.png",
+        "src": "assets/icons/icon-180x180.png",
         "sizes": "180x180",
         "type": "image/png",
         "targets": ['apple']
       },
       {
-        "src": "/images/icons/icon-150x150.png",
+        "src": "assets/icons/icon-150x150.png",
         "element": "square150x150logo",
         "targets": ['ms']
       }

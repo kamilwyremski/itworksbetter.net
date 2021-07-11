@@ -4,11 +4,6 @@ Strona zespołu programistów (Front-End i Back-End Web Developers), grafików o
 IT Works Better - bo nie wystarczy żeby po prostu działało.
 Zobacz stronę pod adresem itworksbetter.net
 
-## Ember
-
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
-
 ## Prerequisites
 
 You will need the following things properly installed on your computer.

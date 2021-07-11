@@ -36,6 +36,13 @@
       "url": "wyremski.pl"
     },
     {
+      "logo": "hostingdojo.jpg",
+      "name": "Hosting Dojo",
+      "description": "Portal służący porównaniu szybkości hostingów z różnych lokalizacji geograficznych. Strona korzysta z kilku różnych Rest API aby zebrać wyniki testów. Następnie wyświetla je użytkownikom na wykresach.",
+      "stack": "Symfony 5, REST API, VUE, Chart.js",
+      "url": "hostingdojo.com"
+    },
+    {
       "logo": "fundacjaprzystan.jpg",
       "name": "Fundacja Przystań",
       "description": "Współpracowaliśmy przy stworzeniu strony Fundacji Przystań. Strona jest oparta o Symfony 3, posiada własny panel administracyjny. Opracowaliśmy projekt graficzny jak i samą stronę - zarówno Backend jak i Frontend.",
@@ -55,13 +62,6 @@
       "description": "Blog programisty prowadzony na Wordpressie. Znajdziesz w nim wpisy dotyczące różnych dziedzin programowania, skryptów z naszej oferty oraz gotowe moduły do wstawienia na strony www.",
       "stack": "Wordpress",
       "url": "blog.wyremski.pl"
-    },
-    {
-      "logo": "greencleanbean.jpg",
-      "name": "Green Clean Been",
-      "description": "Responsywna strona One Page firmy sprzątającej z Chicago (USA). Charakteryzuje się bardzo ładną szatą graficzną i nowoczesnym wyglądem. Stworzona łącznie z panelem administracyjnym na podstawie dostarczonego projektu graficznego",
-      "stack": "Twitter Bootstrap 4",
-      "url": "greencleanbean.com"
     },
     {
       "logo": "mrzetecki.jpg",
@@ -97,13 +97,6 @@
       "description": "Porfolio jednej z naszych programistek. Specjalizuje się w tworzeniu stron na Wordpressie oraz na Prestashop, a także na pozycjonowaniu portali i pisaniu tekstów na strony i artykułów.",
       "stack": "Wordpress",
       "url": "upati.pl"
-    },
-    {
-      "logo": "katarzynakucharska.jpg",
-      "name": "Katarzyna Kucharska",
-      "description": "Blog internetowy oparty na Wordpressie o tematyce sukien ślubnych oraz sukienek na inne okazje.",
-      "stack": "Wordpress",
-      "url": "katarzynakucharska.com.pl"
     },
     {
       "logo": "krgproperty.jpg",
@@ -158,7 +151,7 @@
       "logo": "shopngo.jpg",
       "name": "Shop & Go",
       "description": "Platforma modowa z ofertami sklepów i z zintegrowanym blogiem. Oparta o framework Laravel 2 wraz z Voyager.",
-      "stack": "PHP 7, Laravel 2, Voyager",
+      "stack": "PHP 7, Laravel, Voyager",
       "url": "shopngo.pl"
     },
     {
@@ -167,6 +160,13 @@
       "description": "Strona firmy której specjalizacją są eventy, pikniki firmowe, konferencje, szkolenia, promocje oraz rzeczy niemożliwe. Oparta o Wordpress",
       "stack": "Wordpress",
       "url": "piknik-event.pl"
+    },
+    {
+      "logo": "ozcodespro.jpg",
+      "name": "OzCodesPro",
+      "description": "Strona z kodami i kuponami promocyjnymi dla sklepów w Stanach Zjednoczonych. Kupony aktualizują się na bieżąco przez REST API.",
+      "stack": "Symfony 5, REST API",
+      "url": "ozcodespro.com"
     }
   ]
 }
