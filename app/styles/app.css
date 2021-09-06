@@ -325,7 +325,7 @@ ol{
   font-size: 1.6em; font-weight: 400;
 }
 .footer .logo{
-  max-width: 400px; width: 100%; height: auto; margin-bottom: 20px; 
+  max-width: 400px; width: 100%; height: auto;
 }
 /* scrollbar */
 body::-webkit-scrollbar {

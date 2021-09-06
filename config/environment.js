@@ -34,8 +34,8 @@ module.exports = function(environment) {
       image: 'assets/icons/icon-512x512.png',
       image_width: 512,
       image_height: 512,
-      email: 'kontakt@itworksbetter.net',
-      shop_url: 'https://skrypty.sattel.pl'
+      email: 'info@itworksbetter.net',
+      shop_url: 'https://sklep.itworksbetter.net/'
     },
    
   };

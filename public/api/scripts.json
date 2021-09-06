@@ -3,57 +3,57 @@
     {
       "logo": "notice3.png",
       "name": "Notice3",
-      "description": "Uniwersalny skrypt dla strony z ogłoszeniami online. Po stronie Backendu wykorzystany Symfony 5. Po stronie klienta skrypt używa VUE oraz style z Twitter Bootstrap 4. Idealny dla dużego portalu ogłoszeniowego. Skrypt przeznaczony dla profesjonalnego użytku.",
-      "url": "https://skrypty.sattel.pl/skrypty-stron-www/191-skrypt-ogloszeniowy-notice3.html",
+      "description": "Uniwersalny skrypt dla strony z ogłoszeniami online. Po stronie Backendu wykorzystany Symfony 5. Po stronie klienta skrypt używa VUE oraz style z Twitter Bootstrap 5. Idealny dla dużego portalu ogłoszeniowego. Skrypt przeznaczony dla profesjonalnego użytku.",
+      "url": "https://sklep.itworksbetter.net/skrypty-stron-www/1-skrypt-ogloszeniowy-notice3.html",
       "demo": "https://notice3.itworksbetter.net"
     },
     {
       "logo": "motonotice.png",
       "name": "MotoNotice",
       "description": "Skrypt ogłoszeniowy dedykowany dla branży motoryzacyjnej. Umożliwia stworzenie strony lokalnej, ogólnopolskiej lub międzynarodowej. Cechuje się bardzo rozbudowaną funkcjonalnością i łatwą obsługą dla administratora i użytkowników",
-      "url": "https://skrypty.sattel.pl/skrypty-stron-www/122-skrypt-ogloszen-motoryzacyjnych-motonotice.html",
+      "url": "https://sklep.itworksbetter.net/skrypty-stron-www/4-skrypt-ogloszen-motoryzacyjnych-motonotice.html",
       "demo": "https://motonotice.itworksbetter.net"
     },
     {
       "logo": "demoty2.png",
       "name": "Demoty2",
       "description": "Skrypt typu Demoty2 umożliwia stworzenie własnej strony internetowej z demotywatorami oraz memami. Jest to nowoczesny skrypt napisany zgodnie ze współczesnymi standardami oparty o system szablonów Twig2 oraz framework CSS Bulma.",
-      "url": "https://skrypty.sattel.pl/skrypty-stron-www/57-skrypt-typu-demotywatory-demoty2.html",
+      "url": "https://sklep.itworksbetter.net/skrypty-stron-www/3-skrypt-typu-demotywatory-demoty2.html",
       "demo": "https://demoty2.itworksbetter.net"
     },
     {
       "logo": "holmes2.png",
       "name": "Holmes2",
       "description": "Skrypt dla portalu z bazą nieruchomości (Real Estate). Doskonale nadaje się do prowadzenia małych jak i wielkich stron z listą nieruchomości na sprzedaż, wynajem lub zamianę. Z Holmes2 możesz stworzyć portal lokalny, ogólnopolski lub międzynarodowy.",
-      "url": "https://skrypty.sattel.pl/skrypty-stron-www/139-skrypt-bazy-nieruchomosci-holmes2.html",
+      "url": "https://sklep.itworksbetter.net/skrypty-stron-www/6-skrypt-bazy-nieruchomosci-holmes2.html",
       "demo": "https://holmes2.itworksbetter.net"
     },
     {
       "logo": "cuadro.png",
       "name": "Cuadro",
       "description": "Cuadro to skrypt umożliwiający stworzenie strony internetowej z obrazkami, zdjęciami i filmami z sieci. Umożliwia upload plików graficznych i MP4 przez użytkowników oraz dołączanie filmów z serwisów Youtube, Vimeo oraz DailyMotion.",
-      "url": "https://skrypty.sattel.pl/skrypty-stron-www/34-skrypt-strony-z-obrazkami-i-filmami-cuadro.html",
+      "url": "https://sklep.itworksbetter.net/skrypty-stron-www/2-skrypt-strony-z-obrazkami-i-filmami-cuadro.html",
       "demo": "https://cuadro.itworksbetter.net"
     },
     {
       "logo": "festa2.png",
       "name": "Festa2",
       "description": "Skrypt Festa2 umożliwia stworzenie strony internetowej z bazą noclegów (bazą miejsc noclegowych). Obsługuje automatyczne płatności w Dotpay, Przelewy24 i PayPal. Jest zintegrowany z Google Maps (po API) i reCAPTCHA.",
-      "url": "https://skrypty.sattel.pl/skrypty-stron-www/132-skrypt-bazy-noclegow-festa2.html",
+      "url": "https://sklep.itworksbetter.net/skrypty-stron-www/5-skrypt-bazy-noclegow-festa2.html",
       "demo": "https://festa2.itworksbetter.net"
     },
     {
       "logo": "jobnotice.png",
       "name": "JobNotice",
       "description": "JobNotice to nowoczesny skrypt dla strony internetowej z ofertami i ogłoszeniami dotyczącymi pracy. Umożliwia stworzenie strony lokalnej, krajowej lub międzynarodowej i zarabiać pasywnie na reklamach oraz na dodawaniu i promowaniu ogłoszeń.",
-      "url": "https://skrypty.sattel.pl/skrypty-stron-www/186-skrypt-ofert-pracy-jobnotice.html",
+      "url": "https://sklep.itworksbetter.net/skrypty-stron-www/8-skrypt-ofert-pracy-jobnotice.html",
       "demo": "https://jobnotice.itworksbetter.net"
     },
     {
       "logo": "corta.png",
       "name": "Corta",
       "description": "Dzięki skryptowi Corta możesz stworzyć własną prostą stronę www służącą do skracania linków – do zamieniania długich adresów URL na krótkie i łatwe do zapamiętania. Dzięki temu będą wygodniejsze do zamieszczenia w różnych mediach społecznościowych i komunikatorach.",
-      "url": "https://skrypty.sattel.pl/skrypty-stron-www/149-skrypt-skracacza-linkow-corta.html",
+      "url": "https://sklep.itworksbetter.net/skrypty-stron-www/7-skrypt-skracacza-linkow-corta.html",
       "demo": "https://corta.itworksbetter.net"
     }
   ]
