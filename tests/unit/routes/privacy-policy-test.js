@@ -13,7 +13,7 @@ module('Unit | Route | privacy-policy', function(hooks) {
   test('visiting /polityka-prywatnosci', async function(assert) {
     await visit('/');
 
-    await click('footer .mb-5 a');
+    await click('footer .footer-privacy-policy a');
 
     assert.equal(currentURL(), '/polityka-prywatnosci');
 

@@ -148,13 +148,6 @@
       "url": "mieszkaniawstylu.pl"
     },
     {
-      "logo": "shopngo.jpg",
-      "name": "Shop & Go",
-      "description": "Platforma modowa z ofertami sklepów i z zintegrowanym blogiem. Oparta o framework Laravel 2 wraz z Voyager.",
-      "stack": "PHP 7, Laravel, Voyager",
-      "url": "shopngo.pl"
-    },
-    {
       "logo": "piknik-event.jpg",
       "name": "Piknik Event",
       "description": "Strona firmy której specjalizacją są eventy, pikniki firmowe, konferencje, szkolenia, promocje oraz rzeczy niemożliwe. Oparta o Wordpress",

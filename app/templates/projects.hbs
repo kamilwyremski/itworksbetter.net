@@ -1,23 +1,25 @@
-<div class="container section page-top">
-  <h1 class="display-3 mb-5 header-primary">Projekty <span class="color-primary">aplikacji webowych</span></h1>
-  <p>Poniżej znajdziesz nasze porfolio, a w nim listę serwisów i aplikacji, które stworzyliśmy lub przy których współpracowaliśmy. Wiele z nich jest cały czas aktualizowane o nowe funkcje. Nie zadowalamy się tym, że projekt po prostu działa. Chcemy aby działał lepiej.</p>
-</div>
-<div class="background-secondary">
-  <div class="container section">
-    {{#each @model as |project|}}
-      <div class="project d-flex">
-        <div class="project--left">
-          <a href="http://{{project.url}}" title="{{project.name}}" target="_blank" rel="nofollow noopener noreferrer">
-            <img src="/assets/images/projects/{{project.logo}}" width="300" height="300" loading="lazy" alt="{{project.name}}" class="thumb">
-          </a>
-        </div>
-        <div class="project--right">
-          <h2 class="mb-2"><a href="http://{{project.url}}" title="{{project.name}}" target="_blank" rel="nofollow noopener noreferrer" class="color-secondary">{{project.name}}</a></h2>
-          <p class="mb-2">{{project.description}}</p>
-          <p class="mb-2"><strong>Użyte technologie</strong>: {{project.stack}}</p>
-          <p><a href="http://{{project.url}}" title="{{project.name}}" target="_blank" rel="nofollow noopener noreferrer">{{project.url}}</a></p>
-        </div>
-      </div>
-     {{/each}}
+<section aria-labelledby="projects-title">
+  <div class="container section page-top">
+    <h1 class="display-3 mb-5 header-primary" id="projects-title">Projekty <span class="color-primary">aplikacji webowych</span></h1>
+    <p>Poniżej znajdziesz nasze porfolio, a w nim listę serwisów i aplikacji, które stworzyliśmy lub przy których współpracowaliśmy. Wiele z nich jest cały czas aktualizowane o nowe funkcje. Nie zadowalamy się tym, że projekt po prostu działa. Chcemy aby działał lepiej.</p>
   </div>
-</div>
+  <div class="background-secondary">
+    <div class="container section">
+      {{#each @model as |project|}}
+        <div class="project d-flex">
+          <div class="project--left">
+            <a href="http://{{project.url}}" title="{{project.name}}" target="_blank" rel="nofollow noopener noreferrer">
+              <img src="/assets/images/projects/{{project.logo}}" width="300" height="300" loading="lazy" alt="{{project.name}}" class="thumb">
+            </a>
+          </div>
+          <div class="project--right">
+            <h2 class="mb-2"><a href="http://{{project.url}}" title="{{project.name}}" target="_blank" rel="nofollow noopener noreferrer" class="color-secondary">{{project.name}}</a></h2>
+            <p class="mb-2">{{project.description}}</p>
+            <p class="mb-2"><strong>Użyte technologie</strong>: {{project.stack}}</p>
+            <p><a href="http://{{project.url}}" title="{{project.name}}" target="_blank" rel="nofollow noopener noreferrer">{{project.url}}</a></p>
+          </div>
+        </div>
+      {{/each}}
+    </div>
+  </div>
+</section>
