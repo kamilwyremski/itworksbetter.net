@@ -160,6 +160,20 @@
       "description": "Strona z kodami i kuponami promocyjnymi dla sklepów w Stanach Zjednoczonych. Kupony aktualizują się na bieżąco przez REST API.",
       "stack": "Symfony 5, REST API",
       "url": "ozcodespro.com"
+    },
+    {
+      "logo": "malgorzatafuchs.jpg",
+      "name": "Małgorzata Fuchs",
+      "description": "Strona internetowa gabinetu z masażami oraz zabiegami na ciało i twarz. Oparta o Wordpress.",
+      "stack": "Wordpress",
+      "url": "malgorzatafuchs.pl"
+    },
+    {
+      "logo": "odnovaclinic.jpg",
+      "name": "Odnova Clinic",
+      "description": "Strona www gabinetu z masażami oraz zabiegami na twarz i ciało. Została oparta o Wordpress i gotowy motyw.",
+      "stack": "Wordpress",
+      "url": "odnovaclinic.pl"
     }
   ]
 }
