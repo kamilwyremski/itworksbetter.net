@@ -17,7 +17,7 @@ module('Unit | Route | scripts', function(hooks) {
 
     assert.equal(currentURL(), '/skrypty');
 
-    assert.dom('h1').hasText('Skrypty stron www');
+    assert.dom('h1').hasText('Website scripts');
 
     assert.dom('.script').exists();
     assert.dom('.script h2').includesText('Notice3');

@@ -17,7 +17,7 @@ module('Unit | Route | privacy-policy', function(hooks) {
 
     assert.equal(currentURL(), '/polityka-prywatnosci');
 
-    assert.dom('h1').hasText('Polityka prywatności');
+    assert.dom('h1').hasText('Privacy policy');
 
   });
 });

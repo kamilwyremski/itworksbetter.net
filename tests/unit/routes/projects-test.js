@@ -17,7 +17,7 @@ module('Unit | Route | projects', function(hooks) {
 
     assert.equal(currentURL(), '/projekty');
 
-    assert.dom('h1').hasText('Projekty aplikacji webowych');
+    assert.dom('h1').hasText('Web application projects');
 
     assert.dom('.project').exists();
     assert.dom('.project--right h2').includesText('Polish Express');

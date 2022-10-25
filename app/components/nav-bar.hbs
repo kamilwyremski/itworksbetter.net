@@ -17,9 +17,9 @@
       <span></span>
     </button>
     <nav class={{if this.isOpenMenu 'open menu' 'menu d-flex'}}>
-      <LinkTo @route="index" title="Strona główna" rel="home"><div {{on "click" this.closeMenu}}>Home</div></LinkTo>
-      <LinkTo @route="scripts" title="Skrypty stron www"><div {{on "click" this.closeMenu}}>Skrypty</div></LinkTo>
-      <LinkTo @route="projects" title="Projekty aplikacji webowych"><div {{on "click" this.closeMenu}}>Projekty</div></LinkTo>
+      <LinkTo @route="index" title="Home" rel="home"><div {{on "click" this.closeMenu}}>Home</div></LinkTo>
+      <LinkTo @route="scripts" title="Website scripts"><div {{on "click" this.closeMenu}}>Scripts</div></LinkTo>
+      <LinkTo @route="projects" title="Website projects"><div {{on "click" this.closeMenu}}>Projects</div></LinkTo>
     </nav>
   </div>
 </nav>
