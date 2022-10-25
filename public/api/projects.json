@@ -1,18 +1,18 @@
 {
   "data": [
     {
+      "logo": "cargoos.jpg",
+      "name": "Cargoos",
+      "description": "We have created a website for Cargoos Logistics company. A theme for Wordpress was created based on the provided graphic design. It was also necessary to create plugins for the blog editor for Wordpress.",
+      "stack": "Wordpress",
+      "url": "cargoos.com"
+    },
+    {
       "logo": "polishexpress.jpg",
       "name": "Polish Express",
       "description": "Współpracowaliśmy przy tworzeniu jednego z najpopularniejszych portali informacyjnych dla Polaków w Wielkiej Brytanii. Portal dociera z wiadomościami z UK do tysięcy użytkowników dziennie. Ze względu na duży ruch niezbędne były specjalne mechanizmy cachowania - dzięki temu strona naprawdę szybko się wczytuje.",
       "stack": "Symfony3, AngularJS",
       "url": "polishexpress.co.uk"
-    },
-    {
-      "logo": "allemoto.jpg",
-      "name": "AlleMoto",
-      "description": "Bardzo rozbudowany serwis z ogłoszeniami motoryzacyjnymi. Umożliwia płatności za promowanie ogłoszenia oraz logowanie przez Facebook i Google. Nowoczesny wygląd stworzony na podstawie dostarczonego projektu graficznego.",
-      "stack": "AngularJS, API z Przelewy24, Facebook i Google",
-      "url": "allemoto.com"
     },
     {
       "logo": "coupondojo.jpg",
@@ -99,13 +99,6 @@
       "url": "upati.pl"
     },
     {
-      "logo": "krgproperty.jpg",
-      "name": "King Realty Group",
-      "description": "Strona internetowa biura obrotu nieruchomości z Chicago (USA). Do strony dołączony jest dedykowany panel administracyjny. Stworzona na podstawie dostarczonego projektu graficznego.",
-      "stack": "Bootstrap 4",
-      "url": "krgproperty.com"
-    },
-    {
       "logo": "pressfoto.jpg",
       "name": "PressFoto",
       "description": "Bank zdjęć prasowych dla fotoreporterów i wydawców. Oparty o gotowy skrypt Cuadro. Posiada dwa typy kont różniące się funkcjonalnością. Stworzyliśmy projekt graficzny jak i samą stronę.",
@@ -153,13 +146,6 @@
       "description": "Strona firmy której specjalizacją są eventy, pikniki firmowe, konferencje, szkolenia, promocje oraz rzeczy niemożliwe. Oparta o Wordpress",
       "stack": "Wordpress",
       "url": "piknik-event.pl"
-    },
-    {
-      "logo": "ozcodespro.jpg",
-      "name": "OzCodesPro",
-      "description": "Strona z kodami i kuponami promocyjnymi dla sklepów w Stanach Zjednoczonych. Kupony aktualizują się na bieżąco przez REST API.",
-      "stack": "Symfony 5, REST API",
-      "url": "ozcodespro.com"
     },
     {
       "logo": "malgorzatafuchs.jpg",

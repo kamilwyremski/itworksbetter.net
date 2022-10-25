@@ -5,7 +5,7 @@ module.exports = function(/* environment, appConfig */) {
   // supported properties
 
   return {
-    lang: "pl-PL",
+    lang: "en-US",
     name: "IT Works Better - bo nie wystarczy żeby działało",
     short_name: "IT Works Better",
     description: "Projektowanie stron internetowych i aplikacji webowych. Zespół Full Stack Web Developerów, grafików oraz specjalistów SEO",
