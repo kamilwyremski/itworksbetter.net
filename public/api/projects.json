@@ -142,29 +142,29 @@
     },
     {
       "logo": "mieszkaniawstylu.jpg",
-      "name": "Mieszkania w stylu",
-      "description": "Strona z ogłszeniami w branży nieruchomości. Oparty o dedykowany skrypt autorski z ogłoszeniami. Stworzony na podstawie projektu graficznego. ",
+      "name": "Flats in style",
+      "description": "Real estate classifieds site. Based on a dedicated script with announcements. Created on the basis of a graphic design.",
       "stack": "PHP 7, AngularJS, Bootstrap, jQuery",
       "url": "mieszkaniawstylu.pl"
     },
     {
       "logo": "piknik-event.jpg",
-      "name": "Piknik Event",
-      "description": "Strona firmy której specjalizacją są eventy, pikniki firmowe, konferencje, szkolenia, promocje oraz rzeczy niemożliwe. Oparta o Wordpress",
+      "name": "Picnic Event",
+      "description": "A website of a company that specializes in events, company picnics, conferences, trainings, promotions and impossible things. Based on Wordpress.",
       "stack": "Wordpress",
       "url": "piknik-event.pl"
     },
     {
       "logo": "malgorzatafuchs.jpg",
-      "name": "Małgorzata Fuchs",
-      "description": "Strona internetowa gabinetu z masażami oraz zabiegami na ciało i twarz. Oparta o Wordpress.",
+      "name": "Malgorzata Fuchs",
+      "description": "Website of the salon with massages as well as body and face treatments. Based on Wordpress.",
       "stack": "Wordpress",
       "url": "malgorzatafuchs.pl"
     },
     {
       "logo": "odnovaclinic.jpg",
       "name": "Odnova Clinic",
-      "description": "Strona www gabinetu z masażami oraz zabiegami na twarz i ciało. Została oparta o Wordpress i gotowy motyw.",
+      "description": "Website of the salon with massages and treatments for face and body. It was based on Wordpress and buyed theme.",
       "stack": "Wordpress",
       "url": "odnovaclinic.pl"
     }
