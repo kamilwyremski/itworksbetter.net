@@ -1,5 +1,5 @@
-AddHandler application/x-httpd-php74 php
-php_value memory_limit 256M
+AddHandler application/x-httpd-php80 php
+
 RewriteEngine On
 
 RewriteCond %{HTTPS} !=on
