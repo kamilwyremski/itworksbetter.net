@@ -1,14 +1,11 @@
 'use strict';
 
-module.exports = function(/* environment, appConfig */) {
-  // See https://zonkyio.github.io/ember-web-app for a list of
-  // supported properties
-
+module.exports = function() {
   return {
     lang: "en-US",
-    name: "IT Works Better - bo nie wystarczy żeby działało",
+    name: "IT Works Better - it's simply not enough that's just work",
     short_name: "IT Works Better",
-    description: "Projektowanie stron internetowych i aplikacji webowych. Zespół Full Stack Web Developerów, grafików oraz specjalistów SEO",
+    description: "Designing websites and web applications. A team of Full Stack Web Developers, graphic designers and SEO specialists",
     start_url: "/",
     scope: "/",
     display: "fullscreen",

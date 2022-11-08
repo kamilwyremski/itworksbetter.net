@@ -28,25 +28,16 @@ module.exports = function(environment) {
 
     site: {
       base_url: '/',
-      title: 'IT Works Better - aplikacje webowe',
-      description: 'Projektowanie stron internetowych i aplikacji webowych. Zespół Full Stack Web Developerów, grafików oraz specjalistów SEO',
-      keywords: 'strony www, projektowanie stron, full stack web developer, it works better, tworzenie portali',
+      title: 'IT Works Better - web applications',
+      description: 'Designing websites and web applications. A team of Full Stack Web Developers, graphic designers and SEO specialists',
+      keywords: 'websites, website design, full stack web developer, it works better, creating portals',
       image: 'assets/icons/icon-512x512.png',
       image_width: 512,
       image_height: 512,
       email: 'info@itworksbetter.net',
       shop_url: 'https://sklep.itworksbetter.net/'
     },
-   
   };
-
-  if (environment === 'development') {
-    // ENV.APP.LOG_RESOLVER = true;
-    // ENV.APP.LOG_ACTIVE_GENERATION = true;
-    // ENV.APP.LOG_TRANSITIONS = true;
-    // ENV.APP.LOG_TRANSITIONS_INTERNAL = true;
-    // ENV.APP.LOG_VIEW_LOOKUPS = true;
-  }
 
   if (environment === 'test') {
     // Testem prefers this...

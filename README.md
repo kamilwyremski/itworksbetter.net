@@ -1,8 +1,8 @@
 # IT Works Better
 
-Strona zespołu programistów (Front-End i Back-End Web Developers), grafików oraz specjalistów SEO
-IT Works Better - bo nie wystarczy żeby po prostu działało.
-Zobacz stronę pod adresem itworksbetter.net
+Website of the team of programmers (Front-End and Back-End Web Developers), graphic designers and SEO specialists
+IT Works Better - it's simply not enough that's just work.
+See the website at itworksbetter.net
 
 ## Prerequisites
 
