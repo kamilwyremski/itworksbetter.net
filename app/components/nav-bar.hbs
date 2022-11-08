@@ -4,10 +4,10 @@
       <picture>
         <source srcset="/assets/images/logo.webp" type="image/webp">
         <source srcset="/assets/images/logo.png" type="image/png"> 
-        <img src="/assets/images/logo.png" alt="Logo It Works Better" class="logo" width="264" height="35">
+        <img src="/assets/images/logo.png" alt="IT Works Better" class="logo" width="264" height="35">
       </picture>
     </LinkTo>
-    <button class="navbar--burger" class={{if this.isOpenMenu 'open'}}
+    <button type="button" class={{if this.isOpenMenu 'navbar--burger open' 'navbar--burger'}}
       {{on "click" this.toggleMenu}}
       aria-controls=".menu" 
       aria-expanded={{if this.isOpenMenu "true" "false"}}
@@ -17,9 +17,9 @@
       <span></span>
     </button>
     <nav class={{if this.isOpenMenu 'open menu' 'menu d-flex'}}>
-      <LinkTo @route="index" title="Home" rel="home"><div {{on "click" this.closeMenu}}>Home</div></LinkTo>
-      <LinkTo @route="scripts" title="Website scripts"><div {{on "click" this.closeMenu}}>Scripts</div></LinkTo>
-      <LinkTo @route="projects" title="Website projects"><div {{on "click" this.closeMenu}}>Projects</div></LinkTo>
+      <LinkTo @route="index" title="Home" rel="home" {{on "click" this.closeMenu}}>Home</LinkTo>
+      <LinkTo @route="scripts" title="Website scripts" {{on "click" this.closeMenu}}>Scripts</LinkTo>
+      <LinkTo @route="projects" title="Website projects" {{on "click" this.closeMenu}}>Projects</LinkTo>
     </nav>
   </div>
 </nav>
