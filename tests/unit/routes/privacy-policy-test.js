@@ -10,12 +10,12 @@ module('Unit | Route | privacy-policy', function(hooks) {
     assert.ok(route);
   });
 
-  test('visiting /polityka-prywatnosci', async function(assert) {
+  test('visiting /privacy-policy', async function(assert) {
     await visit('/');
 
     await click('footer .footer-privacy-policy a');
 
-    assert.equal(currentURL(), '/polityka-prywatnosci');
+    assert.equal(currentURL(), '/privacy-policy');
 
     assert.dom('h1').hasText('Privacy policy');
 

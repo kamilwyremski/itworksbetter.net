@@ -20,8 +20,8 @@ Route.reopen({
 
 Router.map(function() {
   this.route('index', { path: '/' });
-  this.route('scripts', { path: '/skrypty' });
-  this.route('projects', { path: '/projekty' });
-  this.route('privacy-policy', { path: '/polityka-prywatnosci' });
+  this.route('scripts' );
+  this.route('projects' );
+  this.route('privacy-policy' );
   this.route('error404', { path: '/*path' });
 });
