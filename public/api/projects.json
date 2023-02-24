@@ -22,6 +22,13 @@
       "url": "coupondojo.com"
     },
     {
+      "logo": "twojaoferta.jpg",
+      "name": "Twoja oferta",
+      "description": "An extensive online classifieds portal based on the Notice3 advertisement script. It is very efficient - it supports thousands of ads and users.",
+      "stack": "PHP 7, Twig 3, Vue, Ajax, Symfony 5",
+      "url": "twojaoferta.com.pl"
+    },
+    {
       "logo": "myroxylon.jpg",
       "name": "Myroxylon",
       "description": "Multilingual website based on Wordpress and purchased theme. Our client is the German company Myroxylon GmbH. The company's slogan is: \"Dedicated to creating value through alternative investment projects\".",
@@ -40,7 +47,7 @@
       "name": "Kamil Wyremski - portfolio",
       "description": "Portfolio of one of our developers. Made in React. On his Github account you can preview the source code of the project. The website with the PWA application - works similar to the native application on mobile devices.",
       "stack": "React, PWA",
-      "url": "wyremski.pl"
+      "url": "wyremski.pl/en"
     },
     {
       "logo": "hostingdojo.jpg",
@@ -48,6 +55,13 @@
       "description": "Portal for comparing hosting speeds from different geographic locations. The site uses several different Rest APIs to collect test results. Then it displays them to users in different charts.",
       "stack": "Symfony 5, REST API, VUE, Chart.js",
       "url": "hostingdojo.com"
+    },
+    {
+      "logo": "gieldamam.jpg",
+      "name": "Gieldamam",
+      "description": "Thematic classifieds portal for women. Based on the Notice 2 announcement script. Created on the basis of the provided graphic design.",
+      "stack": "PHP, jQuery, AngularJS, API",
+      "url": "gieldamam.pl"
     },
     {
       "logo": "fundacjaprzystan.jpg",

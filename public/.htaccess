@@ -7,6 +7,9 @@ RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
 RewriteRule ^index\.html$ - [L]
 
+RewriteRule ^skrypty/?$ https://itworksbetter.net/scripts [L,R=301]
+RewriteRule ^projekty/?$ https://itworksbetter.net/projects [L,R=301]
+
 ErrorDocument 404 /error404/index.html
 
 ## EXPIRES HEADER CACHING ##

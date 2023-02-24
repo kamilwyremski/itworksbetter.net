@@ -3,7 +3,7 @@
 module.exports = function() {
   return {
     lang: "en-US",
-    name: "IT Works Better - it's simply not enough that's just work",
+    name: "IT Works Better - it's just not enough that it works",
     short_name: "IT Works Better",
     description: "Designing websites and web applications. A team of Full Stack Web Developers, graphic designers and SEO specialists",
     start_url: "/",
