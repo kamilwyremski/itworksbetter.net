@@ -1,20 +1,17 @@
 'use strict';
 
-module.exports = function(environment) {
-  let ENV = {
+module.exports = function (environment) {
+  const ENV = {
     modulePrefix: 'itworksbetter',
     environment,
     rootURL: '/',
-    locationType: 'auto',
+    locationType: 'history',
     EmberENV: {
+      EXTEND_PROTOTYPES: false,
       FEATURES: {
         // Here you can enable experimental features on an ember canary build
         // e.g. EMBER_NATIVE_DECORATOR_SUPPORT: true
       },
-      EXTEND_PROTOTYPES: {
-        // Prevent Ember Data from overriding Date.parse.
-        Date: false
-      }
     },
 
     APP: {
@@ -23,21 +20,31 @@ module.exports = function(environment) {
     },
 
     fastboot: {
-      hostWhitelist: [/^localhost:\d+$/]
+      hostWhitelist: [/^localhost:\d+$/],
     },
 
     site: {
       base_url: '/',
       title: 'IT Works Better - web applications',
-      description: 'Designing websites and web applications. A team of Full Stack Web Developers, graphic designers and SEO specialists',
-      keywords: 'websites, website design, full stack web developer, it works better, creating portals',
+      description:
+        'Designing websites and web applications. A team of Full Stack Web Developers, graphic designers and SEO specialists',
+      keywords:
+        'websites, website design, full stack web developer, it works better, creating portals',
       image: 'assets/icons/icon-512x512.png',
       image_width: 512,
       image_height: 512,
       email: 'info@itworksbetter.net',
-      shop_url: 'https://sklep.itworksbetter.net/'
+      shop_url: 'https://sklep.itworksbetter.net/',
     },
   };
+
+  if (environment === 'development') {
+    // ENV.APP.LOG_RESOLVER = true;
+    // ENV.APP.LOG_ACTIVE_GENERATION = true;
+    // ENV.APP.LOG_TRANSITIONS = true;
+    // ENV.APP.LOG_TRANSITIONS_INTERNAL = true;
+    // ENV.APP.LOG_VIEW_LOOKUPS = true;
+  }
 
   if (environment === 'test') {
     // Testem prefers this...
