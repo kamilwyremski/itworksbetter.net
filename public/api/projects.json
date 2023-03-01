@@ -12,20 +12,20 @@
       "name": "Polish Express",
       "description": "We collaborated on creating one of the most popular information portals for Poles in Great Britain. The portal reaches thousands of users daily with news from the UK. Due to the high traffic, special caching mechanisms were necessary - thanks to this, the page loads really quickly.",
       "stack": "Symfony3, AngularJS",
-      "url": "polishexpress.co.uk"
+      "url": "en.polishexpress.co.uk"
     },
     {
       "logo": "coupondojo.jpg",
       "name": "Coupon Dojo",
-      "description": "Multilingual website with vouchers and discount codes for online stores. The site serves 26 countries and has tens of thousands of coupons in the database. The portal has a built-in blog system.",
-      "stack": "PHP 7, Twig 2, VUE, Ajax",
+      "description": "Multilingual website with vouchers and discount codes for online stores. The site serves 19 countries and has tens of thousands of coupons in the database. The portal has a built-in blog system.",
+      "stack": "PHP 8, Twig, VUE, Ajax",
       "url": "coupondojo.com"
     },
     {
       "logo": "twojaoferta.jpg",
       "name": "Twoja oferta",
       "description": "An extensive online classifieds portal based on the Notice3 advertisement script. It is very efficient - it supports thousands of ads and users.",
-      "stack": "PHP 7, Twig 3, Vue, Ajax, Symfony 5",
+      "stack": "PHP, Twig, Vue, Ajax, Symfony",
       "url": "twojaoferta.com.pl"
     },
     {
@@ -39,13 +39,13 @@
       "logo": "multino.jpg",
       "name": "Multino",
       "description": "A modern website with advertisements based on Notice 2 script. It is characterized by a modern appearance and extensive functionality. A PWA application has been added to it, which works similarly to the native mobile application.",
-      "stack": "AngularJS, PWA",
+      "stack": "PHP, AngularJS, PWA",
       "url": "multino.pl"
     },
     {
       "logo": "wyremski.jpg",
       "name": "Kamil Wyremski - portfolio",
-      "description": "Portfolio of one of our developers. Made in React. On his Github account you can preview the source code of the project. The website with the PWA application - works similar to the native application on mobile devices.",
+      "description": "Portfolio of one of our developers. Made in React. On his Github account you can preview the source code of the project. Include PWA application.",
       "stack": "React, PWA",
       "url": "wyremski.pl/en"
     },
@@ -53,7 +53,7 @@
       "logo": "hostingdojo.jpg",
       "name": "Hosting Dojo",
       "description": "Portal for comparing hosting speeds from different geographic locations. The site uses several different Rest APIs to collect test results. Then it displays them to users in different charts.",
-      "stack": "Symfony 5, REST API, VUE, Chart.js",
+      "stack": "Symfony, REST API, VUE, Chart.js",
       "url": "hostingdojo.com"
     },
     {
@@ -74,13 +74,13 @@
       "logo": "motobryki.jpg",
       "name": "MotoBryki",
       "description": "Website with automotive announcements and industry-related articles. Based on our Notice2 script. Created on the basis of a design provided by a graphic designer.",
-      "stack": "PHP 7, MySQL, jQuery, AngularJS",
+      "stack": "PHP, MySQL, jQuery, AngularJS",
       "url": "motobryki.pl"
     },
     {
       "logo": "blog.jpg",
       "name": "Kamil Wyremski - blog",
-      "description": "Developer blog run on Wordpress. There you will find entries on various areas of programming, scripts from our offer and ready-made modules for websites.",
+      "description": "Developer blog run on Wordpress. There you will find entries on various areas of programming, description of scripts from our offer and ready-made modules for websites.",
       "stack": "Wordpress",
       "url": "blog.wyremski.pl"
     },
@@ -95,34 +95,34 @@
       "logo": "strefa.jpg",
       "name": "Strefa.co.uk",
       "description": "One of the first advertising portals for Poles living in Great Britain. Based on the Notice script. It serves hundreds of users a day, and has tens of thousands of ads in its database.",
-      "stack": "PHP 5, MySQL, jQuery",
+      "stack": "PHP, MySQL, jQuery",
       "url": "strefa.co.uk"
     },
     {
       "logo": "maxplus.jpg",
       "name": "MaxPlus Kalisz",
       "description": "Website of a multi-branch company from Poland providing accounting and printing services (advertising agency). We created the graphic design as well as the website itself with the administration panel.",
-      "stack": "PHP 5, MySQL, jQuery, Twitter Bootstrap 3",
+      "stack": "PHP, MySQL, jQuery, Twitter Bootstrap 3",
       "url": "maxplus.kalisz.pl"
     },
     {
       "logo": "bioskin.jpg",
       "name": "Bioskin Kalisz",
-      "description": "Website of a professional beauty and hairdressing salon. It is characterized by very fast loading and the included PWA application. Backend based on the Symfony 3 framework.",
-      "stack": "Symfony 3, PWA",
+      "description": "Website of a professional beauty and hairdressing salon. It is characterized by very fast loading and the included PWA application. Backend based on the Symfony framework.",
+      "stack": "Symfony, Twitter Bootstrap, PWA",
       "url": "bioskin-kalisz.pl"
     },
     {
       "logo": "upati.jpg",
       "name": "Patrycja Wyremska - portfolio",
-      "description": "Portfolio of one of our developers. She specializes in creating websites on Wordpress and Prestashop, as well as in positioning portals and writing texts for websites and articles.",
+      "description": "Portfolio of one of our developer. She specializes in creating websites on Wordpress and Prestashop, as well in SEO and writing texts and articles for websites.",
       "stack": "Wordpress",
       "url": "upati.pl"
     },
     {
       "logo": "pressfoto.jpg",
       "name": "PressFoto",
-      "description": "Bank of press photos for photojournalists and publishers. Based on Cuadro script. It has two types of accounts that differ in functionality. We created the graphic design and the website itself.",
+      "description": "Database of press photos for photojournalists and publishers. Based on Cuadro script. It has two types of accounts that differ in functionality. We created the graphic design and the website itself.",
       "stack": "Materialize",
       "url": "pressfoto.pl"
     },
@@ -130,35 +130,35 @@
       "logo": "ogoloshennya.jpg",
       "name": "Ogoloshennya",
       "description": "A three-language website with online advertisements (in Polish, Russian and Ukrainian). Based on Notice script. Ads can be added in one of three languages or all at once.",
-      "stack": "PHP 5, MySQL, jQuery",
+      "stack": "PHP, MySQL, jQuery",
       "url": "ogoloshennya.pl"
     },
     {
       "logo": "skamienia.jpg",
-      "name": "Świat Kamienia",
+      "name": "Swiat Kamienia",
       "description": "A simple company website for the composition of natural stone. We designed the appearance and created the backend with the administration panel and the frontend of the website.",
-      "stack": "Bootstrap 3, JQuery",
+      "stack": "Bootstrap, jQuery",
       "url": "skamienia.pl"
     },
     {
       "logo": "chicagoogloszenia.jpg",
       "name": "Chicago advertisements",
       "description": "One of the largest advertising portals for Poles living in Chicago (USA). Portal based on our Notice script. A dozen or so new ads are added every day.",
-      "stack": "PHP 5.6, MySQL, jQuery",
+      "stack": "PHP, MySQL, jQuery",
       "url": "chicagoogloszenia.com"
     },
     {
       "logo": "oglaszamy24h.jpg",
       "name": "Ogłaszamy 24h",
-      "description": "Serwis darmowych ogłoszeń z różnych kategorii. Oparty o autorski skrypt ogłoszeniowy Notice. Stworzony na podstawie projektu graficznego",
-      "stack": "PHP 5.6, MySQL, jQuery",
+      "description": "A site for free classified ads in various categories. Based on the advertisement script Notice. Created on the basis of a graphic design.",
+      "stack": "PHP, MySQL, jQuery",
       "url": "oglaszamy24h.pl"
     },
     {
       "logo": "mieszkaniawstylu.jpg",
       "name": "Flats in style",
       "description": "Real estate classifieds site. Based on a dedicated script with announcements. Created on the basis of a graphic design.",
-      "stack": "PHP 7, AngularJS, Bootstrap, jQuery",
+      "stack": "PHP, AngularJS, Bootstrap, jQuery",
       "url": "mieszkaniawstylu.pl"
     },
     {
@@ -178,7 +178,7 @@
     {
       "logo": "odnovaclinic.jpg",
       "name": "Odnova Clinic",
-      "description": "Website of the salon with massages and treatments for face and body. It was based on Wordpress and buyed theme.",
+      "description": "Website of the salon with massages and treatments for face and body. It was based on Wordpress and ready theme.",
       "stack": "Wordpress",
       "url": "odnovaclinic.pl"
     }

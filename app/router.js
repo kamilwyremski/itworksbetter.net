@@ -9,19 +9,19 @@ export default class Router extends EmberRouter {
 }
 
 Route.reopen({
-  activate: function() {
+  activate: function () {
     this._super();
     window.scrollTo?.(0, 0);
-    if(typeof document !== 'undefined' && "activeElement" in document){
+    if (typeof document !== 'undefined' && 'activeElement' in document) {
       document.activeElement.blur();
     }
-  }
+  },
 });
 
-Router.map(function() {
+Router.map(function () {
   this.route('index', { path: '/' });
-  this.route('scripts' );
-  this.route('projects' );
-  this.route('privacy-policy' );
+  this.route('scripts');
+  this.route('projects');
+  this.route('privacy-policy');
   this.route('error404', { path: '/*path' });
 });

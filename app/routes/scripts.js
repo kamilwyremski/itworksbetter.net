@@ -8,10 +8,12 @@ export default class ScriptsRoute extends Route {
 
   afterModel() {
     this.headData.title = 'Website scripts - IT Works Better';
-    this.headData.description = 'Website scripts. '+config.site.description;
+    this.headData.description = 'Website scripts. ' + config.site.description;
   }
 
   model() {
-    return fetch('/api/scripts.json').then(res => res.json()).then(json => json.data);
+    return fetch('/api/scripts.json')
+      .then((res) => res.json())
+      .then((json) => json.data);
   }
 }

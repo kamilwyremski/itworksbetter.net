@@ -16,10 +16,10 @@
       <span></span>
       <span></span>
     </button>
-    <nav class={{if this.isOpenMenu 'open menu' 'menu d-flex'}}>
-      <LinkTo @route="index" title="Home" rel="home" {{on "click" this.closeMenu}}>Home</LinkTo>
+    <div class={{if this.isOpenMenu 'open menu' 'menu d-flex'}}>
+      <LinkTo @route="index" title="Homepage" rel="home" {{on "click" this.closeMenu}}>Home</LinkTo>
       <LinkTo @route="scripts" title="Website scripts" {{on "click" this.closeMenu}}>Scripts</LinkTo>
       <LinkTo @route="projects" title="Website projects" {{on "click" this.closeMenu}}>Projects</LinkTo>
-    </nav>
+    </div>
   </div>
 </nav>

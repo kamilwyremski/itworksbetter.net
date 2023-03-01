@@ -3,7 +3,7 @@
     {
       "logo": "notice3.png",
       "name": "Notice3",
-      "description": "Universal script for an online classifieds website. On the backend side, Symfony 5 is used. On the client side, the script uses VUE and styles from Twitter Bootstrap 5. Perfect for a large advertising portal. Script intended for professional use.",
+      "description": "All-purpose script for an online classifieds website. On the backend side, Symfony is used. On the client side, the script uses VUE and styles from Twitter Bootstrap 5. Perfect for a large advertising portal. Script intended for professional use.",
       "url": "https://sklep.itworksbetter.net/skrypty-stron-www/1-skrypt-ogloszeniowy-notice3.html",
       "demo": "https://notice3en.itworksbetter.net"
     },
@@ -17,7 +17,7 @@
     {
       "logo": "demoty2.png",
       "name": "Demoty2",
-      "description": "The Demoty2 script allows you to create your own website with demotivators and memes. It is a modern script written in accordance with modern standards based on the Twig template system and the CSS Bulma framework.",
+      "description": "The Demoty2 script allows you to create your own website with demotivators and memes. Script is based on the Twig template system and the CSS Bulma framework.",
       "url": "https://sklep.itworksbetter.net/skrypty-stron-www/3-skrypt-typu-demotywatory-demoty2.html",
       "demo": "https://demoty2.itworksbetter.net"
     },
@@ -38,7 +38,7 @@
     {
       "logo": "festa2.png",
       "name": "Festa2",
-      "description": "The Festa2 script allows you to create a website with the accommodation database (accommodation database). It supports automatic payments in Dotpay, Przelewy24 and PayPal. It is integrated with Google Maps (via API) and reCAPTCHA.",
+      "description": "The Festa2 script allows you to create a website with the accommodation database. It supports automatic payments in Dotpay, Przelewy24 and PayPal. It is integrated with Google Maps (via API) and reCAPTCHA.",
       "url": "https://sklep.itworksbetter.net/skrypty-stron-www/5-skrypt-bazy-noclegow-festa2.html",
       "demo": "https://festa2.itworksbetter.net"
     },
@@ -52,7 +52,7 @@
     {
       "logo": "corta.png",
       "name": "Corta",
-      "description": "With the Corta script you can create your own simple link shortener website - to turn long URLs into short and easy to remember. This will make them more convenient to post on various social media and messenger apps.",
+      "description": "With the Corta script you can create your own simple website to shorts links - to turn long URLs into short and easy to remember. This will make them more convenient to post on various social media and messenger apps.",
       "url": "https://github.com/kamilwyremski/corta",
       "demo": "https://corta.itworksbetter.net",
       "free": true

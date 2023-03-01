@@ -8,10 +8,13 @@ export default class ProjectsRoute extends Route {
 
   afterModel() {
     this.headData.title = 'Web application projects - IT Works Better';
-    this.headData.description = 'Web application projects. '+config.site.description;
+    this.headData.description =
+      'Web application projects. ' + config.site.description;
   }
 
   model() {
-    return fetch('/api/projects.json').then(res => res.json()).then(json => json.data);
+    return fetch('/api/projects.json')
+      .then((res) => res.json())
+      .then((json) => json.data);
   }
 }

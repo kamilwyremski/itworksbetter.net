@@ -6,7 +6,7 @@ export default class PrivacyPolicyRoute extends Route {
   @service headData;
 
   afterModel() {
-    this.headData.title = 'Privacy policy - IT Works Better';
-    this.headData.description = 'Privacy policy. ' + config.site.description;
+    this.headData.title = 'Privacy Policy - IT Works Better';
+    this.headData.description = 'Privacy Policy. ' + config.site.description;
   }
 }

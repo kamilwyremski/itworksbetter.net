@@ -1,25 +1,24 @@
 import { module, test } from 'qunit';
 import { setupTest } from 'ember-qunit';
-import { click, visit, currentURL } from '@ember/test-helpers'
+import { click, visit, currentURL } from '@ember/test-helpers';
 
-module('Unit | Route | index', function(hooks) {
+module('Unit | Route | index', function (hooks) {
   setupTest(hooks);
 
-  test('it exists', function(assert) {
+  test('it exists', function (assert) {
     let route = this.owner.lookup('route:index');
     assert.ok(route);
   });
 
-  test('visiting /', async function(assert) {
+  test('visiting /', async function (assert) {
     await visit('/');
 
-    assert.equal(currentURL(), '/');
+    assert.strictEqual(currentURL(), '/');
     assert.dom('h1').hasText('IT Works Better');
 
-    assert.dom('h2').hasText('Projektowanie stron internetowych i aplikacji webowych');
+    assert.dom('h2').hasText('Creating web applications and websites');
     await click('.menu a:last-child');
 
-    assert.equal(currentURL(), '/projekty');
+    assert.strictEqual(currentURL(), '/projects');
   });
-  
 });
