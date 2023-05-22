@@ -57,6 +57,20 @@
       "url": "hostingdojo.com"
     },
     {
+      "logo": "kodyrabatowe.jpg",
+      "name": "Kody Rabatowe",
+      "description": "Polish website with vouchers and discount codes for online stores. It is connected via API with many voucher providers. The database is optimized for high traffic.",
+      "stack": "Symfony, REST API, VUE, Chart.js",
+      "url": "kodyrabatowe.naszemiasto.pl"
+    },
+    {
+      "logo": "trafnaokazja.jpg",
+      "name": "Trafna Okazja",
+      "description": "An extensive online classifieds portal based on the Notice3 advertisement script. Addressed to customers from Poland.",
+      "stack": "PHP, Twig, Vue, Ajax, Symfony",
+      "url": "trafnaokazja.pl"
+    },
+    {
       "logo": "gieldamam.jpg",
       "name": "Gieldamam",
       "description": "Thematic classifieds portal for women. Based on the Notice 2 announcement script. Created on the basis of the provided graphic design.",
@@ -65,7 +79,7 @@
     },
     {
       "logo": "fundacjaprzystan.jpg",
-      "name": "Fundacja Przystań",
+      "name": "Fundacja Przystan",
       "description": "We collaborated on the creation of the Przystań Foundation website. The website is based on Symfony 3 and has its own administration panel. We have developed the graphic design and the website itself - both Backend and Frontend.",
       "stack": "Symfony 3",
       "url": "fundacjaprzystan.com"
@@ -149,7 +163,7 @@
     },
     {
       "logo": "oglaszamy24h.jpg",
-      "name": "Ogłaszamy 24h",
+      "name": "Oglaszamy 24h",
       "description": "A site for free classified ads in various categories. Based on the advertisement script Notice. Created on the basis of a graphic design.",
       "stack": "PHP, MySQL, jQuery",
       "url": "oglaszamy24h.pl"

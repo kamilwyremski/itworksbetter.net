@@ -32,8 +32,9 @@
       "logo": "cuadro.png",
       "name": "Cuadro",
       "description": "Cuadro is a script that allows you to create a website with pictures, photos and videos from the web. It allows users to upload graphic and MP4 files and attach videos from Youtube, Vimeo and DailyMotion.",
-      "url": "https://sklep.itworksbetter.net/skrypty-stron-www/2-skrypt-strony-z-obrazkami-i-filmami-cuadro.html",
-      "demo": "https://cuadro.itworksbetter.net"
+      "url": "https://github.com/kamilwyremski/cuadro",
+      "demo": "https://cuadro.itworksbetter.net",
+      "free": true
     },
     {
       "logo": "festa2.png",
