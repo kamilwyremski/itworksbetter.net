@@ -3,8 +3,8 @@
     {
       "logo": "cargoos.jpg",
       "name": "Cargoos",
-      "description": "We have created a website for Cargoos Logistics company. A theme for Wordpress was created based on the provided graphic design. It was also necessary to create plugins for the blog editor for Wordpress.",
-      "stack": "Wordpress",
+      "description": "We have created a website for Cargoos Logistics company from Chicago / USA. A theme for Wordpress was created based on the provided graphic design. It was also necessary to create plugins for the blog editor for Wordpress.",
+      "stack": "Wordpress, React",
       "url": "cargoos.com"
     },
     {
@@ -24,7 +24,7 @@
     {
       "logo": "twojaoferta.jpg",
       "name": "Twoja oferta",
-      "description": "An extensive online classifieds portal based on the Notice3 advertisement script. It is very efficient - it supports thousands of ads and users.",
+      "description": "An extensive online classifieds portal based on the Notice3 advertisement script. It is very efficient - it supports thousands of advertisements and users. It has a modern, responsive appearance.",
       "stack": "PHP, Twig, Vue, Ajax, Symfony",
       "url": "twojaoferta.com.pl"
     },
@@ -59,14 +59,14 @@
     {
       "logo": "kodyrabatowe.jpg",
       "name": "Kody Rabatowe",
-      "description": "Polish website with vouchers and discount codes for online stores. It is connected via API with many voucher providers. The database is optimized for high traffic.",
+      "description": "Polish website with vouchers and discount codes for online stores. It is connected via API with many voucher providers. The database is optimized for high traffic. It has a built-in search engine.",
       "stack": "Symfony, REST API, VUE, Chart.js",
       "url": "kodyrabatowe.naszemiasto.pl"
     },
     {
       "logo": "trafnaokazja.jpg",
       "name": "Trafna Okazja",
-      "description": "An extensive online classifieds portal based on the Notice3 advertisement script. Addressed to customers from Poland.",
+      "description": "An extensive online classifieds portal based on the Notice3 advertisement script. Addressed to customers from Poland. It was created on the basis of the provided graphic design.",
       "stack": "PHP, Twig, Vue, Ajax, Symfony",
       "url": "trafnaokazja.pl"
     },
@@ -79,9 +79,9 @@
     },
     {
       "logo": "fundacjaprzystan.jpg",
-      "name": "Fundacja Przystan",
-      "description": "We collaborated on the creation of the Przystań Foundation website. The website is based on Symfony 3 and has its own administration panel. We have developed the graphic design and the website itself - both Backend and Frontend.",
-      "stack": "Symfony 3",
+      "name": "Przystań Foundation",
+      "description": "We created Przystań Foundation website. The website is based on Symfony and has its own administration panel. We have developed the graphic design and the website itself - both Backend and Frontend.",
+      "stack": "Symfony 5, VUE, reCAPTCHA",
       "url": "fundacjaprzystan.com"
     },
     {
@@ -150,7 +150,7 @@
     {
       "logo": "skamienia.jpg",
       "name": "Swiat Kamienia",
-      "description": "A simple company website for the composition of natural stone. We designed the appearance and created the backend with the administration panel and the frontend of the website.",
+      "description": "A simple website for the company involved in composition of natural stone. We designed the appearance and created the backend with the administration panel and the frontend of the website.",
       "stack": "Bootstrap, jQuery",
       "url": "skamienia.pl"
     },

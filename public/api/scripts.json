@@ -3,7 +3,7 @@
     {
       "logo": "notice3.png",
       "name": "Notice3",
-      "description": "All-purpose script for an online classifieds website. On the backend side, Symfony is used. On the client side, the script uses VUE and styles from Twitter Bootstrap 5. Perfect for a large advertising portal. Script intended for professional use.",
+      "description": "All-purpose script for an online classifieds website. On the backend side, Symfony is used. On the client side, the script uses VUE and styles from Twitter Bootstrap. Perfect for a large advertising portal. Script intended for professional use.",
       "url": "https://sklep.itworksbetter.net/skrypty-stron-www/1-skrypt-ogloszeniowy-notice3.html",
       "demo": "https://notice3en.itworksbetter.net"
     },
@@ -39,7 +39,7 @@
     {
       "logo": "festa2.png",
       "name": "Festa2",
-      "description": "The Festa2 script allows you to create a website with the accommodation database. It supports automatic payments in Dotpay, Przelewy24 and PayPal. It is integrated with Google Maps (via API) and reCAPTCHA.",
+      "description": "The Festa2 script allows you to create a website with the accommodation database. Supports automatic payments, e.g. in PayPal. It is integrated with Google Maps (via API) and reCAPTCHA.",
       "url": "https://sklep.itworksbetter.net/skrypty-stron-www/5-skrypt-bazy-noclegow-festa2.html",
       "demo": "https://festa2.itworksbetter.net"
     },
