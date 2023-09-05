@@ -25,9 +25,9 @@ module.exports = function (environment) {
 
     site: {
       base_url: '/',
-      title: 'IT Works Better - web applications',
+      title: 'IT Works Better - Web Applications',
       description:
-        'Designing websites and web applications. A team of Full Stack Web Developers, graphic designers and SEO specialists',
+        'Designing websites and web applications: A team of Full Stack Web Developers, graphic designers, and SEO specialists.',
       keywords:
         'websites, website design, full stack web developer, it works better, creating portals',
       image: 'assets/icons/icon-512x512.png',
