@@ -1,5 +1,3 @@
-AddHandler application/x-httpd-php80 php
-
 RewriteEngine On
 
 RewriteCond %{HTTPS} !=on

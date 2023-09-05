@@ -17,7 +17,7 @@ module('Unit | Route | projects', function (hooks) {
 
     assert.strictEqual(currentURL(), '/projects');
 
-    assert.dom('h1').hasText('Projects of web aplications');
+    assert.dom('h1').hasText('Projects of Web Aplications');
 
     assert.dom('.project').exists();
     assert.dom('.project--right a').includesText('Cargoos');
