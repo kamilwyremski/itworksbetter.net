@@ -494,6 +494,7 @@ ol {
 .project--left .thumb {
   max-width: 100%;
   transition: transform 0.2s;
+  display: block;
 }
 
 .project--left .thumb:hover {
