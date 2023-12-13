@@ -165,8 +165,8 @@ ol {
   left: 0;
   right: 0;
   padding: 5px 0;
-  background-color: rgba(255, 255, 255, 0.8);
-  box-shadow: 0 0 0.5rem rgba(129, 95, 95, .08);
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 0 0.5rem rgba(129, 95, 95, 0.2);
   z-index: 100;
 }
 
@@ -230,19 +230,20 @@ ol {
 }
 
 .navbar--burger span:nth-child(2) {
-  top: 14px;
+  top: 15px;
 }
 
 .navbar--burger span:nth-child(3) {
-  top: 25px;
+  top: 26px;
   width: 75%;
   left: 25%;
 }
 
 .navbar--burger.open span:nth-child(1) {
-  top: 13px;
+  top: 14px;
   transform: rotate(135deg);
   width: 100%;
+  left: 1px;
 }
 
 .navbar--burger.open span:nth-child(2) {
@@ -251,10 +252,10 @@ ol {
 }
 
 .navbar--burger.open span:nth-child(3) {
-  top: 13px;
+  top: 14px;
   transform: rotate(-135deg);
   width: 100%;
-  left: 0;
+  left: 1px;
 }
 
 @media(max-width: 600px) {
@@ -487,10 +488,16 @@ ol {
 
 .project--left a {
   display: flex;
+  overflow: hidden;
 }
 
 .project--left .thumb {
   max-width: 100%;
+  transition: transform 0.2s;
+}
+
+.project--left .thumb:hover {
+  transform: scale(1.1);
 }
 
 .project--right {
@@ -578,6 +585,16 @@ ol {
 
 .footer p{
   line-height: 1.4;
+}
+
+.footer-br{
+  display: none;
+}
+
+@media(max-width: 600px) {
+  .footer-br{
+    display: block;
+  }
 }
 
 /* scrollbar */

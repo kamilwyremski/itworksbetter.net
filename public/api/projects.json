@@ -8,13 +8,6 @@
       "url": "cargoos.com"
     },
     {
-      "logo": "polishexpress.jpg",
-      "name": "Polish Express",
-      "description": "We collaborated on creating one of the most popular information portals for Poles in Great Britain. The portal reaches thousands of users daily with news from the UK. Due to the high traffic, special caching mechanisms were necessary, ensuring fast page loading.",
-      "stack": "Symfony3, AngularJS",
-      "url": "en.polishexpress.co.uk"
-    },
-    {
       "logo": "coupondojo.jpg",
       "name": "Coupon Dojo",
       "description": "A multilingual website offering vouchers and discount codes for online stores across 19 countries, with tens of thousands of coupons in the database. The portal also features a built-in blog system.",
@@ -27,6 +20,13 @@
       "description": "An extensive online classifieds portal based on the Notice3 advertisement script, highly efficient, supporting thousands of advertisements and users. It boasts a modern and responsive design.",
       "stack": "PHP, Twig, Vue, Ajax, Symfony",
       "url": "twojaoferta.com.pl"
+    },
+    {
+      "logo": "shopngo.jpg",
+      "name": "Shop & Go",
+      "description": "Shop & Go is a sales platform that makes it easy to find the best fashion offers in many stores at the same time. Built on Symfony.",
+      "stack": "PHP, Twig, Vue, Ajax, Symfony",
+      "url": "shopngo.pl"
     },
     {
       "logo": "myroxylon.jpg",

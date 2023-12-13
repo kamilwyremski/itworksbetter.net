@@ -41,8 +41,9 @@
       "logo": "festa2.png",
       "name": "Festa2",
       "description": "The Festa2 script allows the creation of websites with accommodation listings. It supports automatic payments, such as PayPal, and integrates with Google Maps via API and reCAPTCHA.",
-      "url": "https://sklep.itworksbetter.net/skrypty-stron-www/5-skrypt-bazy-noclegow-festa2.html",
-      "demo": "https://festa2.itworksbetter.net"
+      "url": "https://github.com/kamilwyremski/festa2",
+      "demo": "https://festa2.itworksbetter.net",
+      "free": true
     },
     {
       "logo": "jobnotice.png",
