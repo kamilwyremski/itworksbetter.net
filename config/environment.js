@@ -30,7 +30,7 @@ module.exports = function (environment) {
         'Designing websites and web applications: A team of Full Stack Web Developers, graphic designers, and SEO specialists.',
       keywords:
         'websites, website design, full stack web developer, it works better, creating portals',
-      image: 'assets/icons/icon-512x512.png',
+      image: '/assets/icons/icon-512x512.png',
       image_width: 512,
       image_height: 512,
       email: 'info@itworksbetter.net',

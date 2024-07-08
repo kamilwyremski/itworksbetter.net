@@ -15,6 +15,13 @@
       "url": "coupondojo.com"
     },
     {
+      "logo": "tureckaprzygoda.jpg",
+      "name": "Turecka Przygoda",
+      "description": "A multilingual website with an offer of apartments, attractions, trips and transfers in Turkey. For tourists who want to visit this country. Dedicated to mobile devices.",
+      "stack": "Symfony7, PHP 8, Twig, VUE, Ajax, PWA",
+      "url": "tureckaprzygoda.com.pl"
+    },
+    {
       "logo": "twojaoferta.jpg",
       "name": "Twoja oferta",
       "description": "An extensive online classifieds portal based on the Notice3 advertisement script, highly efficient, supporting thousands of advertisements and users. It boasts a modern and responsive design.",
@@ -78,6 +85,13 @@
       "url": "gieldamam.pl"
     },
     {
+      "logo": "baterslo.jpg",
+      "name": "Baterslo.sk",
+      "description": "Online classifieds portal in Slovakia. Specialization: real estate advertisements. Based on Notice3 script",
+      "stack": "PHP, Symfony, VUE, API, Ajax",
+      "url": "baterslo.sk"
+    },
+    {
       "logo": "fundacjaprzystan.jpg",
       "name": "Przystań Foundation",
       "description": "We created the website for the Przystań Foundation, based on Symfony, featuring its own administration panel. We also handled the graphic design for both the backend and frontend.",
@@ -102,7 +116,7 @@
       "logo": "mrzetecki.jpg",
       "name": "Mateusz Rzetecki - porfolio",
       "description": "The portfolio of an SEO expert, featuring an individual custom backend and a blog. Developed based on the provided graphic design.",
-      "stack": "PHP 7, Twig3, Twitter Bootstrap 4",
+      "stack": "PHP 7, Twig3, Bootstrap",
       "url": "mrzetecki.com"
     },
     {
@@ -116,14 +130,14 @@
       "logo": "maxplus.jpg",
       "name": "MaxPlus Kalisz",
       "description": "The website of a multi-branch company from Poland, providing accounting and printing services (advertising agency). We created both the graphic design and the website itself, including the administration panel.",
-      "stack": "PHP, MySQL, jQuery, Twitter Bootstrap 3",
+      "stack": "PHP, MySQL, jQuery, Bootstrap",
       "url": "maxplus.kalisz.pl"
     },
     {
       "logo": "bioskin.jpg",
       "name": "Bioskin Kalisz",
       "description": "The website of a professional beauty and hairdressing salon, known for its fast loading and included PWA application. The backend is based on the Symfony framework.",
-      "stack": "Symfony, Twitter Bootstrap, PWA",
+      "stack": "Symfony, Bootstrap, PWA",
       "url": "bioskin-kalisz.pl"
     },
     {
@@ -139,13 +153,6 @@
       "description": "A database of press photos for photojournalists and publishers, based on the Cuadro script. It offers two types of accounts with varying functionality. We designed both the graphic interface and the website itself.",
       "stack": "Materialize",
       "url": "pressfoto.pl"
-    },
-    {
-      "logo": "ogoloshennya.jpg",
-      "name": "Ogoloshennya",
-      "description": "A trilingual website with online advertisements (in Polish, Russian, and Ukrainian), based on the Notice script. Ads can be added in one of three languages or all at once.",
-      "stack": "PHP, MySQL, jQuery",
-      "url": "ogoloshennya.pl"
     },
     {
       "logo": "skamienia.jpg",
