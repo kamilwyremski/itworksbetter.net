@@ -3,6 +3,60 @@
   padding: 0;
 }
 
+/* rubik-300 - latin_latin-ext */
+@font-face {
+  font-display: swap;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 300;
+  src: url("/assets/fonts/rubik-v28-latin_latin-ext-300.woff2") format("woff2");
+}
+/* rubik-regular - latin_latin-ext */
+@font-face {
+  font-display: swap;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/assets/fonts/rubik-v28-latin_latin-ext-regular.woff2")
+    format("woff2");
+}
+/* rubik-600 - latin_latin-ext */
+@font-face {
+  font-display: swap;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 600;
+  src: url("/assets/fonts/rubik-v28-latin_latin-ext-600.woff2") format("woff2");
+}
+
+/* montserrat-300 - latin_latin-ext */
+@font-face {
+  font-display: swap;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  src: url("/assets/fonts/montserrat-v29-latin_latin-ext-300.woff2")
+    format("woff2");
+}
+/* montserrat-regular - latin_latin-ext */
+@font-face {
+  font-display: swap;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/assets/fonts/montserrat-v29-latin_latin-ext-regular.woff2")
+    format("woff2");
+}
+/* montserrat-600 - latin_latin-ext */
+@font-face {
+  font-display: swap;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  src: url("/assets/fonts/montserrat-v29-latin_latin-ext-600.woff2")
+    format("woff2");
+}
+
 body {
   font-family: "Rubik", sans-serif;
 }
@@ -31,7 +85,7 @@ a:hover {
 }
 
 :focus {
-  outline: 2px #4cbb17 dashed;
+  outline: 2px #59d33c dashed;
 }
 
 ul {
@@ -73,18 +127,18 @@ ol {
 }
 
 .color-primary {
-  color: #4cbb17;
+  color: #59d33c;
 }
 
 .color-secondary {
-  color: #343d30;
+  color: #274242;
 }
 
 .color-third {
   color: #f4f4f4;
 }
 
-.background-secondary {
+.background-primary {
   background-color: #ededed;
 }
 
@@ -121,7 +175,7 @@ ol {
 }
 
 .header-primary {
-  background-color: #343d30;
+  background-color: #274242;
   color: #f4f4f4;
   display: inline-block;
   padding: 5px 30px;
@@ -133,7 +187,7 @@ ol {
 .header-primary:before {
   content: "";
   height: 1px;
-  background-color: #343d30;
+  background-color: #274242;
   left: -10000px;
   right: 0;
   bottom: 0;
@@ -145,7 +199,7 @@ ol {
 }
 
 .btn {
-  background-color: #4cbb17;
+  background-color: #59d33c;
   color: white;
   padding: 8px 15px;
   font-size: 1em;
@@ -181,7 +235,7 @@ ol {
 }
 
 .navbar .menu a {
-  color: #343d30;
+  color: #274242;
   padding: 10px;
   margin: 1px 5px;
   font-weight: 300px;
@@ -356,7 +410,7 @@ ol {
 
 .index--offer:hover {
   box-shadow: 0 0 0.5rem rgba(129, 95, 95, 0.2);
-  border-color: #4cbb17;
+  border-color: #59d33c;
 }
 
 .index--pricing {
@@ -366,7 +420,7 @@ ol {
   text-align: center;
   padding: 20px 0;
   background-color: white;
-  border: solid 1px #4cbb17;
+  border: solid 1px #59d33c;
 }
 
 .index--pricing .header {
@@ -379,7 +433,7 @@ ol {
 }
 
 .index--pricing .price {
-  background-color: #343d30;
+  background-color: #274242;
   color: white;
   padding: 10px;
   font-size: 1.6em;
@@ -568,8 +622,13 @@ ol {
 
 /* footer */
 .footer {
-  border-top: solid 3px #343d30;
   padding: 50px 0 20px;
+  background-color: #274242;
+  color: #fff;
+}
+
+.footer a {
+  color: #59d33c;
 }
 
 .footer h2 {

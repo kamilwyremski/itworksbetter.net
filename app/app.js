@@ -14,6 +14,6 @@ loadInitializers(App, config.modulePrefix);
 console.info(
   '%cIT %cWorks%c Better',
   'font-family: Montserrat, sans-serif; font-size: 24px;',
-  'font-family: Montserrat, sans-serif; font-size: 24px; color: #4cbb17;',
+  'font-family: Montserrat, sans-serif; font-size: 24px; color: #59d33c;',
   'font-family: Montserrat, sans-serif; font-size: 24px;',
 );

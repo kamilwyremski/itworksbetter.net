@@ -11,7 +11,7 @@ module.exports = function () {
     scope: '/',
     display: 'minimal-ui',
     background_color: '#ededed',
-    theme_color: '#4cbb17',
+    theme_color: '#59d33c',
     orientation: 'any',
     icons: [
       {
@@ -140,7 +140,7 @@ module.exports = function () {
       statusBarStyle: 'black-translucent',
     },
     ms: {
-      tileColor: '#343d30',
+      tileColor: '#274242',
     },
   };
 };

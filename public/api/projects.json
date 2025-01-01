@@ -15,13 +15,6 @@
       "url": "coupondojo.com"
     },
     {
-      "logo": "tureckaprzygoda.jpg",
-      "name": "Turecka Przygoda",
-      "description": "A multilingual website with an offer of apartments, attractions, trips and transfers in Turkey. For tourists who want to visit this country. Dedicated to mobile devices.",
-      "stack": "Symfony7, PHP 8, Twig, VUE, Ajax, PWA",
-      "url": "tureckaprzygoda.com.pl"
-    },
-    {
       "logo": "twojaoferta.jpg",
       "name": "Twoja oferta",
       "description": "An extensive online classifieds portal based on the Notice3 advertisement script, highly efficient, supporting thousands of advertisements and users. It boasts a modern and responsive design.",
@@ -34,6 +27,13 @@
       "description": "Shop & Go is a sales platform that makes it easy to find the best fashion offers in many stores at the same time. Built on Symfony.",
       "stack": "PHP, Twig, Vue, Ajax, Symfony",
       "url": "shopngo.pl"
+    },
+    {
+      "logo": "choose.jpg",
+      "name": "Choose.tv",
+      "description": "Choose.tv features independent RTV reviews, making it easy to choose an LCD / OLED / Mini-LED TV for any user. Page built on JavaScript framework Svelte based on graphic design.",
+      "stack": "Svelte, TypeScript, Ajax",
+      "url": "choose.tv"
     },
     {
       "logo": "myroxylon.jpg",
