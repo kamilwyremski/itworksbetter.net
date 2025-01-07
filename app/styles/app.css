@@ -647,6 +647,10 @@ ol {
   line-height: 1.4;
 }
 
+.footer .small a{
+  color: #FFF;
+}
+
 .footer-br {
   display: none;
 }
