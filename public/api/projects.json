@@ -8,6 +8,13 @@
       "url": "cargoos.com"
     },
     {
+      "logo": "whoiscalling.jpg",
+      "name": "Who is Calling?",
+      "description": "Multilingual website to check phone numbers from all countries in the world. Created in PHP framework Symfony. Created based on graphic design.",
+      "stack": "Symfony 7, PHP 8, Twig, VUE, Ajax, Open AI",
+      "url": "whoiscalling.io"
+    },
+    {
       "logo": "coupondojo.jpg",
       "name": "Coupon Dojo",
       "description": "A multilingual website offering vouchers and discount codes for online stores across 19 countries, with tens of thousands of coupons in the database. The portal also features a built-in blog system.",

@@ -232,6 +232,7 @@ ol {
   max-height: 35px;
   display: block;
   margin-top: 3px;
+  width: auto;
 }
 
 .navbar .menu a {
@@ -343,7 +344,7 @@ ol {
   .navbar .logo {
     width: 160px;
     height: auto;
-    margin-top: 10px;
+    margin-top: 12px;
   }
 }
 
