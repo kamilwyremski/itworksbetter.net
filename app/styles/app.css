@@ -350,7 +350,7 @@ ol {
 
 /* index page */
 .index--header {
-  background-color: #ededed;
+  background-color: #000;
   background-image: url("/assets/images/index-background.jpg");
   background-image: url("/assets/images/index-background.webp");
   background-repeat: no-repeat;
