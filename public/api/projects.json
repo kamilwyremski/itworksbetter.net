@@ -15,13 +15,6 @@
       "url": "whoiscalling.io"
     },
     {
-      "logo": "coupondojo.jpg",
-      "name": "Coupon Dojo",
-      "description": "A multilingual website offering vouchers and discount codes for online stores across 19 countries, with tens of thousands of coupons in the database. The portal also features a built-in blog system.",
-      "stack": "PHP 8, Twig, VUE, Ajax",
-      "url": "coupondojo.com"
-    },
-    {
       "logo": "twojaoferta.jpg",
       "name": "Twoja oferta",
       "description": "An extensive online classifieds portal based on the Notice3 advertisement script, highly efficient, supporting thousands of advertisements and users. It boasts a modern and responsive design.",
@@ -85,13 +78,6 @@
       "url": "trafnaokazja.pl"
     },
     {
-      "logo": "gieldamam.jpg",
-      "name": "Gieldamam",
-      "description": "A thematic classifieds portal for women, based on the Notice 2 announcement script, developed according to provided graphic design.",
-      "stack": "PHP, jQuery, AngularJS, API",
-      "url": "gieldamam.pl"
-    },
-    {
       "logo": "baterslo.jpg",
       "name": "Baterslo.sk",
       "description": "Online classifieds portal in Slovakia. Specialization: real estate advertisements. Based on Notice3 script",
@@ -141,13 +127,6 @@
       "url": "maxplus.kalisz.pl"
     },
     {
-      "logo": "bioskin.jpg",
-      "name": "Bioskin Kalisz",
-      "description": "The website of a professional beauty and hairdressing salon, known for its fast loading and included PWA application. The backend is based on the Symfony framework.",
-      "stack": "Symfony, Bootstrap, PWA",
-      "url": "bioskin-kalisz.pl"
-    },
-    {
       "logo": "upati.jpg",
       "name": "Patrycja Wyremska - portfolio",
       "description": "The portfolio of one of our developers, specializing in creating websites on WordPress and PrestaShop, as well as in SEO and writing texts and articles for websites.",
@@ -174,13 +153,6 @@
       "description": "One of the largest advertising portals for Poles living in Chicago, USA, based on our Notice script. It sees the addition of dozens of new ads every day and serves hundreds of users.",
       "stack": "PHP, MySQL, jQuery",
       "url": "chicagoogloszenia.com"
-    },
-    {
-      "logo": "oglaszamy24h.jpg",
-      "name": "Oglaszamy 24h",
-      "description": "A website for free classified ads in various categories, based on the advertisement script Notice and created using a graphic design.",
-      "stack": "PHP, MySQL, jQuery",
-      "url": "oglaszamy24h.pl"
     },
     {
       "logo": "mieszkaniawstylu.jpg",

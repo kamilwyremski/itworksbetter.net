@@ -50,8 +50,9 @@
       "logo": "jobnotice.png",
       "name": "JobNotice",
       "description": "JobNotice is a modern script for websites featuring job offers and advertisements. It enables the creation of local, national, or international websites and offers opportunities for passive income through ads and promoting classifieds.",
-      "url": "https://sklep.itworksbetter.net/skrypty-stron-www/8-skrypt-ofert-pracy-jobnotice.html",
-      "demo": "https://jobnotice.itworksbetter.net"
+      "url": "https://github.com/kamilwyremski/jobnotice",
+      "demo": "https://jobnotice.itworksbetter.net",
+      "free": true
     },
     {
       "logo": "corta.png",
