@@ -355,7 +355,7 @@ ol {
   background-image: url("/assets/images/index-background.webp");
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 220px 0 170px;
+  padding: 300px 0 60px;
   color: #f4f4f4;
   position: relative;
 }
@@ -374,6 +374,10 @@ ol {
 
 .index--header--title {
   font-size: 4em;
+}
+
+.index--header--subtitle{
+  font-weight: 400;
 }
 
 .index--header hr {
@@ -438,7 +442,7 @@ ol {
 
 @media (max-width: 900px) {
   .index--header {
-    padding: 150px 0 120px;
+    padding: 150px 0 30px;
   }
 
   .index--offer {

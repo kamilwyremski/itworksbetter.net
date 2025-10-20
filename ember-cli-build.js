@@ -13,6 +13,9 @@ module.exports = function (defaults) {
     fingerprint: {
       extensions: ['js', 'css'],
     },
+    minifyJS: {
+      enabled: true,
+    },
   });
   return app.toTree();
 };
