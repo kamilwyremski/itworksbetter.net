@@ -59,6 +59,8 @@
 
 body {
   font-family: "Rubik", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 p,
@@ -73,6 +75,7 @@ h1,
 h2,
 h3 {
   font-family: "Montserrat", sans-serif;
+  text-wrap: balance;
 }
 
 a {
@@ -208,7 +211,7 @@ ol {
 }
 
 .btn:hover {
-  background-color: #0E2929;
+  background-color: #0e2929;
   color: white;
 }
 
@@ -376,7 +379,7 @@ ol {
   font-size: 4em;
 }
 
-.index--header--subtitle{
+.index--header--subtitle {
   font-weight: 400;
 }
 
@@ -641,8 +644,8 @@ ol {
   line-height: 1.4;
 }
 
-.footer .small a{
-  color: #FFF;
+.footer .small a {
+  color: #fff;
 }
 
 .footer-br {
