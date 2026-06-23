@@ -10,9 +10,9 @@
     {
       "logo": "whoiscalling.jpg",
       "name": "Who is Calling?",
-      "description": "Multilingual website to check phone numbers from all countries in the world. Created in PHP framework Symfony. Created based on graphic design.",
+      "description": "A website to check phone numbers from all countries in the world. Created in PHP framework Symfony. Created based on graphic design.",
       "stack": "Symfony 7, PHP 8, Twig, VUE, Ajax, Open AI",
-      "url": "whoiscalling.io"
+      "url": "whoiscalling.pl"
     },
     {
       "logo": "twojaoferta.jpg",
@@ -34,13 +34,6 @@
       "description": "Choose.tv features independent RTV reviews, making it easy to choose an LCD / OLED / Mini-LED TV for any user. Page built on JavaScript framework Svelte based on graphic design.",
       "stack": "Svelte, TypeScript, Ajax",
       "url": "choose.tv"
-    },
-    {
-      "logo": "myroxylon.jpg",
-      "name": "Myroxylon",
-      "description": "A multilingual website based on WordPress and a purchased theme, developed for the German company Myroxylon GmbH, specializing in creating value through alternative investment projects.",
-      "stack": "Wordpress",
-      "url": "myroxylon.de"
     },
     {
       "logo": "multino.jpg",
@@ -79,10 +72,10 @@
     },
     {
       "logo": "baterslo.jpg",
-      "name": "Baterslo.sk",
-      "description": "Online classifieds portal in Slovakia. Specialization: real estate advertisements. Based on Notice3 script",
+      "name": "Baterslo.pl",
+      "description": "Online classifieds portal in Poland. Specialization: real estate advertisements. Based on Notice3 script",
       "stack": "PHP, Symfony, VUE, API, Ajax",
-      "url": "baterslo.sk"
+      "url": "baterslo.pl"
     },
     {
       "logo": "fundacjaprzystan.jpg",
@@ -160,13 +153,6 @@
       "description": "A real estate classifieds site, based on a dedicated script for announcements and created using a graphic design.",
       "stack": "PHP, AngularJS, Bootstrap, jQuery",
       "url": "mieszkaniawstylu.pl"
-    },
-    {
-      "logo": "piknik-event.jpg",
-      "name": "Picnic Event",
-      "description": "A website for a company specializing in events, company picnics, conferences, trainings, promotions, and other services, built on Wordpress.",
-      "stack": "Wordpress",
-      "url": "piknik-event.pl"
     },
     {
       "logo": "odnovaclinic.jpg",

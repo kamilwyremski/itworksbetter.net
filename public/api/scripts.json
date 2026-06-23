@@ -11,8 +11,9 @@
       "logo": "motonotice.png",
       "name": "MotoNotice",
       "description": "An advertising script tailored to the automotive industry. It allows the creation of local, national, or international websites with extensive functionality and user-friendly administration.",
-      "url": "https://sklep.itworksbetter.net/skrypty-stron-www/4-skrypt-ogloszen-motoryzacyjnych-motonotice.html",
-      "demo": "https://motonotice.itworksbetter.net"
+      "url": "https://github.com/kamilwyremski/motonotice",
+      "demo": "https://motonotice.itworksbetter.net",
+      "free": true
     },
     {
       "logo": "demoty2.png",
