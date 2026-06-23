@@ -1,4 +1,7 @@
 <base href="{{this.model.base_url}}">
+{{#if this.model.canonical}}
+<link rel="canonical" href="{{this.model.canonical}}">
+{{/if}}
 
 <title>{{this.model.title}}</title>
 <meta name="description" content="{{this.model.description}}" >

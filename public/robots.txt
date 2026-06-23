@@ -1,4 +1,32 @@
 User-agent: *
 Allow: /
 
+# AI crawlers - full access, including llms.txt and agents.md
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: DeepSeekBot
+Allow: /
+
 Sitemap: https://itworksbetter.net/sitemap.xml

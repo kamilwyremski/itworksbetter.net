@@ -13,5 +13,6 @@ export default class ApplicationRoute extends Route {
     this.headData.image = config.site.image;
     this.headData.image_width = config.site.image_width;
     this.headData.image_height = config.site.image_height;
+    this.headData.canonical = config.site.base_url + '/'
   }
 }

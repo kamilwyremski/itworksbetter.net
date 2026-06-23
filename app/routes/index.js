@@ -8,5 +8,6 @@ export default class IndexRoute extends Route {
   afterModel() {
     this.headData.title = config.site.title;
     this.headData.description = config.site.description;
+    this.headData.canonical = config.site.base_url + '/'
   }
 }

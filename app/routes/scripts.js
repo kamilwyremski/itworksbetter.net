@@ -9,6 +9,7 @@ export default class ScriptsRoute extends Route {
   afterModel() {
     this.headData.title = 'Website Scripts - IT Works Better';
     this.headData.description = 'Website Scripts. ' + config.site.description;
+    this.headData.canonical = config.site.base_url + '/scripts';
   }
 
   model() {

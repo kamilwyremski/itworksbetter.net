@@ -4,4 +4,5 @@ import { tracked } from '@glimmer/tracking';
 export default class HeadDataService extends Service {
   @tracked title;
   @tracked description;
+  @tracked canonical;
 }

@@ -8,5 +8,6 @@ export default class PrivacyPolicyRoute extends Route {
   afterModel() {
     this.headData.title = 'Privacy Policy - IT Works Better';
     this.headData.description = 'Privacy Policy. ' + config.site.description;
+    this.headData.canonical = config.site.base_url + '/privacy-policy';
   }
 }

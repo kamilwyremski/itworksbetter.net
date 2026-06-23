@@ -1,0 +1,45 @@
+# IT Works Better
+
+> Full-stack web development agency offering custom websites, web and mobile applications, graphic design, SEO services, and pre-made website scripts. Founded by Kamil Wyremski.
+
+## About
+
+IT Works Better is a team of programmers, graphic designers, and SEO specialists creating backends and frontends for web and mobile applications using technologies including Symfony, Laravel, React, Angular, Vue, Svelte, and Ember. Projects are SEO-compliant.
+
+Contact: info@itworksbetter.net
+
+## Services
+
+- **Websites** – WordPress and custom dedicated projects
+- **Advertising Portals / Classifieds** – Ready-made scripts for classifieds, real estate, automotive, job boards
+- **Backend Web Applications** – PHP (Symfony, Laravel), Node.js + Express
+- **Frontend Web Applications** – Angular, React, Vue, Ember (SEO-friendly)
+- **Graphic Design** – Logos and web graphics (Photoshop, Figma)
+- **SEO** – Content creation and optimization for search engines
+
+## Pricing
+
+| Service | Price |
+|---|---|
+| Website Script | 120–200 EUR |
+| Company Website (WordPress) | 200–600 EUR |
+| Individual Web Application | from 1000 EUR |
+| Graphic Design | from 100 EUR |
+| SEO (monthly) | from 200 EUR |
+
+All prices are negotiable. VAT invoices issued.
+
+## Website Scripts
+
+Ready-made scripts sold since 2015. Over 500 copies sold.
+
+- [Browse scripts](https://itworksbetter.net/scripts)
+- Purchase in [online shop](https://sklep.itworksbetter.net/)
+- Free/older projects on [GitHub](https://github.com/kamilwyremski)
+
+## Pages
+
+- [Home](https://itworksbetter.net/)
+- [Scripts](https://itworksbetter.net/scripts)
+- [Projects](https://itworksbetter.net/projects)
+- [Privacy Policy](https://itworksbetter.net/privacy-policy)
