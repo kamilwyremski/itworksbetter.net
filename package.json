@@ -38,7 +38,7 @@
     "@glimmer/component": "^1.1.2",
     "@glimmer/tracking": "^1.1.2",
     "concurrently": "^8.1.0",
-    "ember-auto-import": "^2.7.4",
+    "ember-auto-import": "^2.13.1",
     "ember-cli": "~5.10.0",
     "ember-cli-babel": "^8.3.1",
     "ember-cli-fastboot": "^4.1.5",
@@ -61,8 +61,7 @@
     "prember": "^2.1.0",
     "prettier": "^3.3.2",
     "qunit": "^2.21.0",
-    "qunit-dom": "^3.2.0",
-    "webpack": "^5.92.1"
+    "qunit-dom": "^3.2.0"
   },
   "engines": {
     "node": "14.* || 16.* || >= 18"
