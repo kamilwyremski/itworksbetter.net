@@ -11,6 +11,7 @@ export default class ProjectsRoute extends Route {
     this.headData.description =
       'Web Application Projects. ' + config.site.description;
     this.headData.canonical = config.site.base_url + '/projects';
+    this.headData.applyToDocument();
   }
 
   model() {
