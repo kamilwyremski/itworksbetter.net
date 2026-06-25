@@ -1,6 +1,7 @@
 <base href="{{this.model.base_url}}">
 {{#if this.model.canonical}}
 <link rel="canonical" href="{{this.model.canonical}}">
+<link rel="alternate" type="text/markdown" href="{{concat this.model.canonical '.md'}}" title="{{this.model.title}} - Markdown source">
 {{/if}}
 
 <title>{{this.model.title}}</title>

@@ -17,6 +17,9 @@
     "test": "tests"
   },
   "scripts": {
+    "generate:markdown": "node scripts/generate-markdown-sources.js",
+    "prebuild": "npm run generate:markdown",
+    "prestart": "npm run generate:markdown",
     "build": "ember build --environment=production",
     "lint": "concurrently \"npm:lint:*(!fix)\" --names \"lint:\"",
     "lint:fix": "concurrently \"npm:lint:*:fix\" --names \"fix:\"",

@@ -2,6 +2,19 @@
 
 > Full-stack web development agency offering custom websites, web and mobile applications, graphic design, SEO services, and pre-made website scripts. Founded by Kamil Wyremski.
 
+## Markdown Source Endpoints
+
+This site exposes Markdown source for main content pages using URL suffixes:
+
+- URL suffix: append `.md` to canonical page URLs.
+
+Examples:
+
+- https://itworksbetter.net/index.md
+- https://itworksbetter.net/scripts.md
+- https://itworksbetter.net/projects.md
+- https://itworksbetter.net/privacy-policy.md
+
 ## About
 
 IT Works Better is a team of programmers, graphic designers, and SEO specialists creating backends and frontends for web and mobile applications using technologies including Symfony, Laravel, React, Angular, Vue, Svelte, and Ember. Projects are SEO-compliant.
