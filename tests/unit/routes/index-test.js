@@ -16,7 +16,7 @@ module('Unit | Route | index', function (hooks) {
     assert.strictEqual(currentURL(), '/');
     assert.dom('h1').hasText('IT Works Better');
 
-    assert.dom('h2').hasText('Creating Web Applications and Websites');
+    assert.dom('h2').hasText("It's just not enough that it works");
     await click('.menu a:last-child');
 
     assert.strictEqual(currentURL(), '/projects');
