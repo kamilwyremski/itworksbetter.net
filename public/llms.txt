@@ -1,58 +1,24 @@
 # IT Works Better
 
-> Full-stack web development agency offering custom websites, web and mobile applications, graphic design, SEO services, and pre-made website scripts. Founded by Kamil Wyremski.
+> Web development agency building websites and web applications, with ready-made scripts and selected portfolio projects.
 
-## Markdown Source Endpoints
+IT Works Better provides custom frontend and backend development, SEO-oriented builds, and commercial and open-source website scripts.
 
-This site exposes Markdown source for main content pages using URL suffixes:
+## Main Pages
 
-- URL suffix: append `.md` to canonical page URLs.
+- [Home](https://itworksbetter.net/): Company overview, services, pricing, and contact.
+- [Scripts](https://itworksbetter.net/scripts): Catalog of ready-made website scripts.
+- [Projects](https://itworksbetter.net/projects): Portfolio of delivered projects and technologies.
+- [Privacy Policy](https://itworksbetter.net/privacy-policy): Privacy and data-handling policy.
 
-Examples:
+## Markdown Sources
 
-- https://itworksbetter.net/index.md
-- https://itworksbetter.net/scripts.md
-- https://itworksbetter.net/projects.md
-- https://itworksbetter.net/privacy-policy.md
+- [Home (Markdown)](https://itworksbetter.net/index.md): Markdown source for homepage content.
+- [Scripts (Markdown)](https://itworksbetter.net/scripts.md): Markdown source generated from script data.
+- [Projects (Markdown)](https://itworksbetter.net/projects.md): Markdown source generated from project data.
+- [Privacy Policy (Markdown)](https://itworksbetter.net/privacy-policy.md): Markdown source generated from policy template.
 
-## About
+## Key External Links
 
-IT Works Better is a team of programmers, graphic designers, and SEO specialists creating backends and frontends for web and mobile applications using technologies including Symfony, Laravel, React, Angular, Vue, Svelte, and Ember. Projects are SEO-compliant.
-
-Contact: info@itworksbetter.net
-
-## Services
-
-- **Websites** – WordPress and custom dedicated projects
-- **Advertising Portals / Classifieds** – Ready-made scripts for classifieds, real estate, automotive, job boards
-- **Backend Web Applications** – PHP (Symfony, Laravel), Node.js + Express
-- **Frontend Web Applications** – Angular, React, Vue, Ember (SEO-friendly)
-- **Graphic Design** – Logos and web graphics (Photoshop, Figma)
-- **SEO** – Content creation and optimization for search engines
-
-## Pricing
-
-| Service | Price |
-|---|---|
-| Website Script | 120–200 EUR |
-| Company Website (WordPress) | 200–600 EUR |
-| Individual Web Application | from 1000 EUR |
-| Graphic Design | from 100 EUR |
-| SEO (monthly) | from 200 EUR |
-
-All prices are negotiable. VAT invoices issued.
-
-## Website Scripts
-
-Ready-made scripts sold since 2015. Over 500 copies sold.
-
-- [Browse scripts](https://itworksbetter.net/scripts)
-- Purchase in [online shop](https://sklep.itworksbetter.net/)
-- Free/older projects on [GitHub](https://github.com/kamilwyremski)
-
-## Pages
-
-- [Home](https://itworksbetter.net/)
-- [Scripts](https://itworksbetter.net/scripts)
-- [Projects](https://itworksbetter.net/projects)
-- [Privacy Policy](https://itworksbetter.net/privacy-policy)
+- [Online Shop](https://sklep.itworksbetter.net/): Purchase commercial website scripts.
+- [GitHub](https://github.com/kamilwyremski): Open-source and legacy script repositories.

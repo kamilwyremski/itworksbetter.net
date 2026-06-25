@@ -13,7 +13,11 @@
     </div>
 
     <p class="mb-2">IT Works Better<br>VAT: PL7891708358<br><a href="mailto:{{env "email"}}" title="Write to us">{{env "email"}}</a></p>
-    <p class="mb-5 footer-privacy-policy"><LinkTo @route="privacy-policy" title="Privacy Policy of IT Works Better">Privacy Policy</LinkTo></p>
+    <p class="mb-5 footer-privacy-policy">
+      <LinkTo @route="privacy-policy" title="Privacy Policy of IT Works Better">Privacy Policy</LinkTo>
+      |
+      <a href="/llms.txt" title="LLMs.txt for IT Works Better">llms.txt</a>
+    </p>
     <p class="small">Project 2020 - 2026 by <a href="https://wyremski.pl/en" title="Full Stack Web Developer">Kamil Wyremski</a>.<br class="footer-br"/> All rights reserved</p>
   </div>
 </footer>
