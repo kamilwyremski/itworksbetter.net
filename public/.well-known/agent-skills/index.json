@@ -1,0 +1,19 @@
+{
+  "$schema": "https://agent-skills.dev/schema/v0.2.0/agent-skills-index.schema.json",
+  "skills": [
+    {
+      "name": "itworksbetter-site-overview",
+      "type": "documentation",
+      "description": "Site scope, what agents can and cannot do, and key URLs.",
+      "url": "https://itworksbetter.net/agents.md",
+      "sha256": "ba5e9f8760141963c0104656d738b2a2bbe18ab0235a95a92f4f93496e8c6d83"
+    },
+    {
+      "name": "itworksbetter-llms-index",
+      "type": "documentation",
+      "description": "Curated map of the most important pages and markdown sources.",
+      "url": "https://itworksbetter.net/llms.txt",
+      "sha256": "fa113a13bedd1b82cb0dc81f16ffd4c15a75c51fc3fde84e307c001cc55c231c"
+    }
+  ]
+}

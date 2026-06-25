@@ -2,6 +2,13 @@ RewriteEngine On
 
 RewriteRule ^index\.html$ - [L]
 
+# Markdown negotiation for homepage only
+
+RewriteCond %{HTTP:Accept} text/markdown [NC]
+RewriteCond %{REQUEST_URI} ^/?$
+RewriteCond %{DOCUMENT_ROOT}/index.md -f
+RewriteRule ^$ /index.md [L,E=MD_NEGOTIATED:1,E=MD_CONTENT_LOCATION:/index.md]
+
 RewriteRule ^skrypty/?$ https://itworksbetter.net/scripts [L,R=301]
 RewriteRule ^projekty/?$ https://itworksbetter.net/projects [L,R=301]
 
@@ -78,9 +85,18 @@ AddType 'application/json; charset=UTF-8' .webmanifest
 AddType text/markdown .md
 AddCharset UTF-8 .md
 
+<Files "api-catalog">
+ForceType application/linkset+json
+</Files>
+
 # Ensure HTTPS is used and enable HSTS without including subdomains
 
 <IfModule mod_headers.c>
+    Header always merge Vary "Accept"
+    Header always set Content-Location "%{MD_CONTENT_LOCATION}e" env=MD_NEGOTIATED
+    Header always append Link "</.well-known/api-catalog>; rel=\"api-catalog\""
+    Header always append Link "</agents.md>; rel=\"service-doc\"; type=\"text/markdown\""
+    Header always append Link "</llms.txt>; rel=\"service-doc\"; type=\"text/markdown\""
     Header always set Strict-Transport-Security "max-age=31536000"
 </IfModule>
 
