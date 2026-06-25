@@ -1,3 +1,4 @@
+/* eslint-env node */
 const fs = require('fs');
 const path = require('path');
 
@@ -78,7 +79,10 @@ function upsertHeadBlock(html, block) {
   const endMarker = '<!-- dynamic-head:end -->';
 
   if (html.includes(startMarker) && html.includes(endMarker)) {
-    return html.replace(new RegExp(`${startMarker}[\\s\\S]*?${endMarker}`), block);
+    return html.replace(
+      new RegExp(`${startMarker}[\\s\\S]*?${endMarker}`),
+      block,
+    );
   }
 
   return html.replace('</head>', `${block}\n</head>`);

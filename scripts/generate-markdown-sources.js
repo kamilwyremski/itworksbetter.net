@@ -1,3 +1,4 @@
+/* eslint-env node */
 const fs = require('node:fs');
 const path = require('node:path');
 
@@ -83,8 +84,9 @@ function generateProjectsMarkdown() {
     '',
     '## Selected projects',
     '',
-    ...projects.map((project) =>
-      `- ${project.name} - https://${project.url} - Stack: ${project.stack}`
+    ...projects.map(
+      (project) =>
+        `- ${project.name} - https://${project.url} - Stack: ${project.stack}`,
     ),
     '',
   ].join('\n');
@@ -119,7 +121,12 @@ function htmlToMarkdown(html) {
 }
 
 function generatePrivacyPolicyMarkdown() {
-  const templatePath = path.join(rootDir, 'app', 'templates', 'privacy-policy.hbs');
+  const templatePath = path.join(
+    rootDir,
+    'app',
+    'templates',
+    'privacy-policy.hbs',
+  );
   const sourceHtml = fs.readFileSync(templatePath, 'utf8');
 
   const frontmatter = buildFrontmatter({
@@ -139,7 +146,10 @@ function generatePrivacyPolicyMarkdown() {
 
   markdownBody = `# Privacy Policy\n\n${markdownBody}`;
 
-  writeFile(path.join(publicDir, 'privacy-policy.md'), `${frontmatter}${markdownBody}\n`);
+  writeFile(
+    path.join(publicDir, 'privacy-policy.md'),
+    `${frontmatter}${markdownBody}\n`,
+  );
 }
 
 function main() {
@@ -148,7 +158,7 @@ function main() {
   generatePrivacyPolicyMarkdown();
   // eslint-disable-next-line no-console
   console.log(
-    'Generated public/scripts.md, public/projects.md, and public/privacy-policy.md.'
+    'Generated public/scripts.md, public/projects.md, and public/privacy-policy.md.',
   );
 }
 

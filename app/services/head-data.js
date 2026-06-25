@@ -26,7 +26,9 @@ export default class HeadDataService extends Service {
     const keywords = this.keywords || '';
     const canonical = this.canonical || '';
     const baseUrl = this.base_url || '/';
-    const imagePath = this.image ? `${baseUrl.replace(/\/$/, '')}/${String(this.image).replace(/^\//, '')}` : '';
+    const imagePath = this.image
+      ? `${baseUrl.replace(/\/$/, '')}/${String(this.image).replace(/^\//, '')}`
+      : '';
 
     document.title = title;
 
@@ -44,8 +46,16 @@ export default class HeadDataService extends Service {
     this.#setMetaByProperty(head, 'og:title', title);
     this.#setMetaByProperty(head, 'og:image', imagePath);
     this.#setMetaByProperty(head, 'og:image:secure_url', imagePath);
-    this.#setMetaByProperty(head, 'og:image:width', this.image_width ? String(this.image_width) : '');
-    this.#setMetaByProperty(head, 'og:image:height', this.image_height ? String(this.image_height) : '');
+    this.#setMetaByProperty(
+      head,
+      'og:image:width',
+      this.image_width ? String(this.image_width) : '',
+    );
+    this.#setMetaByProperty(
+      head,
+      'og:image:height',
+      this.image_height ? String(this.image_height) : '',
+    );
     this.#setMetaByProperty(head, 'og:description', description);
     this.#setMetaByProperty(head, 'og:type', 'website');
     this.#setMetaByProperty(head, 'og:site_name', title);
@@ -80,7 +90,9 @@ export default class HeadDataService extends Service {
   }
 
   #setMetaByProperty(head, property, content) {
-    let el = head.querySelector(`meta[property="${property}"][data-dynamic-head="1"]`);
+    let el = head.querySelector(
+      `meta[property="${property}"][data-dynamic-head="1"]`,
+    );
     if (!el) {
       el = document.createElement('meta');
       el.setAttribute('property', property);
@@ -102,7 +114,9 @@ export default class HeadDataService extends Service {
   }
 
   #setAlternateMarkdown(head, canonical, title) {
-    let el = head.querySelector('link[rel="alternate"][type="text/markdown"][data-dynamic-head="1"]');
+    let el = head.querySelector(
+      'link[rel="alternate"][type="text/markdown"][data-dynamic-head="1"]',
+    );
     if (!el) {
       el = document.createElement('link');
       el.setAttribute('rel', 'alternate');
