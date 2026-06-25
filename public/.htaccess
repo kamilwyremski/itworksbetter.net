@@ -94,9 +94,9 @@ ForceType application/linkset+json
 <IfModule mod_headers.c>
     Header always merge Vary "Accept"
     Header always set Content-Location "%{MD_CONTENT_LOCATION}e" env=MD_NEGOTIATED
-    Header always append Link "</.well-known/api-catalog>; rel=\"api-catalog\""
-    Header always append Link "</agents.md>; rel=\"service-doc\"; type=\"text/markdown\""
-    Header always append Link "</llms.txt>; rel=\"service-doc\"; type=\"text/markdown\""
+    Header always append Link '</.well-known/api-catalog>; rel="api-catalog"'
+    Header always append Link '</agents.md>; rel="service-doc"; type="text/markdown"'
+    Header always append Link '</llms.txt>; rel="service-doc"; type="text/markdown"'
     Header always set Strict-Transport-Security "max-age=31536000"
 </IfModule>
 
@@ -134,6 +134,6 @@ ForceType application/linkset+json
 
 <IfModule mod_headers.c>
     <FilesMatch "\.(html?)$">
-        Header always set No-Vary-Search "params=(\"utm_source\" \"utm_medium\" \"utm_campaign\" \"utm_term\" \"utm_content\" \"gclid\" \"fbclid\"), key-order"
+        Header always set No-Vary-Search 'params=("utm_source" "utm_medium" "utm_campaign" "utm_term" "utm_content" "gclid" "fbclid"), key-order'
     </FilesMatch>
 </IfModule>
