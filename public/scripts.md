@@ -1,7 +1,7 @@
 ---
 title: Website Scripts - IT Works Better
 url: https://itworksbetter.net/scripts
-updated: 2026-06-25
+updated: 2026-11-10
 sources:
   - app/templates/scripts.hbs
   - public/api/scripts.json

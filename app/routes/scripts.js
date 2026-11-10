@@ -1,10 +1,11 @@
 import Route from '@ember/routing/route';
-import { inject as service } from '@ember/service';
-import fetch from 'fetch';
+import { service } from '@ember/service';
+import fetch from 'itworksbetter/utils/fetch';
 import config from 'itworksbetter/config/environment';
 
 export default class ScriptsRoute extends Route {
   @service headData;
+  @service fastboot;
 
   afterModel() {
     this.headData.title = 'Website Scripts - IT Works Better';
@@ -14,7 +15,7 @@ export default class ScriptsRoute extends Route {
   }
 
   model() {
-    return fetch('/api/scripts.json')
+    return fetch('/api/scripts.json', this.fastboot)
       .then((res) => res.json())
       .then((json) => json.data);
   }

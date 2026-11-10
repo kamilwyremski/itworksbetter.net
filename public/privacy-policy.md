@@ -1,7 +1,7 @@
 ---
 title: Privacy Policy - IT Works Better
 url: https://itworksbetter.net/privacy-policy
-updated: 2026-06-25
+updated: 2026-11-10
 sources:
   - app/templates/privacy-policy.hbs
 licence: All rights reserved

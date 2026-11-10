@@ -8,27 +8,6 @@
       "url": "cargoos.com"
     },
     {
-      "logo": "whoiscalling.jpg",
-      "name": "Who is Calling?",
-      "description": "A website to check phone numbers from all countries in the world. Created in PHP framework Symfony. Created based on graphic design.",
-      "stack": "Symfony 7, PHP 8, Twig, VUE, Ajax, Open AI",
-      "url": "whoiscalling.pl"
-    },
-    {
-      "logo": "twojaoferta.jpg",
-      "name": "Twoja oferta",
-      "description": "An extensive online classifieds portal based on the Notice3 advertisement script, highly efficient, supporting thousands of advertisements and users. It boasts a modern and responsive design.",
-      "stack": "PHP, Twig, Vue, Ajax, Symfony",
-      "url": "twojaoferta.com.pl"
-    },
-    {
-      "logo": "shopngo.jpg",
-      "name": "Shop & Go",
-      "description": "Shop & Go is a sales platform that makes it easy to find the best fashion offers in many stores at the same time. Built on Symfony.",
-      "stack": "PHP, Twig, Vue, Ajax, Symfony",
-      "url": "shopngo.pl"
-    },
-    {
       "logo": "choose.jpg",
       "name": "Choose.tv",
       "description": "Choose.tv features independent RTV reviews, making it easy to choose an LCD / OLED / Mini-LED TV for any user. Page built on JavaScript framework Svelte based on graphic design.",
@@ -99,13 +78,6 @@
       "url": "blog.wyremski.pl"
     },
     {
-      "logo": "mrzetecki.jpg",
-      "name": "Mateusz Rzetecki - porfolio",
-      "description": "The portfolio of an SEO expert, featuring an individual custom backend and a blog. Developed based on the provided graphic design.",
-      "stack": "PHP 7, Twig3, Bootstrap",
-      "url": "mrzetecki.com"
-    },
-    {
       "logo": "strefa.jpg",
       "name": "Strefa.co.uk",
       "description": "One of the first advertising portals for Poles living in Great Britain, based on the Notice script. It serves hundreds of users daily and contains tens of thousands of ads in its database.",
@@ -127,13 +99,6 @@
       "url": "upati.pl"
     },
     {
-      "logo": "pressfoto.jpg",
-      "name": "PressFoto",
-      "description": "A database of press photos for photojournalists and publishers, based on the Cuadro script. It offers two types of accounts with varying functionality. We designed both the graphic interface and the website itself.",
-      "stack": "Materialize",
-      "url": "pressfoto.pl"
-    },
-    {
       "logo": "skamienia.jpg",
       "name": "Swiat Kamienia",
       "description": "A simple website for a company involved in the composition of natural stone. We designed the appearance and created both the backend with the administration panel and the frontend of the website.",
@@ -146,13 +111,6 @@
       "description": "One of the largest advertising portals for Poles living in Chicago, USA, based on our Notice script. It sees the addition of dozens of new ads every day and serves hundreds of users.",
       "stack": "PHP, MySQL, jQuery",
       "url": "chicagoogloszenia.com"
-    },
-    {
-      "logo": "mieszkaniawstylu.jpg",
-      "name": "Flats in Style",
-      "description": "A real estate classifieds site, based on a dedicated script for announcements and created using a graphic design.",
-      "stack": "PHP, AngularJS, Bootstrap, jQuery",
-      "url": "mieszkaniawstylu.pl"
     },
     {
       "logo": "odnovaclinic.jpg",
