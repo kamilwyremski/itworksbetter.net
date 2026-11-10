@@ -7,7 +7,6 @@ sources:
   - public/api/projects.json
 licence: All rights reserved
 ---
-
 # Projects of Web Applications
 
 Portfolio of websites and applications created or co-created by IT Works Better.

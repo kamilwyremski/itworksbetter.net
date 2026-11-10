@@ -14,6 +14,27 @@ function read(relativePath) {
   return fs.readFileSync(path.join(dist, relativePath), 'utf8');
 }
 
+test('Apple icon tags are unique and manifest icons retain both purposes', () => {
+  for (const route of Object.keys(site.markdown_paths)) {
+    const html = read(route === '/' ? 'index.html' : `${route}/index.html`);
+    const icons = [
+      ...html.matchAll(/<link\b[^>]*rel="apple-touch-icon"[^>]*>/g),
+    ].map(([tag]) => tag);
+    assert.equal(icons.length, 7, `${route} has seven Apple icon sizes`);
+    assert.equal(
+      new Set(icons).size,
+      icons.length,
+      `${route} has no duplicates`,
+    );
+  }
+  const manifest = JSON.parse(read('manifest.webmanifest'));
+  assert.equal(manifest.icons.length, 6);
+  assert.equal(new Set(manifest.icons.map((icon) => icon.src)).size, 6);
+  for (const icon of manifest.icons) {
+    assert.equal(icon.purpose, 'any maskable');
+  }
+});
+
 test('base URLs are normalized centrally in every environment', () => {
   for (const environment of ['development', 'test', 'production']) {
     const config = envFactory(environment);

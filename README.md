@@ -44,6 +44,8 @@ You will need the following things properly installed on your computer.
 
 ## Agent discovery and hosting
 
+- Each PWA icon in `config/manifest.js` uses `purpose: 'any maskable'` in one entry so `ember-web-app` generates only one Apple touch icon tag per size.
+
 - Homepage About and Contact sections share `AboutContent` and `ContactContent` with their dedicated pages. Keep the corresponding public Markdown sources in sync when editing that content.
 
 - `public/agents.md` describes when to use the site and its limitations. The site has static JSON content catalogs, not a public service API, SDK, or A2A agent.
