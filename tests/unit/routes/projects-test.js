@@ -20,6 +20,8 @@ module('Unit | Route | projects', function (hooks) {
     assert.dom('h1').hasText('Projects of Web Aplications');
 
     assert.dom('.project').exists();
-    assert.dom('.project--right a').includesText('Cargoos');
+    assert.dom('.project:nth-child(1)').includesText('NOTOTU');
+    assert.dom('.project:nth-child(2)').includesText('Terapia Karallus');
+    assert.dom('.project:nth-child(3)').includesText('Cargoos');
   });
 });

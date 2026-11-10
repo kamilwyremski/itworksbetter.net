@@ -1,6 +1,20 @@
 {
   "data": [
     {
+      "logo": "nototu.png",
+      "name": "NOTOTU",
+      "description": "A portal featuring places, offers, and people worth discovering, designed to inspire users every day.",
+      "stack": "Symfony, Vue.js, Axios, Bootstrap",
+      "url": "nototu.pl"
+    },
+    {
+      "logo": "terapiakarallus.png",
+      "name": "Terapia Karallus",
+      "description": "A website for a child and adolescent psychologist in Toruń, presenting psychological support and therapy for children, young people, and parents.",
+      "stack": "WordPress, Elementor",
+      "url": "terapiakarallus.pl"
+    },
+    {
       "logo": "cargoos.jpg",
       "name": "Cargoos",
       "description": "We created a website for Cargoos Logistics, a company from Chicago, USA. We developed a WordPress theme based on the provided graphic design and also designed plugins for the WordPress blog editor.",
