@@ -21,6 +21,14 @@
   <priority>0.70</priority>
 </url>
 <url>
+  <loc>https://itworksbetter.net/about</loc>
+  <priority>0.50</priority>
+</url>
+<url>
+  <loc>https://itworksbetter.net/contact</loc>
+  <priority>0.60</priority>
+</url>
+<url>
   <loc>https://itworksbetter.net/privacy-policy</loc>
   <lastmod>2020-09-18T18:16:51+00:00</lastmod>
   <priority>0.10</priority>

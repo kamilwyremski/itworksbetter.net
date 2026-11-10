@@ -2,6 +2,18 @@
   "linkset": [
     {
       "anchor": "https://itworksbetter.net/",
+      "item": [
+        {
+          "href": "https://itworksbetter.net/api/scripts.json",
+          "type": "application/json",
+          "title": "Static website script data (read-only)"
+        },
+        {
+          "href": "https://itworksbetter.net/api/projects.json",
+          "type": "application/json",
+          "title": "Static project data (read-only)"
+        }
+      ],
       "service-doc": [
         {
           "href": "https://itworksbetter.net/agents.md",

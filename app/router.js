@@ -23,5 +23,7 @@ Router.map(function () {
   this.route('scripts');
   this.route('projects');
   this.route('privacy-policy');
+  this.route('about');
+  this.route('contact');
   this.route('error404', { path: '/*path' });
 });

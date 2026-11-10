@@ -1,5 +1,9 @@
 RewriteEngine On
 
+RewriteCond %{ENV:REDIRECT_STATUS} =404
+RewriteCond %{HTTP:Accept} text/markdown [NC]
+RewriteRule ^error404/index\.html$ /error404.md [L]
+
 RewriteRule ^index\.html$ - [L]
 
 # Markdown negotiation for homepage only
@@ -95,6 +99,7 @@ ForceType application/linkset+json
     Header always merge Vary "Accept"
     Header always set Content-Location "%{MD_CONTENT_LOCATION}e" env=MD_NEGOTIATED
     Header always append Link '</.well-known/api-catalog>; rel="api-catalog"'
+    Header always append Link '</.well-known/ard.json>; rel="ard"; type="application/json"'
     Header always append Link '</agents.md>; rel="service-doc"; type="text/markdown"'
     Header always append Link '</llms.txt>; rel="service-doc"; type="text/markdown"'
     Header always set Strict-Transport-Security "max-age=31536000"

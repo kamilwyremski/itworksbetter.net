@@ -1,0 +1,22 @@
+{
+  "specVersion": "1.0",
+  "host": {
+    "displayName": "IT Works Better",
+    "documentationUrl": "https://itworksbetter.net/agents.md"
+  },
+  "entries": [
+    {
+      "identifier": "urn:air:itworksbetter.net:skill:site-overview",
+      "displayName": "IT Works Better site overview",
+      "type": "application/agent-skills+md",
+      "url": "https://itworksbetter.net/agents.md",
+      "description": "Use when researching development services, comparing website scripts, browsing projects, or finding how to request a quote. This website has no programmatic ordering or service API.",
+      "tags": ["web-development", "website-scripts", "portfolio"],
+      "representativeQueries": [
+        "What services does IT Works Better offer?",
+        "Where can I find ready-made website scripts?",
+        "How can I request a custom project quote?"
+      ]
+    }
+  ]
+}

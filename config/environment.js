@@ -35,6 +35,15 @@ module.exports = function (environment) {
       image_height: 512,
       email: 'info@itworksbetter.net',
       shop_url: 'https://sklep.itworksbetter.net/',
+      markdown_paths: {
+        '/': '/index.md',
+        '/scripts': '/scripts.md',
+        '/projects': '/projects.md',
+        '/privacy-policy': '/privacy-policy.md',
+        '/about': '/about.md',
+        '/contact': '/contact.md',
+        '/error404': '/error404.md',
+      },
     },
   };
 
@@ -62,6 +71,8 @@ module.exports = function (environment) {
     // here you can enable a production-specific feature
     ENV.site.base_url = 'https://itworksbetter.net';
   }
+
+  ENV.site.base_url = ENV.site.base_url.replace(/\/$/, '');
 
   return ENV;
 };

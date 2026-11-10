@@ -13,9 +13,15 @@ It's just not enough that it works.
 
 ## Creating Web Applications and Websites
 
-## Who we are?
+## About IT Works Better
 
-We are a team of programmers, graphic designers, and SEO specialists. We create backends and frontends for web and mobile applications using technologies including Symfony, Laravel, YII, React, Angular, Vue, Svelte, Ember, and WordPress when needed. Our projects are SEO-compliant, and we aim for high quality, not only functional delivery.
+We are a team of programmers, graphic designers, and SEO specialists creating websites and web and mobile applications.
+
+We build custom backends and frontends with technologies including Symfony, Laravel, React, Angular, Vue, Svelte, Ember, and WordPress. We also provide graphic design and SEO services.
+
+Browse our [selected projects](https://itworksbetter.net/projects) and [ready-made website scripts](https://itworksbetter.net/scripts).
+
+[Contact us](https://itworksbetter.net/contact) to discuss your project and request a quote.
 
 ## What we offer?
 
@@ -49,13 +55,18 @@ We offer ready-made scripts for classifieds portals, accommodation databases, co
 
 ## How much it costs?
 
-- Website Script: 120 - 200 EUR
+- Website Script: from 240 EUR
 - Company Website: 200 - 600 EUR
 - Individual Project: from 1000 EUR
 
 All prices are negotiable, VAT invoices issued.
 
-## Contact with us
+## Contact IT Works Better
 
-- Email: info@itworksbetter.net
-- Facebook: https://www.facebook.com/ItWorksBetterNet
+Contact us about custom websites, web applications, or ready-made website scripts.
+
+Email: [info@itworksbetter.net](mailto:info@itworksbetter.net)
+
+Include your project goals, required features, and preferred timeline when requesting a quote. All prices are negotiable, and we issue VAT invoices.
+
+You can also visit [our Facebook page](https://www.facebook.com/ItWorksBetterNet) or browse [our online shop](https://sklep.itworksbetter.net/).

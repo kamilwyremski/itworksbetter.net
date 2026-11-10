@@ -1,6 +1,7 @@
 /* eslint-env node */
 const fs = require('node:fs');
 const path = require('node:path');
+const crypto = require('node:crypto');
 
 const rootDir = path.resolve(__dirname, '..');
 const publicDir = path.join(rootDir, 'public');
@@ -152,14 +153,34 @@ function generatePrivacyPolicyMarkdown() {
   );
 }
 
+function generateAgentSkillsIndex() {
+  const content = fs.readFileSync(path.join(publicDir, 'agents.md'));
+  const index = {
+    $schema: 'https://schemas.agentskills.io/discovery/0.2.0/schema.json',
+    skills: [
+      {
+        name: 'itworksbetter-site-overview',
+        type: 'skill-md',
+        description:
+          'Use when researching IT Works Better development services, comparing website scripts, browsing projects, or finding how to request a quote.',
+        url: 'https://itworksbetter.net/agents.md',
+        digest: `sha256:${crypto.createHash('sha256').update(content).digest('hex')}`,
+      },
+    ],
+  };
+  writeFile(
+    path.join(publicDir, '.well-known', 'agent-skills', 'index.json'),
+    `${JSON.stringify(index, null, 2)}\n`,
+  );
+}
+
 function main() {
   generateScriptsMarkdown();
   generateProjectsMarkdown();
   generatePrivacyPolicyMarkdown();
+  generateAgentSkillsIndex();
   // eslint-disable-next-line no-console
-  console.log(
-    'Generated public/scripts.md, public/projects.md, and public/privacy-policy.md.',
-  );
+  console.log('Generated Markdown sources and the Agent Skills index.');
 }
 
 main();

@@ -1,5 +1,6 @@
 import Service from '@ember/service';
 import { tracked } from '@glimmer/tracking';
+import config from 'itworksbetter/config/environment';
 
 export default class HeadDataService extends Service {
   @tracked base_url;
@@ -11,7 +12,7 @@ export default class HeadDataService extends Service {
   @tracked image_width;
   @tracked image_height;
 
-  applyToDocument() {
+  applyToDocument({ markdownUrl = this.canonical } = {}) {
     if (typeof document === 'undefined') {
       return;
     }
@@ -25,21 +26,28 @@ export default class HeadDataService extends Service {
     const description = this.description || '';
     const keywords = this.keywords || '';
     const canonical = this.canonical || '';
-    const baseUrl = this.base_url || '/';
+    const baseUrl = this.base_url || '';
     const imagePath = this.image
-      ? `${baseUrl.replace(/\/$/, '')}/${String(this.image).replace(/^\//, '')}`
+      ? `${baseUrl}/${String(this.image).replace(/^\//, '')}`
       : '';
 
     document.title = title;
 
-    this.#setBase(head, baseUrl);
+    this.#setBase(head, baseUrl || '/');
     this.#setMetaByName(head, 'description', description);
     this.#setMetaByName(head, 'keywords', keywords);
 
     if (canonical) {
+      for (const link of head.querySelectorAll('link[rel="canonical"]')) {
+        link.setAttribute('href', canonical);
+      }
       this.#setLink(head, 'canonical', canonical);
-      this.#setAlternateMarkdown(head, canonical, `${title} - Markdown source`);
+    } else {
+      for (const link of head.querySelectorAll('link[rel="canonical"]')) {
+        link.remove();
+      }
     }
+    this.#setAlternateMarkdown(head, markdownUrl, `${title} - Markdown source`);
 
     this.#setLink(head, 'shortcut icon', imagePath);
 
@@ -60,7 +68,7 @@ export default class HeadDataService extends Service {
     this.#setMetaByProperty(head, 'og:type', 'website');
     this.#setMetaByProperty(head, 'og:site_name', title);
     this.#setMetaByProperty(head, 'og:locale', 'en_US');
-    this.#setMetaByProperty(head, 'og:url', baseUrl);
+    this.#setMetaByProperty(head, 'og:url', baseUrl || '/');
 
     this.#setMetaByName(head, 'twitter:card', 'summary');
     this.#setMetaByName(head, 'twitter:title', title);
@@ -114,17 +122,31 @@ export default class HeadDataService extends Service {
   }
 
   #setAlternateMarkdown(head, canonical, title) {
-    let el = head.querySelector(
-      'link[rel="alternate"][type="text/markdown"][data-dynamic-head="1"]',
+    const url = canonical ? new URL(canonical, document.baseURI) : null;
+    const route = url ? url.pathname.replace(/\/$/, '') || '/' : '';
+    const markdownPath = config.site.markdown_paths[route];
+    let links = head.querySelectorAll(
+      'link[rel="alternate"][type="text/markdown"]',
     );
-    if (!el) {
-      el = document.createElement('link');
+
+    if (!markdownPath) {
+      for (const link of links) {
+        link.remove();
+      }
+      return;
+    }
+
+    if (!links.length) {
+      const el = document.createElement('link');
       el.setAttribute('rel', 'alternate');
       el.setAttribute('type', 'text/markdown');
       el.setAttribute('data-dynamic-head', '1');
       head.appendChild(el);
+      links = [el];
     }
-    el.setAttribute('href', `${canonical}.md`);
-    el.setAttribute('title', title);
+    for (const link of links) {
+      link.setAttribute('href', new URL(markdownPath, url).href);
+      link.setAttribute('title', title);
+    }
   }
 }

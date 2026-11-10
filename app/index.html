@@ -8,6 +8,7 @@
 
     <link rel="manifest" href="{{rootURL}}manifest.webmanifest">
     <meta name="msapplication-config" content="{{rootURL}}browserconfig.xml">
+    <link rel="ard" href="/.well-known/ard.json" type="application/json">
 
     <link rel="stylesheet" href="{{rootURL}}assets/itworksbetter.css">
 
@@ -38,11 +39,18 @@
       {
         "@context": "https://schema.org/",
         "@type": "Organization",
+        "@id": "https://itworksbetter.net/#organization",
         "name": "IT Works Better",
         "url": "https://itworksbetter.net/",
         "logo": "https://itworksbetter.net/assets/icons/icon-512x512.png",
         "description": "Full-stack web development agency offering custom websites, web and mobile applications, graphic design, SEO services, and pre-made website scripts.",
         "email": "info@itworksbetter.net",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "contactType": "sales",
+          "email": "info@itworksbetter.net",
+          "url": "https://itworksbetter.net/contact"
+        },
         "sameAs": [
           "https://www.facebook.com/ItWorksBetterNet",
           "https://linkedin.com/in/kamil-wyremski",
@@ -76,7 +84,14 @@
                 "name": "Website Script",
                 "description": "Ready-made website scripts for classifieds, real estate, job boards, and more"
               },
-              "priceRange": "120-200 EUR"
+              "description": "From 240 EUR. Current script prices are listed in the online shop.",
+              "url": "https://sklep.itworksbetter.net/",
+              "priceCurrency": "EUR",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "minPrice": 240,
+                "priceCurrency": "EUR"
+              }
             },
             {
               "@type": "Offer",
@@ -85,7 +100,14 @@
                 "name": "Company Website",
                 "description": "WordPress-based company websites"
               },
-              "priceRange": "200-600 EUR"
+              "description": "Indicative price range: 200-600 EUR. All prices are negotiable.",
+              "priceCurrency": "EUR",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "minPrice": 200,
+                "maxPrice": 600,
+                "priceCurrency": "EUR"
+              }
             },
             {
               "@type": "Offer",
@@ -94,7 +116,13 @@
                 "name": "Individual Web Application",
                 "description": "Custom backend and frontend web applications"
               },
-              "priceRange": "from 1000 EUR"
+              "description": "From 1000 EUR. Final price depends on project scope and is negotiable.",
+              "priceCurrency": "EUR",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "minPrice": 1000,
+                "priceCurrency": "EUR"
+              }
             }
           ]
         }

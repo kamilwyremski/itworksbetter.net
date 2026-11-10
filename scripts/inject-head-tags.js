@@ -8,7 +8,7 @@ const envFactory = require(path.join(rootDir, 'config', 'environment'));
 const ENV = envFactory('production');
 
 const site = ENV.site;
-const baseUrl = site.base_url.replace(/\/$/, '');
+const baseUrl = site.base_url;
 
 const pages = [
   {
@@ -36,7 +36,21 @@ const pages = [
     description: 'Privacy Policy. ' + site.description,
   },
   {
+    route: '/about',
+    file: path.join(distDir, 'about', 'index.html'),
+    title: 'About - IT Works Better',
+    description: 'About IT Works Better. ' + site.description,
+  },
+  {
+    route: '/contact',
+    file: path.join(distDir, 'contact', 'index.html'),
+    title: 'Contact - IT Works Better',
+    description:
+      'Contact IT Works Better for web development and website scripts.',
+  },
+  {
     route: '/error404',
+    canonical: false,
     file: path.join(distDir, 'error404', 'index.html'),
     title: 'Error 404 - IT Works Better',
     description: 'Error 404. ' + site.description,
@@ -50,8 +64,10 @@ function buildHeadBlock(page) {
   return [
     '<!-- dynamic-head:start -->',
     `  <base href="${site.base_url}">`,
-    `  <link rel="canonical" href="${canonical}">`,
-    `  <link rel="alternate" type="text/markdown" href="${canonical}.md" title="${page.title} - Markdown source">`,
+    ...(page.canonical === false
+      ? []
+      : [`  <link rel="canonical" href="${canonical}">`]),
+    `  <link rel="alternate" type="text/markdown" href="${baseUrl}${site.markdown_paths[page.route]}" title="${page.title} - Markdown source">`,
     `  <title>${page.title}</title>`,
     `  <meta name="description" content="${page.description}">`,
     `  <meta name="keywords" content="${site.keywords}">`,
